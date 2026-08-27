@@ -11,6 +11,9 @@ htmlcov/
 # Environment
 .env
 
+# LLM response cache (local, regenerable; keeps eval reruns free)
+.cache/
+
 # OS / editor
 .DS_Store
 .idea/
