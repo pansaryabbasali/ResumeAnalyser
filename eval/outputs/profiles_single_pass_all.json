@@ -1,0 +1,4034 @@
+{
+ "resumes/HOY-2026-011/Karthik_Raghavan_Resume_2026.pdf": {
+  "source_file": "resumes/HOY-2026-011/Karthik_Raghavan_Resume_2026.pdf",
+  "contact": {
+   "name": "Karthik Raghavan",
+   "email": "karthik.raghavan89@gmail.com",
+   "phone": "+91 98450 27391",
+   "city": "Bengaluru"
+  },
+  "headline": "Senior Backend Engineer — Payments",
+  "summary": "Backend engineer with 8 years building payment systems on the JVM, currently on a UPI switch stack clearing 14M transactions/day. Led ISO 8583 to ISO 20022 transformation work and three NPCI compliance release cycles. Deep with Kafka, Spring Boot and Kubernetes on AWS; strong believer in you-build-it-you-run-it. Notice period: 30 days.",
+  "skills": [
+   {
+    "category": "Languages",
+    "items": [
+     "Java 21",
+     "Kotlin",
+     "SQL",
+     "Bash"
+    ]
+   },
+   {
+    "category": "Frameworks",
+    "items": [
+     "Spring Boot 3",
+     "Spring Cloud Stream",
+     "JUnit 5",
+     "Testcontainers"
+    ]
+   },
+   {
+    "category": "Platform",
+    "items": [
+     "Kafka",
+     "PostgreSQL",
+     "Oracle",
+     "Kubernetes (EKS)",
+     "AWS",
+     "Terraform",
+     "GitHub Actions"
+    ]
+   },
+   {
+    "category": "Domain",
+    "items": [
+     "UPI (switch + TPAP integrations)",
+     "IMPS/NEFT",
+     "ISO 8583",
+     "ISO 20022 (pacs/camt)",
+     "NPCI certification cycles",
+     "idempotency & outbox patterns"
+    ]
+   }
+  ],
+  "experience": [
+   {
+    "title": "Senior Backend Engineer",
+    "company": "Aurus Pay Technologies",
+    "location": "Bengaluru",
+    "start": "2021-03",
+    "end": null,
+    "bullets": [
+     "Tech lead for the UPI switch-services team (6 engineers) on a platform processing 14M transactions/day at 99.99% availability, including Diwali and IPL-final peaks at 3x average load.",
+     "Led the ISO 20022 message-transformation track for NEFT/RTGS connectivity; delivered pacs.008/pacs.002 services ahead of the RBI cutover window.",
+     "Cut duplicate-debit incidents to zero by introducing an idempotency-key store and transactional outbox across 12 services.",
+     "Reduced p99 end-to-end UPI leg latency from 890ms to 310ms by re-partitioning Kafka topics and removing synchronous fan-out."
+    ]
+   },
+   {
+    "title": "Backend Engineer",
+    "company": "Meru Financial Systems",
+    "location": "Chennai",
+    "start": "2018-09",
+    "end": "2021-02",
+    "bullets": [
+     "Built IMPS and NEFT processing modules (Java/Spring Boot) deployed at four bank clients.",
+     "Introduced Testcontainers-based integration tests, moving the team from monthly to fortnightly releases.",
+     "On-call for production; wrote the team's first structured runbooks."
+    ]
+   },
+   {
+    "title": "Systems Engineer",
+    "company": "Infosys",
+    "location": "Mysuru / Chennai",
+    "start": "2017-07",
+    "end": "2018-08",
+    "bullets": [
+     "Java development for a BFSI client; REST APIs and batch processing."
+    ]
+   }
+  ],
+  "education": [
+   {
+    "degree": "B.Tech Computer Science & Engineering",
+    "institution": "NIT Tiruchirappalli",
+    "years": "2013 – 2017",
+    "grade": null
+   }
+  ],
+  "certifications": [
+   "AWS Certified Solutions Architect – Associate (2023)",
+   "Confluent Certified Developer for Apache Kafka (2022)"
+  ],
+  "publications": [],
+  "languages_known": [
+   "Tamil (native)",
+   "English (fluent)",
+   "Hindi (working)",
+   "Kannada (basic)"
+  ],
+  "links": [
+   "linkedin.com/in/karthikraghavan-payments"
+  ],
+  "notice_period": "30 days",
+  "expected_ctc": null,
+  "pii": {
+   "date_of_birth": null,
+   "gender": null,
+   "marital_status": null,
+   "photo_present": false,
+   "other": []
+  }
+ },
+ "resumes/HOY-2026-011/Mohammed_Irfan_Java_Backend.pdf": {
+  "source_file": "resumes/HOY-2026-011/Mohammed_Irfan_Java_Backend.pdf",
+  "contact": {
+   "name": "Mohammed Irfan",
+   "email": "mohd.irfan.dev@gmail.com",
+   "phone": "+91 97400 83156",
+   "city": "Bengaluru"
+  },
+  "headline": "Backend Engineer (Java)",
+  "summary": "Java engineer with 4 years in banking tech, currently building card-transaction processing services at a private-sector bank.\nStrong Spring Boot/Kafka; keen to grow into a senior role on a payments platform.",
+  "skills": [
+   {
+    "category": "Languages",
+    "items": [
+     "Java 17",
+     "SQL"
+    ]
+   },
+   {
+    "category": "Frameworks",
+    "items": [
+     "Spring Boot",
+     "Hibernate",
+     "JUnit",
+     "Mockito"
+    ]
+   },
+   {
+    "category": "Platform",
+    "items": [
+     "Kafka",
+     "PostgreSQL",
+     "Oracle",
+     "OpenShift",
+     "Jenkins",
+     "Grafana"
+    ]
+   }
+  ],
+  "experience": [
+   {
+    "title": "Backend Engineer",
+    "company": "Suvarna Bank",
+    "location": "Bengaluru",
+    "start": "2023-10",
+    "end": null,
+    "bullets": [
+     "Develop card-authorization and clearing services (Java 17, Spring Boot, Kafka) processing 1.8M transactions/day.",
+     "Implemented retry/dead-letter handling that cut manual clearing repairs by 60%.",
+     "Migrated two services from Oracle to PostgreSQL with zero-downtime cutover."
+    ]
+   },
+   {
+    "title": "Junior Java Developer",
+    "company": "Mindworks Infotech",
+    "location": "Chennai",
+    "start": "2022-07",
+    "end": "2023-09",
+    "bullets": [
+     "Built REST APIs for an insurance client; introduced contract tests with Pact."
+    ]
+   }
+  ],
+  "education": [
+   {
+    "degree": "B.E. Computer Science & Engineering (CGPA 8.2/10)",
+    "institution": "BMS College of Engineering (VTU), Bengaluru",
+    "years": "2018 – 2022",
+    "grade": "CGPA 8.2/10"
+   }
+  ],
+  "certifications": [
+   "Oracle Certified Professional: Java SE 17 (2024)"
+  ],
+  "publications": [],
+  "languages_known": [
+   "Urdu (native)",
+   "English (fluent)",
+   "Hindi (fluent)",
+   "Kannada (fluent)"
+  ],
+  "links": [
+   "linkedin.com/in/mohammedirfan-java"
+  ],
+  "notice_period": "90 days (buyout possible)",
+  "expected_ctc": null,
+  "pii": {
+   "date_of_birth": null,
+   "gender": null,
+   "marital_status": null,
+   "photo_present": false,
+   "other": []
+  }
+ },
+ "resumes/HOY-2026-011/Naukri_RahulYadav[1y_6m].pdf": {
+  "source_file": "resumes/HOY-2026-011/Naukri_RahulYadav[1y_6m].pdf",
+  "contact": {
+   "name": "Rahul Yadav",
+   "email": "rahulyadav.webdev1@gmail.com",
+   "phone": "+91 63007 41928",
+   "city": "Bengaluru"
+  },
+  "headline": "Full Stack Web Developer",
+  "summary": "Self-taught web developer passionate about building websites and learning new technologies. Experienced with WordPress, PHP and Javascript. Looking for my next oportunity in a big company where I can grow.",
+  "skills": [
+   {
+    "category": null,
+    "items": [
+     "WordPress",
+     "PHP",
+     "HTML",
+     "CSS",
+     "Javascript",
+     "jQuery",
+     "MySQL",
+     "Bootstrap",
+     "some React",
+     "Photoshop",
+     "SEO basics"
+    ]
+   }
+  ],
+  "experience": [
+   {
+    "title": "Freelance Web Developer",
+    "company": "Self-employed",
+    "location": "Bengaluru",
+    "start": "2025-02",
+    "end": null,
+    "bullets": [
+     "Built and maintain WordPress websites for 9 small businesses (restaurants, a gym, a coaching centre).",
+     "Responsibile for hosting setup, plugins and small PHP customizations.",
+     "Made a React landing page for a Koramangala startup."
+    ]
+   },
+   {
+    "title": "Full Stack Bootcamp Student",
+    "company": "SkillNook Bootcamp",
+    "location": "online",
+    "start": "2024-09",
+    "end": "2025-01",
+    "bullets": [
+     "12-week intensive fullstack course (HTML, CSS, Javascript, Node basics)."
+    ]
+   },
+   {
+    "title": "Process Associate",
+    "company": "Vertex BPO Services",
+    "location": "Noida",
+    "start": "2022-01",
+    "end": "2024-12",
+    "bullets": [
+     "Handled customer support process for a US retail client; promoted to shift coordinator."
+    ]
+   }
+  ],
+  "education": [
+   {
+    "degree": "BCA (62%)",
+    "institution": "CSJM University, Kanpur",
+    "years": "2019 – 2022",
+    "grade": "62%"
+   },
+   {
+    "degree": "12th (CBSE) — 68%",
+    "institution": "Kanpur",
+    "years": "2019",
+    "grade": "68%"
+   }
+  ],
+  "certifications": [],
+  "publications": [],
+  "languages_known": [
+   "Hindi (native)",
+   "English (good)"
+  ],
+  "links": [],
+  "notice_period": "immediate joiner",
+  "expected_ctc": "12 LPA (negotiable)",
+  "pii": {
+   "date_of_birth": null,
+   "gender": null,
+   "marital_status": null,
+   "photo_present": false,
+   "other": [
+    "I hereby declare that the above information is true to the best of my knowledge. — Rahul Yadav, Bengaluru"
+   ]
+  }
+ },
+ "resumes/HOY-2026-011/SnehaKulkarni_CV.pdf": {
+  "source_file": "resumes/HOY-2026-011/SnehaKulkarni_CV.pdf",
+  "contact": {
+   "name": "Sneha Kulkarni",
+   "email": "sneha.kulkarni.eng@outlook.com",
+   "phone": "+91 99010 44872",
+   "city": "Bengaluru"
+  },
+  "headline": "Senior Software Engineer — Distributed Systems",
+  "summary": "Senior engineer with 7 years designing high-throughput distributed systems in Go and Python at consumer-scale companies. Comfortable owning services from design through on-call. Looking to bring large-scale event-driven experience into banking infrastructure.",
+  "skills": [
+   {
+    "category": "Languages",
+    "items": [
+     "Go",
+     "Python",
+     "SQL (no JVM in production — fast learner)"
+    ]
+   },
+   {
+    "category": "Platform",
+    "items": [
+     "Kafka",
+     "gRPC",
+     "PostgreSQL",
+     "Redis",
+     "Kubernetes (GKE)",
+     "GCP",
+     "Terraform"
+    ]
+   },
+   {
+    "category": "Practices",
+    "items": [
+     "Event-driven design",
+     "SLOs",
+     "load testing",
+     "incident command"
+    ]
+   }
+  ],
+  "experience": [
+   {
+    "title": "Senior Software Engineer (SDE-3)",
+    "company": "Swiggy",
+    "location": "Bengaluru",
+    "start": "2022-01",
+    "end": null,
+    "bullets": [
+     "Own the order-event pipeline (Go, Kafka) handling 30M events/day across the delivery network.",
+     "Designed exactly-once delivery semantics for the payout consumer; delivery-partner payout disputes down 83% quarter-over-quarter.",
+     "Ran the working group that introduced SLOs and error budgets across 11 teams."
+    ]
+   },
+   {
+    "title": "Software Engineer (SDE-2)",
+    "company": "Ola",
+    "location": "Bengaluru",
+    "start": "2019-07",
+    "end": "2021-12",
+    "bullets": [
+     "Built dispatch-optimization services (Python/Go) used by 200k+ driver-partners.",
+     "Scaled the matching service 6x for New Year's Eve peaks through partitioning and caching."
+    ]
+   },
+   {
+    "title": "Systems Engineer",
+    "company": "Infosys",
+    "location": "Pune",
+    "start": "2017-06",
+    "end": "2019-06",
+    "bullets": [
+     "Backend services for a retail-banking client (Python, Oracle)."
+    ]
+   }
+  ],
+  "education": [
+   {
+    "degree": "B.E. Computer Engineering",
+    "institution": "Cummins College of Engineering, Pune",
+    "years": "2013 – 2017",
+    "grade": null
+   }
+  ],
+  "certifications": [],
+  "publications": [
+   "\"Exactly-once is a spectrum\" — Rootconf Bengaluru 2025"
+  ],
+  "languages_known": [
+   "Marathi (native)",
+   "English (fluent)",
+   "Hindi (fluent)",
+   "Kannada (basic)"
+  ],
+  "links": [
+   "linkedin.com/in/snehakulkarni-distsys"
+  ],
+  "notice_period": null,
+  "expected_ctc": null,
+  "pii": {
+   "date_of_birth": null,
+   "gender": null,
+   "marital_status": null,
+   "photo_present": false,
+   "other": []
+  }
+ },
+ "resumes/HOY-2026-011/sravani_reddy_resume_final2.pdf": {
+  "source_file": "resumes/HOY-2026-011/sravani_reddy_resume_final2.pdf",
+  "contact": {
+   "name": "Sravani Reddy",
+   "email": "sravani.reddy.qa@outlook.com",
+   "phone": "+91 96860 12734",
+   "city": "Bengaluru"
+  },
+  "headline": "QA Engineer",
+  "summary": "Detail-oriented QA engineer with 2 years of experience testing web applications. Growing automation skills with Selenium and Postman. Interested in moving toward development. Notice period: 45 days.",
+  "skills": [
+   {
+    "category": "Testing",
+    "items": [
+     "Manual testing",
+     "test-case design",
+     "exploratory testing",
+     "Selenium WebDriver (basic)",
+     "Postman",
+     "JIRA",
+     "TestRail"
+    ]
+   },
+   {
+    "category": "Tech",
+    "items": [
+     "SQL (queries)",
+     "HTML/CSS",
+     "Java (coursework level)"
+    ]
+   }
+  ],
+  "experience": [
+   {
+    "title": "QA Engineer",
+    "company": "TestSquare Solutions",
+    "location": "Bengaluru",
+    "start": "2024-07",
+    "end": null,
+    "bullets": [
+     "Manual and regression testing for an e-commerce client (releases every 2 weeks).",
+     "Automated 40 smoke-test cases with Selenium/Java from a template framework.",
+     "Track and verify defects in JIRA; write test reports for release go/no-go."
+    ]
+   },
+   {
+    "title": "QA Intern",
+    "company": "TestSquare Solutions",
+    "location": "Hyderabad",
+    "start": "2023-09",
+    "end": "2024-06",
+    "bullets": [
+     "Tested insurance-portal forms; documented 120+ test cases."
+    ]
+   }
+  ],
+  "education": [
+   {
+    "degree": "B.Tech Electronics & Communication (CGPA 7.1/10)",
+    "institution": "Malla Reddy Engineering College (JNTUH), Hyderabad",
+    "years": "2019 – 2023",
+    "grade": "CGPA 7.1/10"
+   }
+  ],
+  "certifications": [
+   "ISTQB Foundation Level (2024)"
+  ],
+  "publications": [],
+  "languages_known": [
+   "Telugu (native)",
+   "English (fluent)",
+   "Hindi (working)"
+  ],
+  "links": [
+   "linkedin.com/in/sravanireddy-qa"
+  ],
+  "notice_period": "45 days",
+  "expected_ctc": null,
+  "pii": {
+   "date_of_birth": null,
+   "gender": null,
+   "marital_status": null,
+   "photo_present": false,
+   "other": []
+  }
+ },
+ "resumes/HOY-2026-014/ANANTH_P_Resume_2026.pdf": {
+  "source_file": "resumes/HOY-2026-014/ANANTH_P_Resume_2026.pdf",
+  "contact": {
+   "name": "Ananth Padmanabhan",
+   "email": "ananth.padmanabhan.plat@gmail.com",
+   "phone": "+65 8321 4407",
+   "city": "Singapore"
+  },
+  "headline": "Platform Engineer / SRE",
+  "summary": "Platform engineer with 7 years across Indian IT services and Singapore banking, the last five running regulated banking workloads on Kubernetes. Deep Terraform and Vault experience, MAS-audited environments, follow-the-sun on-call. Returning to Bengaluru in September 2026 for family reasons; keen to apply regulated-cloud experience under RBI norms.",
+  "skills": [
+   {
+    "category": "Platform",
+    "items": [
+     "Kubernetes (EKS)",
+     "AWS",
+     "Terraform",
+     "Vault",
+     "Istio",
+     "Karpenter"
+    ]
+   },
+   {
+    "category": "Observability",
+    "items": [
+     "Prometheus",
+     "Grafana",
+     "CloudWatch",
+     "OpenSearch"
+    ]
+   },
+   {
+    "category": "Code",
+    "items": [
+     "Python",
+     "Go (working)",
+     "Bash"
+    ]
+   },
+   {
+    "category": "Regulated ops",
+    "items": [
+     "MAS TRM controls",
+     "change governance",
+     "DR drills",
+     "audit evidence automation"
+    ]
+   }
+  ],
+  "experience": [
+   {
+    "title": "Senior DevOps Engineer",
+    "company": "Straits Commercial Bank",
+    "location": "Singapore",
+    "start": "2023-05",
+    "end": null,
+    "bullets": [
+     "Operate the container platform for retail-banking channels (60+ services, 4 EKS clusters) under MAS TRM change controls.",
+     "Led the Terraform re-baseline of all platform infra: 100% of resources under IaC, drift alerts to zero.",
+     "Built automated audit-evidence collection (Python), cutting quarterly audit prep from 3 weeks to 4 days.",
+     "Ran twice-yearly DR failover drills across regions; last RTO measured at 22 minutes against a 60-minute target."
+    ]
+   },
+   {
+    "title": "DevOps Engineer",
+    "company": "Straits Commercial Bank",
+    "location": "Singapore",
+    "start": "2021-08",
+    "end": "2023-04",
+    "bullets": [
+     "Migrated 30 services from EC2 to EKS; introduced Helm-based deploy standards.",
+     "On-call in a follow-the-sun rotation with the Chennai hub."
+    ]
+   },
+   {
+    "title": "Project Engineer (Cloud Ops)",
+    "company": "Wipro",
+    "location": "Bengaluru",
+    "start": "2019-07",
+    "end": "2021-07",
+    "bullets": [
+     "AWS infrastructure delivery for BFSI clients; night-shift production support rotation."
+    ]
+   }
+  ],
+  "education": [
+   {
+    "degree": "B.Tech Computer Science & Engineering",
+    "institution": "NIT Warangal",
+    "years": "2015 – 2019",
+    "grade": null
+   }
+  ],
+  "certifications": [
+   "CKA (2022)",
+   "HashiCorp Terraform Associate (2022)",
+   "AWS Solutions Architect Professional (2024)"
+  ],
+  "publications": [],
+  "languages_known": [
+   "Tamil (native)",
+   "English (fluent)",
+   "Hindi (working)"
+  ],
+  "links": [
+   "linkedin.com/in/ananthpadmanabhan-platform"
+  ],
+  "notice_period": null,
+  "expected_ctc": null,
+  "pii": {
+   "date_of_birth": null,
+   "gender": null,
+   "marital_status": null,
+   "photo_present": false,
+   "other": []
+  }
+ },
+ "resumes/HOY-2026-014/Arjun_Shetty_SRE_CV.pdf": {
+  "source_file": "resumes/HOY-2026-014/Arjun_Shetty_SRE_CV.pdf",
+  "contact": {
+   "name": "Arjun Shetty",
+   "email": "arjun.shetty.sre@gmail.com",
+   "phone": "+91 98862 30417",
+   "city": "Bengaluru"
+  },
+  "headline": "Senior Site Reliability Engineer",
+  "summary": "SRE with 6 years keeping large Kubernetes platforms healthy, currently at an OTT streaming platform with\ncricket-night traffic spikes. I run incident command, define SLOs people actually use, and automate toil away in Go.\nComfortable being paged and even more comfortable making sure we get paged less.",
+  "skills": [
+   {
+    "category": "Platform",
+    "items": [
+     "Kubernetes (EKS + bare-metal)",
+     "AWS",
+     "Terraform",
+     "Helm",
+     "ArgoCD",
+     "Vault"
+    ]
+   },
+   {
+    "category": "Observability",
+    "items": [
+     "Prometheus",
+     "Grafana",
+     "Loki",
+     "OpenTelemetry",
+     "PagerDuty"
+    ]
+   },
+   {
+    "category": "Code",
+    "items": [
+     "Go",
+     "Python",
+     "Bash"
+    ]
+   },
+   {
+    "category": "Practice",
+    "items": [
+     "SLOs/error budgets",
+     "incident command",
+     "chaos engineering",
+     "capacity planning"
+    ]
+   }
+  ],
+  "experience": [
+   {
+    "title": "Senior Site Reliability Engineer",
+    "company": "PlayVista Streaming",
+    "location": "Bengaluru",
+    "start": "2022-04",
+    "end": null,
+    "bullets": [
+     "Run reliability for a streaming platform on 40+ EKS clusters, 3,000 nodes at IPL peak; 99.97% availability across\nthe 2025 season.",
+     "Introduced SLOs and error budgets to 30 product teams; deploy freezes now data-driven instead of political.",
+     "Wrote a Go operator automating certificate and secret rotation, removing the platform's #1 toil item (approx. 20\nhrs/week org-wide).",
+     "Incident commander for Sev1s; cut mean time to mitigate from 74 to 28 minutes by restructuring on-call and\nrunbooks."
+    ]
+   },
+   {
+    "title": "DevOps Engineer",
+    "company": "Nimbus9 Consulting",
+    "location": "Bengaluru",
+    "start": "2020-01",
+    "end": "2022-03",
+    "bullets": [
+     "Built Terraform-based AWS landing zones for 8 clients; migrated 3 clients from VM fleets to Kubernetes.",
+     "Set up Prometheus/Grafana monitoring stacks with alerting runbooks as standard delivery."
+    ]
+   },
+   {
+    "title": "Linux System Administrator",
+    "company": "ServeStack Hosting",
+    "location": "Mumbai",
+    "start": "2018-08",
+    "end": "2019-12",
+    "bullets": [
+     "Managed 400+ Linux servers for a hosting provider; automated patching with Ansible."
+    ]
+   }
+  ],
+  "education": [
+   {
+    "degree": "B.E. Information Science & Engineering",
+    "institution": "RV College of Engineering (VTU), Bengaluru",
+    "years": "2014 – 2018",
+    "grade": null
+   }
+  ],
+  "certifications": [
+   "CKA (2023)",
+   "CKS (2024)",
+   "AWS SysOps Administrator (2022)"
+  ],
+  "publications": [],
+  "languages_known": [
+   "Tulu (native)",
+   "Kannada (fluent)",
+   "English (fluent)",
+   "Hindi (working)"
+  ],
+  "links": [
+   "linkedin.com/in/arjunshetty-sre"
+  ],
+  "notice_period": "60 days",
+  "expected_ctc": null,
+  "pii": {
+   "date_of_birth": null,
+   "gender": null,
+   "marital_status": null,
+   "photo_present": false,
+   "other": []
+  }
+ },
+ "resumes/HOY-2026-014/Karan_Nayak_Frontend_CV.pdf": {
+  "source_file": "resumes/HOY-2026-014/Karan_Nayak_Frontend_CV.pdf",
+  "contact": {
+   "name": "Karan Nayak",
+   "email": "karan.nayak.fe@gmail.com",
+   "phone": "+91 97390 58204",
+   "city": "Bengaluru"
+  },
+  "headline": "Frontend Developer (React)",
+  "summary": "Frontend developer with 4 years building React applications. Interested in broadening into infrastructure and reliability engineering.",
+  "skills": [
+   {
+    "category": "Frontend",
+    "items": [
+     "React",
+     "TypeScript",
+     "Next.js",
+     "Redux",
+     "Tailwind",
+     "Jest",
+     "Cypress"
+    ]
+   },
+   {
+    "category": "Other",
+    "items": [
+     "Node.js (BFF layer)",
+     "REST/GraphQL",
+     "Docker (used in dev setup)",
+     "Git"
+    ]
+   }
+  ],
+  "experience": [
+   {
+    "title": "Frontend Developer",
+    "company": "BrightMinds Digital",
+    "location": "Bengaluru",
+    "start": "2022-09",
+    "end": null,
+    "bullets": [
+     "Build customer-facing React/TypeScript apps for BFSI clients; Lighthouse performance score raised from 61 to 94 on the flagship portal.",
+     "Maintain the design-system component library used by 5 teams.",
+     "Wrote Cypress end-to-end suites now gating every release."
+    ]
+   },
+   {
+    "title": "Junior Frontend Developer",
+    "company": "PixelCraft Web",
+    "location": "Mangaluru",
+    "start": "2021-06",
+    "end": "2022-08",
+    "bullets": [
+     "Implemented UI features and fixed cross-browser issues for agency clients."
+    ]
+   }
+  ],
+  "education": [
+   {
+    "degree": "B.E. Information Science (CGPA 7.8/10)",
+    "institution": "PESIT Bangalore South (VTU)",
+    "years": "2017 – 2021",
+    "grade": "CGPA 7.8/10"
+   }
+  ],
+  "certifications": [],
+  "publications": [],
+  "languages_known": [
+   "Konkani (native)",
+   "Kannada (fluent)",
+   "English (fluent)",
+   "Hindi (working)"
+  ],
+  "links": [
+   "linkedin.com/in/karannayak-react"
+  ],
+  "notice_period": "60 days",
+  "expected_ctc": null,
+  "pii": {
+   "date_of_birth": null,
+   "gender": null,
+   "marital_status": null,
+   "photo_present": false,
+   "other": []
+  }
+ },
+ "resumes/HOY-2026-014/Pooja_Sharma_Resume.pdf": {
+  "source_file": "resumes/HOY-2026-014/Pooja_Sharma_Resume.pdf",
+  "contact": {
+   "name": "Pooja Sharma",
+   "email": "pooja.sharma.itsupport@gmail.com",
+   "phone": "+91 90350 62481",
+   "city": "Bengaluru"
+  },
+  "headline": "IT Support Specialist",
+  "summary": "IT support specialist with 3 years of experience helping users and keeping office IT running. Hardworking and eager to move into more technical infrastructure work.",
+  "skills": [
+   {
+    "category": "Support",
+    "items": [
+     "Windows 10/11",
+     "Office 365",
+     "Active Directory (user admin)",
+     "Intune",
+     "ServiceNow",
+     "TeamViewer"
+    ]
+   },
+   {
+    "category": "Basics",
+    "items": [
+     "Networking fundamentals (CompTIA)",
+     "some PowerShell",
+     "Linux (personal laptop)"
+    ]
+   }
+  ],
+  "experience": [
+   {
+    "title": "IT Support Specialist (L1/L2)",
+    "company": "TeleServe Global",
+    "location": "Bengaluru",
+    "start": "2023-05",
+    "end": null,
+    "bullets": [
+     "First and second-line support for a 900-seat delivery centre; 95% SLA compliance on tickets.",
+     "Administer user accounts in Active Directory and Office 365.",
+     "Prepared laptops and onboarding for new joiners; wrote the internal FAQ."
+    ]
+   },
+   {
+    "title": "Helpdesk Agent",
+    "company": "QuickAssist Services",
+    "location": "Jaipur",
+    "start": "2022-01",
+    "end": "2023-04",
+    "bullets": [
+     "Phone support for a broadband provider; password resets, router troubleshooting."
+    ]
+   }
+  ],
+  "education": [
+   {
+    "degree": "BCA (68%)",
+    "institution": "University of Rajasthan, Jaipur",
+    "years": "2018 – 2021",
+    "grade": "68%"
+   }
+  ],
+  "certifications": [
+   "CompTIA A+ (2023)",
+   "CompTIA Network+ (2024)"
+  ],
+  "publications": [],
+  "languages_known": [
+   "Hindi (native)",
+   "English (fluent)"
+  ],
+  "links": [
+   "linkedin.com/in/poojasharma-itsupport"
+  ],
+  "notice_period": "30 days",
+  "expected_ctc": null,
+  "pii": {
+   "date_of_birth": null,
+   "gender": null,
+   "marital_status": null,
+   "photo_present": false,
+   "other": []
+  }
+ },
+ "resumes/HOY-2026-014/Suresh_Gowda_CV_2026.pdf": {
+  "source_file": "resumes/HOY-2026-014/Suresh_Gowda_CV_2026.pdf",
+  "contact": {
+   "name": "Suresh Gowda",
+   "email": "suresh.gowda.ops@yahoo.co.in",
+   "phone": "+91 94480 76215",
+   "city": "Bengaluru"
+  },
+  "headline": "Senior Systems Administrator",
+  "summary": "Senior systems administrator with 11 years running mission-critical on-prem infrastructure (Linux, VMware, storage, networking),\nincluding four years in a bank data centre with RBI-mandated DR drills. Certified Kubernetes Administrator (2026); actively\nre-skilling toward cloud-native platform work with a substantial homelab and Ansible automation background. Notice period: 30\ndays.",
+  "skills": [
+   {
+    "category": "Systems",
+    "items": [
+     "RHEL/CentOS",
+     "VMware vSphere",
+     "iSCSI/NFS storage",
+     "HAProxy",
+     "DNS/DHCP",
+     "PostgreSQL admin"
+    ]
+   },
+   {
+    "category": "Automation",
+    "items": [
+     "Ansible",
+     "Bash",
+     "Python (scripting)",
+     "GitLab CI (basic)"
+    ]
+   },
+   {
+    "category": "Learning",
+    "items": [
+     "Kubernetes (CKA 2026, homelab k3s cluster)",
+     "Terraform (personal projects)",
+     "Prometheus (homelab)"
+    ]
+   },
+   {
+    "category": "Ops",
+    "items": [
+     "Change management (ITIL)",
+     "24/7 on-call",
+     "backup/DR (Veeam)",
+     "RBI DR-drill runbooks"
+    ]
+   }
+  ],
+  "experience": [
+   {
+    "title": "Senior Systems Administrator",
+    "company": "Prism Datacenters",
+    "location": "Bengaluru",
+    "start": "2019-03",
+    "end": null,
+    "bullets": [
+     "Run 300 VMs across two datacenters for colocation clients including two NBFCs (24/7, 99.95% uptime commitment).",
+     "Automated OS patching and configuration with Ansible across the estate; patch cycle from 6 weeks to 1 week.",
+     "Led the DR project: documented runbooks, quarterly failover tests, RPO cut from 24h to 1h.",
+     "Migrated monitoring from Nagios to Prometheus/Grafana (self-initiated)."
+    ]
+   },
+   {
+    "title": "Systems Administrator, DC Operations",
+    "company": "Suvarna Bank",
+    "location": "Bengaluru",
+    "start": "2015-06",
+    "end": "2019-02",
+    "bullets": [
+     "Managed Linux and AIX servers in the bank's primary data centre.",
+     "Executed RBI-mandated DR drills twice yearly for CBS and payment systems; zero missed RTO targets in my tenure.",
+     "Introduced central logging and monitoring; on-call rotation for critical systems."
+    ]
+   }
+  ],
+  "education": [
+   {
+    "degree": "B.E. Computer Science",
+    "institution": "Siddaganga Institute of Technology (VTU), Tumakuru",
+    "years": "2009 – 2013",
+    "grade": null
+   }
+  ],
+  "certifications": [
+   "CKA — Certified Kubernetes Administrator (2026)",
+   "RHCE (2018)",
+   "ITIL v4 Foundation (2020)"
+  ],
+  "publications": [],
+  "languages_known": [
+   "Kannada (native)",
+   "English (fluent)",
+   "Hindi (working)",
+   "Telugu (working)"
+  ],
+  "links": [
+   "linkedin.com/in/sureshgowda-sysadmin",
+   "github.com/sgowda-ops"
+  ],
+  "notice_period": "30 days",
+  "expected_ctc": null,
+  "pii": {
+   "date_of_birth": "14-06-1991",
+   "gender": null,
+   "marital_status": null,
+   "photo_present": false,
+   "other": [
+    "I hereby declare that the information furnished above is true to the best of my knowledge. — Suresh Gowda, Bengaluru"
+   ]
+  }
+ },
+ "resumes/HOY-2026-017/ARYAN_KAPOOR_AI_EXPERT_RESUME.pdf": {
+  "source_file": "resumes/HOY-2026-017/ARYAN_KAPOOR_AI_EXPERT_RESUME.pdf",
+  "contact": {
+   "name": "Aryan Kapoor",
+   "email": "aryankapoor.aiexpert@gmail.com",
+   "phone": "+91 98110 37465",
+   "city": "Gurugram"
+  },
+  "headline": "AI Expert | Prompt Engineer | LLM Consultant",
+  "summary": "Visionary AI expert with deep mastery of ChatGPT, GPT-5, Claude, Gemini, Llama, agents, AGI pipelines, RAG, fine-tuning, vector databases and prompt engineering. I help companies 10x their productivity with cutting-edge AI transformation. Immediate joiner.",
+  "skills": [
+   {
+    "category": "AI",
+    "items": [
+     "ChatGPT",
+     "GPT-5",
+     "Claude",
+     "Gemini",
+     "Llama 4",
+     "Mistral",
+     "AutoGPT",
+     "AgentGPT",
+     "CrewAI",
+     "LangChain",
+     "LlamaIndex",
+     "Pinecone",
+     "Chroma",
+     "Weaviate",
+     "FAISS",
+     "RAG",
+     "fine-tuning",
+     "LoRA",
+     "RLHF",
+     "AGI readiness"
+    ]
+   },
+   {
+    "category": "Other",
+    "items": [
+     "Prompt engineering",
+     "Zapier",
+     "Make.com",
+     "Notion AI",
+     "Midjourney",
+     "no-code automation",
+     "Python (learning)",
+     "growth hacking"
+    ]
+   }
+  ],
+  "experience": [
+   {
+    "title": "Founder & AI Consultant",
+    "company": "KapoorAI Consulting",
+    "location": "Gurugram / remote",
+    "start": "2025-05",
+    "end": null,
+    "bullets": [
+     "Delivered AI transformation strategies for multiple clients across industries.",
+     "Built custom GPTs and automation workflows saving clients countless hours.",
+     "Created viral LinkedIn content on AI trends (15k followers)."
+    ]
+   },
+   {
+    "title": "Growth Marketer",
+    "company": "Various startups",
+    "location": "Gurugram / remote",
+    "start": "2021-01",
+    "end": "2025-01",
+    "bullets": [
+     "Ran paid social campaigns and growth experiments for D2C brands."
+    ]
+   }
+  ],
+  "education": [],
+  "certifications": [
+   "\"ChatGPT Mastery\" — Udemy (2024)",
+   "\"Become an AI Expert in 30 Days\" — online (2025)"
+  ],
+  "publications": [],
+  "languages_known": [
+   "Hindi (native)",
+   "English (fluent)"
+  ],
+  "links": [
+   "linkedin.com/in/aryankapoor-aiexpert"
+  ],
+  "notice_period": "Immediate joiner",
+  "expected_ctc": null,
+  "pii": {
+   "date_of_birth": null,
+   "gender": null,
+   "marital_status": null,
+   "photo_present": false,
+   "other": []
+  }
+ },
+ "resumes/HOY-2026-017/Aishwarya_Iyer_AI_Engineer.pdf": {
+  "source_file": "resumes/HOY-2026-017/Aishwarya_Iyer_AI_Engineer.pdf",
+  "contact": {
+   "name": "Aishwarya Iyer",
+   "email": "aishwarya.iyer.ai@gmail.com",
+   "phone": "+91 98801 47362",
+   "city": "Bengaluru"
+  },
+  "headline": "AI Engineer — LLM Applications",
+  "summary": "AI engineer with 6 years across ML and GenAI, the last two shipping retrieval-augmented LLM systems to production for an insurer and an NBFC. I care about the unglamorous parts: golden sets, regression gates, guardrails, and knowing why the answer changed before the user does.",
+  "skills": [
+   {
+    "category": "GenAI",
+    "items": [
+     "RAG design",
+     "structured output",
+     "prompt/context engineering",
+     "LLM-as-judge with human calibration",
+     "guardrails (PII redaction, groundedness checks)",
+     "agent/tool-use patterns"
+    ]
+   },
+   {
+    "category": "Stack",
+    "items": [
+     "Python",
+     "FastAPI",
+     "pgvector",
+     "OpenSearch",
+     "LangGraph",
+     "Azure OpenAI",
+     "vLLM (Llama/Mistral)",
+     "MLflow"
+    ]
+   },
+   {
+    "category": "Engineering",
+    "items": [
+     "pytest",
+     "Docker",
+     "Kubernetes",
+     "GitHub Actions",
+     "Terraform (working)"
+    ]
+   },
+   {
+    "category": "Compliance",
+    "items": [
+     "DPDP Act-aligned PII handling",
+     "audit logging for model risk review"
+    ]
+   }
+  ],
+  "experience": [
+   {
+    "title": "AI Engineer",
+    "company": "Cognivia Labs (GenAI consultancy)",
+    "location": "Bengaluru",
+    "start": "2024-02",
+    "end": null,
+    "bullets": [
+     "Built a claims-correspondence RAG assistant for a private life insurer, now handling 2,400 queries/day; groundedness gate blocks uncited answers.",
+     "Designed the eval harness (240-item golden set, LLM-as-judge calibrated against human raters at kappa 0.81) — every prompt/model change ships through it in CI.",
+     "Implemented PII redaction and audit logging to satisfy the client's DPO and model-risk team under the DPDP Act; system passed internal audit first pass.",
+     "Cut inference cost 64% by routing simple intents to a fine-tuned small model behind the same API.",
+     "Delivered a Hindi/Kannada intent-routing layer for an NBFC collections assistant (vernacular query normalization)."
+    ]
+   },
+   {
+    "title": "Machine Learning Engineer",
+    "company": "Bazaario (e-commerce)",
+    "location": "Bengaluru",
+    "start": "2021-09",
+    "end": "2024-01",
+    "bullets": [
+     "Owned the product-ranking model (LightGBM) serving 40M requests/day; +2.3% conversion in holdout.",
+     "Built the team's first feature store and drift monitoring; two silent-degradation incidents caught in month one.",
+     "Moved training pipelines to Kubernetes with MLflow tracking."
+    ]
+   },
+   {
+    "title": "Decision Scientist",
+    "company": "Mu Sigma",
+    "location": "Bengaluru",
+    "start": "2020-08",
+    "end": "2021-08",
+    "bullets": [
+     "Forecasting and churn models for a US retail client."
+    ]
+   }
+  ],
+  "education": [
+   {
+    "degree": "M.Tech Computer Science & Engineering",
+    "institution": "IIIT Hyderabad",
+    "years": "2018 – 2020",
+    "grade": null
+   },
+   {
+    "degree": "B.E. Computer Science & Engineering",
+    "institution": "SSN College of Engineering, Chennai",
+    "years": "2014 – 2018",
+    "grade": null
+   }
+  ],
+  "certifications": [],
+  "publications": [],
+  "languages_known": [
+   "Tamil (native)",
+   "English (fluent)",
+   "Hindi (fluent)",
+   "Kannada (working)"
+  ],
+  "links": [
+   "linkedin.com/in/aishwaryaiyer-ai"
+  ],
+  "notice_period": "60 days",
+  "expected_ctc": null,
+  "pii": {
+   "date_of_birth": null,
+   "gender": null,
+   "marital_status": null,
+   "photo_present": false,
+   "other": []
+  }
+ },
+ "resumes/HOY-2026-017/CV_Rohit_Deshpande_DataScience.pdf": {
+  "source_file": "resumes/HOY-2026-017/CV_Rohit_Deshpande_DataScience.pdf",
+  "contact": {
+   "name": "Rohit Deshpande",
+   "email": "rohit.deshpande.ds@outlook.com",
+   "phone": "+91 98220 63549",
+   "city": "Bengaluru"
+  },
+  "headline": "Senior Data Scientist",
+  "summary": "Senior data scientist with 6 years in insurance analytics. Built and deployed churn, pricing and fraud models with measurable business impact. Recently leading an internal GenAI proof-of-concept and looking to move into LLM engineering full time.",
+  "skills": [
+   {
+    "category": "ML",
+    "items": [
+     "scikit-learn",
+     "XGBoost",
+     "feature engineering",
+     "model monitoring",
+     "A/B testing",
+     "SHAP"
+    ]
+   },
+   {
+    "category": "GenAI",
+    "items": [
+     "OpenAI API",
+     "LangChain (POC level)",
+     "embeddings",
+     "prompt design (internal pilot)"
+    ]
+   },
+   {
+    "category": "Stack",
+    "items": [
+     "Python",
+     "SQL",
+     "Airflow",
+     "dbt",
+     "Azure ML",
+     "Power BI",
+     "Git"
+    ]
+   }
+  ],
+  "experience": [
+   {
+    "title": "Senior Data Scientist",
+    "company": "Sanchay Life Insurance",
+    "location": "Bengaluru",
+    "start": "2022-03",
+    "end": null,
+    "bullets": [
+     "Own the retention-model suite for 1.4M policyholders; targeted campaigns lifted persistency 1.8pp year-over-year.",
+     "Led a 3-person GenAI POC: policy-document Q&A chatbot (LangChain + Azure OpenAI) piloted with 25 service agents; positive feedback, not yet productionized.",
+     "Built model-monitoring dashboards adopted as the department standard.",
+     "Present quarterly to the underwriting committee; translated model limits into pricing-policy changes."
+    ]
+   },
+   {
+    "title": "Data Scientist",
+    "company": "Sanchay Life Insurance",
+    "location": "Mumbai",
+    "start": "2019-09",
+    "end": "2022-02",
+    "bullets": [
+     "Developed claims-fraud detection (gradient boosting) flagging 12% more confirmed fraud at equal review load.",
+     "Automated monthly reporting pipelines in Airflow, saving the team 3 days/month."
+    ]
+   }
+  ],
+  "education": [
+   {
+    "degree": "M.Sc. Statistics",
+    "institution": "Savitribai Phule Pune University",
+    "years": "2017 – 2019",
+    "grade": null
+   },
+   {
+    "degree": "B.Sc. Statistics",
+    "institution": "Fergusson College, Pune",
+    "years": "2014 – 2017",
+    "grade": null
+   }
+  ],
+  "certifications": [
+   "DeepLearning.AI \"LLMs as Operating Systems\" (2026)",
+   "Azure AI Engineer Associate (2025)"
+  ],
+  "publications": [],
+  "languages_known": [
+   "Marathi (native)",
+   "English (fluent)",
+   "Hindi (fluent)"
+  ],
+  "links": [
+   "linkedin.com/in/rohitdeshpande-ds"
+  ],
+  "notice_period": "60 days",
+  "expected_ctc": null,
+  "pii": {
+   "date_of_birth": null,
+   "gender": null,
+   "marital_status": null,
+   "photo_present": false,
+   "other": []
+  }
+ },
+ "resumes/HOY-2026-017/KavyaNambiar_CV_academic.pdf": {
+  "source_file": "resumes/HOY-2026-017/KavyaNambiar_CV_academic.pdf",
+  "contact": {
+   "name": "Kavya Nambiar",
+   "email": "kavya.nambiar.nlp@gmail.com",
+   "phone": "+91 96325 80917",
+   "city": "Bengaluru"
+  },
+  "headline": "NLP Researcher (PhD)",
+  "summary": "NLP researcher completing a PhD at IISc Bangalore on efficient transformer inference (defence completed June 2026). Published at ACL and EMNLP on KV-cache compression and speculative decoding, with additional work on Indic-language evaluation. Looking to move from research into applied LLM engineering.",
+  "skills": [
+   {
+    "category": "Research",
+    "items": [
+     "Transformer architectures",
+     "efficient inference (quantization, KV-cache compression, speculative decoding)",
+     "retrieval-augmented generation",
+     "Indic-language evaluation methodology"
+    ]
+   },
+   {
+    "category": "Stack",
+    "items": [
+     "Python",
+     "PyTorch",
+     "Hugging Face",
+     "CUDA (basic)",
+     "vLLM (research use)",
+     "LaTeX",
+     "Git"
+    ]
+   }
+  ],
+  "experience": [
+   {
+    "title": "PhD Researcher, NLP",
+    "company": "Indian Institute of Science (CSA)",
+    "location": "Bengaluru",
+    "start": "2022-08",
+    "end": "2026-06",
+    "bullets": [
+     "Thesis: \"Memory-Efficient Inference for Autoregressive Language Models\" — three first-author papers (ACL 2025, EMNLP 2024, ACL 2024 Findings).",
+     "Proposed a KV-cache compression method achieving 3.1x memory reduction at <0.5% quality loss; adopted by two open-source serving projects.",
+     "Teaching assistant for the M.Tech \"Natural Language Understanding\" course (3 years)."
+    ]
+   },
+   {
+    "title": "Research Intern",
+    "company": "Microsoft Research India",
+    "location": "Bengaluru",
+    "start": "2025-06",
+    "end": "2025-09",
+    "bullets": [
+     "Worked on inference-efficiency benchmarks for production serving stacks."
+    ]
+   },
+   {
+    "title": "Research Intern",
+    "company": "VaakAI (Indic voice-LLM startup)",
+    "location": "Bengaluru",
+    "start": "2024-06",
+    "end": "2024-09",
+    "bullets": [
+     "Studied retrieval quality effects on RAG hallucination rates for Hindi/Kannada queries (workshop paper)."
+    ]
+   }
+  ],
+  "education": [
+   {
+    "degree": "PhD, Computer Science (NLP)",
+    "institution": "Indian Institute of Science, Bengaluru",
+    "years": "2022 – 2026",
+    "grade": null
+   },
+   {
+    "degree": "M.Tech Computational Science",
+    "institution": "Indian Institute of Science, Bengaluru",
+    "years": "2020 – 2022",
+    "grade": null
+   },
+   {
+    "degree": "B.Tech Computer Science & Engineering",
+    "institution": "NIT Calicut",
+    "years": "2016 – 2020",
+    "grade": null
+   }
+  ],
+  "certifications": [],
+  "publications": [
+   "\"Sublinear KV-Cache Growth for Long-Context Inference\" — ACL 2025 (main).",
+   "\"When Does Speculative Decoding Help? A Systematic Study\" — EMNLP 2024.",
+   "\"Retrieval Noise and Hallucination in Indic-Language RAG\" — RepL4NLP workshop 2024."
+  ],
+  "languages_known": [
+   "Malayalam (native)",
+   "English (fluent)",
+   "Hindi (working)",
+   "Kannada (working)"
+  ],
+  "links": [
+   "linkedin.com/in/kavyanambiar-nlp"
+  ],
+  "notice_period": null,
+  "expected_ctc": null,
+  "pii": {
+   "date_of_birth": null,
+   "gender": null,
+   "marital_status": null,
+   "photo_present": false,
+   "other": []
+  }
+ },
+ "resumes/HOY-2026-017/Meghana_Rao_CV_2026.pdf": {
+  "source_file": "resumes/HOY-2026-017/Meghana_Rao_CV_2026.pdf",
+  "contact": {
+   "name": "Meghana Rao",
+   "email": "meghana.rao.mkt@gmail.com",
+   "phone": "+91 99720 15683",
+   "city": "Bengaluru"
+  },
+  "headline": "Marketing Analyst",
+  "summary": "Marketing analyst with 5 years of campaign and funnel analytics.\nFascinated by generative AI after completing\nan intensive bootcamp; eager to transition into an AI role where I can combine analytical skills with new\ntechnology. Notice period: 30 days.",
+  "skills": [
+   {
+    "category": "Analytics",
+    "items": [
+     "Google Analytics",
+     "Looker Studio",
+     "Excel (advanced)",
+     "SQL (intermediate)",
+     "HubSpot"
+    ]
+   },
+   {
+    "category": "AI (new)",
+    "items": [
+     "Python (beginner)",
+     "OpenAI API (bootcamp projects)",
+     "prompt writing",
+     "ChatGPT power user"
+    ]
+   }
+  ],
+  "experience": [
+   {
+    "title": "Marketing Analyst",
+    "company": "SocialPulse Media",
+    "location": "Bengaluru",
+    "start": "2021-09",
+    "end": null,
+    "bullets": [
+     "Analyze multi-channel campaign performance for 30+ D2C advertisers; monthly reporting suite in Looker Studio.",
+     "Built attribution dashboards that reallocated 15% of spend toward better-performing channels.",
+     "Used ChatGPT to speed up campaign copy drafts and reporting summaries."
+    ]
+   },
+   {
+    "title": "Junior Marketing Analyst",
+    "company": "AdVantage Media Agency",
+    "location": "Bengaluru",
+    "start": "2020-07",
+    "end": "2021-08",
+    "bullets": [
+     "Campaign reporting and A/B test tracking for agency clients."
+    ]
+   }
+  ],
+  "education": [
+   {
+    "degree": "MBA (Marketing)",
+    "institution": "Christ University",
+    "years": "2018 – 2020",
+    "grade": null
+   },
+   {
+    "degree": "GenAI Engineering Bootcamp (6 weeks)",
+    "institution": "NeoLearn Academy",
+    "years": "May – Jun 2026",
+    "grade": null
+   },
+   {
+    "degree": "BBA",
+    "institution": "Jyoti Nivas College",
+    "years": "2015 – 2018",
+    "grade": null
+   }
+  ],
+  "certifications": [],
+  "publications": [],
+  "languages_known": [
+   "Kannada (native)",
+   "English (fluent)",
+   "Hindi (fluent)",
+   "Tulu (working)"
+  ],
+  "links": [
+   "linkedin.com/in/meghanarao-marketing"
+  ],
+  "notice_period": "Notice period: 30 days.",
+  "expected_ctc": null,
+  "pii": {
+   "date_of_birth": null,
+   "gender": null,
+   "marital_status": null,
+   "photo_present": false,
+   "other": []
+  }
+ },
+ "resumes/HOY-2026-019/Neha_Agarwal_Actuary_CV.pdf": {
+  "source_file": "resumes/HOY-2026-019/Neha_Agarwal_Actuary_CV.pdf",
+  "contact": {
+   "name": "Neha Agarwal",
+   "email": "neha.agarwal.actuary@outlook.com",
+   "phone": "+91 98336 51290",
+   "city": "Mumbai"
+  },
+  "headline": "Actuary — Capital Modeling",
+  "summary": "Qualified actuary (Fellow, Institute of Actuaries of India) with 8 years in capital and risk modeling at a large private life insurer. Deep experience in stochastic scenario generation, model validation cycles and regulator interaction (IRDAI). Looking to transfer risk-modeling expertise to banking market risk. Notice period: 90 days.",
+  "skills": [
+   {
+    "category": "Modeling",
+    "items": [
+     "Economic capital and risk-based capital modeling",
+     "economic scenario generators",
+     "stochastic simulation",
+     "calibration",
+     "model backtesting",
+     "stress testing"
+    ]
+   },
+   {
+    "category": "Code",
+    "items": [
+     "R (production models)",
+     "Python (2 years, growing)",
+     "SQL",
+     "Git"
+    ]
+   },
+   {
+    "category": "Governance",
+    "items": [
+     "Model documentation",
+     "IRDAI submissions",
+     "appointed-actuary support",
+     "peer review"
+    ]
+   }
+  ],
+  "experience": [
+   {
+    "title": "Senior Actuary, Capital Modeling",
+    "company": "Sanchay Life Insurance",
+    "location": "Mumbai",
+    "start": "2021-01",
+    "end": null,
+    "bullets": [
+     "Own the market-risk module of the internal economic-capital model (interest-rate, equity, spread risk) covering a Rs. 1.9 lakh crore balance sheet.",
+     "Rebuilt the interest-rate scenario generator (Hull-White calibration to G-Sec and OIS curves) and defended it through model validation and an IRDAI review.",
+     "Run the annual model-change process: 30+ documented changes, zero regulatory findings in 3 years.",
+     "Mentor two student actuaries; teach the internal \"stochastic methods\" course."
+    ]
+   },
+   {
+    "title": "Actuarial Analyst",
+    "company": "Sanchay Life Insurance",
+    "location": "Mumbai",
+    "start": "2018-09",
+    "end": "2020-12",
+    "bullets": [
+     "Built stochastic mortality and lapse models; automated the quarterly solvency calculation in R."
+    ]
+   }
+  ],
+  "education": [
+   {
+    "degree": "Fellow of the Institute of Actuaries of India (FIAI)",
+    "institution": "IAI",
+    "years": "qualified 2022",
+    "grade": null
+   },
+   {
+    "degree": "B.Sc. (Hons.) Statistics",
+    "institution": "Sri Venkateswara College, University of Delhi",
+    "years": "2013 – 2016",
+    "grade": null
+   }
+  ],
+  "certifications": [],
+  "publications": [],
+  "languages_known": [
+   "Hindi (native)",
+   "English (fluent)",
+   "Marathi (working)"
+  ],
+  "links": [
+   "linkedin.com/in/nehaagarwal-actuary"
+  ],
+  "notice_period": "90 days",
+  "expected_ctc": null,
+  "pii": {
+   "date_of_birth": null,
+   "gender": null,
+   "marital_status": null,
+   "photo_present": false,
+   "other": []
+  }
+ },
+ "resumes/HOY-2026-019/Priyanka_Venkatesan_CV.pdf": {
+  "source_file": "resumes/HOY-2026-019/Priyanka_Venkatesan_CV.pdf",
+  "contact": {
+   "name": "Dr. Priyanka Venkatesan",
+   "email": "priyanka.venkatesan.quant@gmail.com",
+   "phone": "+91 98207 41635",
+   "city": "Mumbai"
+  },
+  "headline": "Quantitative Analyst — Market Risk",
+  "summary": "Market-risk quant with a PhD in applied mathematics from IIT Bombay and 4 years developing and defending internal models at a private-sector bank's treasury. Owned ES/VaR methodology through the FRTB parallel-run under RBI's draft guidelines, including P&L attribution testing and NMRF treatment, plus the IRRBB EVE/NII engine. Comfortable in front of Model Validation and RBI inspection teams. Notice period: 60 days.",
+  "skills": [
+   {
+    "category": "Quant",
+    "items": [
+     "Expected Shortfall/VaR",
+     "FRTB (PLA tests, NMRF)",
+     "risk-factor modeling",
+     "backtesting",
+     "Monte Carlo methods",
+     "G-Sec/OIS curve construction",
+     "vanilla-option pricing and Greeks",
+     "IRRBB (EVE/NII per RBI circular)"
+    ]
+   },
+   {
+    "category": "Code",
+    "items": [
+     "Python (NumPy/SciPy/pandas, production risk libraries)",
+     "C++ (contributor level)",
+     "SQL",
+     "Git"
+    ]
+   },
+   {
+    "category": "Governance",
+    "items": [
+     "Model documentation",
+     "validation responses",
+     "RBI inspection Q&A support",
+     "FIMMDA valuation norms"
+    ]
+   }
+  ],
+  "experience": [
+   {
+    "title": "Quantitative Analyst, Market Risk",
+    "company": "Vindhya Bank",
+    "location": "Mumbai",
+    "start": "2022-08",
+    "end": null,
+    "bullets": [
+     "Co-developed the bank's Expected Shortfall model for the FRTB parallel-run (rates & FX trading books); P&L attribution tests passing in 11 of 12 months on the pilot desks.",
+     "Redesigned risk-factor bucketing for non-modellable risk factors, reducing the projected NMRF capital add-on by 18% with documented statistical justification.",
+     "Built the backtesting framework (Python) now running daily against 3 years of history; investigated and closed 100% of VaR breaches within SLA.",
+     "Rebuilt the IRRBB EVE/NII scenario engine to the RBI prescribed shocks; presented results to ALCO monthly.",
+     "Supported two RBI inspection cycles: methodology walkthroughs and data lineage evidence."
+    ]
+   },
+   {
+    "title": "Quantitative Analyst (rotational)",
+    "company": "Vindhya Bank",
+    "location": "Mumbai",
+    "start": "2021-09",
+    "end": "2022-07",
+    "bullets": [
+     "Rotations across counterparty risk (SA-CCR implementation checks) and treasury mid-office analytics."
+    ]
+   }
+  ],
+  "education": [
+   {
+    "degree": "PhD Applied Mathematics (stochastic analysis)",
+    "institution": "IIT Bombay",
+    "years": "2017 – 2021",
+    "grade": null
+   },
+   {
+    "degree": "M.Sc. Applied Mathematics",
+    "institution": "Anna University, Chennai",
+    "years": "2015 – 2017",
+    "grade": null
+   },
+   {
+    "degree": "B.Sc. Mathematics",
+    "institution": "Loyola College, Chennai",
+    "years": "2012 – 2015",
+    "grade": null
+   }
+  ],
+  "certifications": [
+   "FRM (2023)"
+  ],
+  "publications": [
+   "\"A copula approach to aggregating non-modellable risk factors\" — Journal of Risk, 2023."
+  ],
+  "languages_known": [
+   "Tamil (native)",
+   "English (fluent)",
+   "Hindi (fluent)"
+  ],
+  "links": [
+   "linkedin.com/in/priyankavenkatesan-quant"
+  ],
+  "notice_period": "60 days",
+  "expected_ctc": null,
+  "pii": {
+   "date_of_birth": null,
+   "gender": null,
+   "marital_status": null,
+   "photo_present": false,
+   "other": []
+  }
+ },
+ "resumes/HOY-2026-019/Sandeep_Krishnan_CV.pdf": {
+  "source_file": "resumes/HOY-2026-019/Sandeep_Krishnan_CV.pdf",
+  "contact": {
+   "name": "Dr. Sandeep Krishnan",
+   "email": "sandeep.krishnan.physics@gmail.com",
+   "phone": "+91 99866 20743",
+   "city": "Bengaluru"
+  },
+  "headline": "Theoretical Physicist — PhD, TIFR Mumbai",
+  "summary": "Theoretical physicist (PhD, TIFR Mumbai 2025; postdoc at ICTS Bengaluru) specializing in numerical methods for quantum field theory: large-scale Monte Carlo simulation, stochastic differential equations, high-performance C++/Python. Seeking to apply these methods in quantitative finance.",
+  "skills": [
+   {
+    "category": "Mathematics",
+    "items": [
+     "Stochastic processes",
+     "SDEs",
+     "measure-theoretic probability",
+     "statistical inference",
+     "numerical PDEs",
+     "Markov Chain Monte Carlo"
+    ]
+   },
+   {
+    "category": "Code",
+    "items": [
+     "C++17 (HPC, MPI/OpenMP)",
+     "Python (NumPy/SciPy/JAX)",
+     "Mathematica",
+     "Git",
+     "Linux clusters"
+    ]
+   },
+   {
+    "category": "Finance",
+    "items": [
+     "Self-study: Hull, Shreve (Stochastic Calculus for Finance I–II), QuantLib exercises"
+    ]
+   }
+  ],
+  "experience": [
+   {
+    "title": "Postdoctoral Fellow",
+    "company": "ICTS-TIFR",
+    "location": "Bengaluru",
+    "start": "2025-10",
+    "end": null,
+    "bullets": [
+     "Lead developer of a lattice simulation code (C++/MPI) running on 10k+ cores at national HPC facilities; 40% runtime reduction via cache-aware data layout.",
+     "Developed variance-reduction techniques for MCMC estimators (importance sampling, control variates)."
+    ]
+   },
+   {
+    "title": "PhD Researcher, Theoretical Physics",
+    "company": "Tata Institute of Fundamental Research",
+    "location": "Mumbai",
+    "start": "2020-08",
+    "end": "2025-09",
+    "bullets": [
+     "Thesis on non-perturbative methods in gauge theories; 5 publications, 2 first-author in Physical Review D.",
+     "Supervised visiting students on stochastic simulation methods."
+    ]
+   }
+  ],
+  "education": [
+   {
+    "degree": "PhD Theoretical Physics",
+    "institution": "TIFR, Mumbai",
+    "years": "2020 – 2025",
+    "grade": null
+   },
+   {
+    "degree": "BS-MS (Physics), Gold Medal",
+    "institution": "IISER Pune",
+    "years": "2015 – 2020",
+    "grade": null
+   }
+  ],
+  "certifications": [],
+  "publications": [
+   "Two first-author papers in Physical Review D (2023, 2024); full list on request."
+  ],
+  "languages_known": [
+   "Malayalam (native)",
+   "English (fluent)",
+   "Hindi (fluent)",
+   "Tamil (working)"
+  ],
+  "links": [
+   "linkedin.com/in/sandeepkrishnan-physics"
+  ],
+  "notice_period": null,
+  "expected_ctc": null,
+  "pii": {
+   "date_of_birth": null,
+   "gender": null,
+   "marital_status": null,
+   "photo_present": false,
+   "other": []
+  }
+ },
+ "resumes/HOY-2026-019/Vikram_Malhotra_Resume.pdf": {
+  "source_file": "resumes/HOY-2026-019/Vikram_Malhotra_Resume.pdf",
+  "contact": {
+   "name": "Vikram Malhotra",
+   "email": "vikram.malhotra.fin@gmail.com",
+   "phone": "+91 98453 60912",
+   "city": "Bengaluru"
+  },
+  "headline": "Senior Financial Analyst",
+  "summary": "Commercially-minded senior financial analyst with 6 years in FP&A and management reporting. MBA. Skilled in financial modeling, forecasting and executive dashboards. Seeking a quantitative risk role in banking. CFA Level 1 candidate. Notice period: 30 days.",
+  "skills": [
+   {
+    "category": "Finance",
+    "items": [
+     "Financial modeling (Excel, advanced)",
+     "budgeting & forecasting",
+     "variance analysis",
+     "management reporting",
+     "business partnering"
+    ]
+   },
+   {
+    "category": "Tools",
+    "items": [
+     "Excel/VBA",
+     "Power BI",
+     "SQL (basic)",
+     "SAP",
+     "Anaplan"
+    ]
+   },
+   {
+    "category": "Risk",
+    "items": [
+     "Built a VaR dashboard in Excel for the treasury team (historical simulation)"
+    ]
+   }
+  ],
+  "experience": [
+   {
+    "title": "Senior Financial Analyst",
+    "company": "Annapurna Foods",
+    "location": "Bengaluru",
+    "start": "2023-04",
+    "end": null,
+    "bullets": [
+     "Lead monthly forecasting cycle for a Rs. 2,400 crore division; presentation pack to the CFO.",
+     "Built a treasury FX-exposure dashboard in Excel/VBA including a historical-simulation VaR figure.",
+     "Partner with supply chain on cost-saving business cases (Rs. 34 crore identified in 2025)."
+    ]
+   },
+   {
+    "title": "Financial Analyst",
+    "company": "Genpact",
+    "location": "Gurugram",
+    "start": "2020-07",
+    "end": "2023-03",
+    "bullets": [
+     "Budgeting, variance commentary and capex tracking for a global CPG client."
+    ]
+   }
+  ],
+  "education": [
+   {
+    "degree": "MBA (Finance, part-time)",
+    "institution": "Symbiosis (SCMHRD), Pune",
+    "years": "2021 – 2023",
+    "grade": null
+   },
+   {
+    "degree": "B.Com (Hons.)",
+    "institution": "Hansraj College, University of Delhi",
+    "years": "2014 – 2017",
+    "grade": null
+   }
+  ],
+  "certifications": [
+   "CFA Level 1 candidate (Feb 2027 window)"
+  ],
+  "publications": [],
+  "languages_known": [
+   "Hindi (native)",
+   "English (fluent)",
+   "Punjabi (native)"
+  ],
+  "links": [
+   "linkedin.com/in/vikrammalhotra-finance"
+  ],
+  "notice_period": "30 days",
+  "expected_ctc": null,
+  "pii": {
+   "date_of_birth": null,
+   "gender": null,
+   "marital_status": null,
+   "photo_present": false,
+   "other": []
+  }
+ },
+ "resumes/HOY-2026-019/lakshmi-srinivasan-cv.pdf": {
+  "source_file": "resumes/HOY-2026-019/lakshmi-srinivasan-cv.pdf",
+  "contact": {
+   "name": "Lakshmi Srinivasan",
+   "email": "lakshmi.srinivasan.math@yahoo.in",
+   "phone": "+91 94495 37086",
+   "city": "Bengaluru"
+  },
+  "headline": "PGT Mathematics",
+  "summary": "Post-graduate mathematics teacher with 9 years of experience making difficult concepts clear. Completed several online courses in machine learning and financial mathematics (NPTEL, Coursera) and would love to start a second career in quantitative finance.",
+  "skills": [
+   {
+    "category": "Mathematics",
+    "items": [
+     "Calculus",
+     "linear algebra",
+     "statistics (teaching level up to class 12 / CBSE)"
+    ]
+   },
+   {
+    "category": "Self-study",
+    "items": [
+     "Python (NPTEL)",
+     "Machine Learning Specialization (Andrew Ng)",
+     "\"Financial Engineering and Risk Management\" (Columbia, Coursera)"
+    ]
+   }
+  ],
+  "experience": [
+   {
+    "title": "PGT Mathematics",
+    "company": "Vidya Vikas Public School",
+    "location": "Bengaluru",
+    "start": "2017-06",
+    "end": null,
+    "bullets": [
+     "Teach mathematics to classes 11-12 (CBSE); board results consistently above school average.",
+     "Coordinate the school's mathematics olympiad programme.",
+     "Developed a statistics module with Python notebooks for the school's computer-science stream."
+    ]
+   }
+  ],
+  "education": [
+   {
+    "degree": "M.Sc. Mathematics",
+    "institution": "Bangalore University",
+    "years": "2014 – 2016",
+    "grade": null
+   },
+   {
+    "degree": "B.Ed.",
+    "institution": "RV Teachers College, Bengaluru",
+    "years": "2016 – 2017",
+    "grade": null
+   },
+   {
+    "degree": "B.Sc. Mathematics",
+    "institution": "National College, Basavanagudi",
+    "years": "2011 – 2014",
+    "grade": null
+   }
+  ],
+  "certifications": [],
+  "publications": [],
+  "languages_known": [
+   "Tamil (native)",
+   "Kannada (fluent)",
+   "English (fluent)",
+   "Hindi (working)"
+  ],
+  "links": [],
+  "notice_period": null,
+  "expected_ctc": null,
+  "pii": {
+   "date_of_birth": "02-11-1993",
+   "gender": null,
+   "marital_status": null,
+   "photo_present": false,
+   "other": [
+    "I hereby declare that the above information is true to the best of my knowledge and belief. — Lakshmi Srinivasan, Bengaluru"
+   ]
+  }
+ },
+ "resumes/HOY-2026-021/Aditya_Rao_QuantDev_CV.pdf": {
+  "source_file": "resumes/HOY-2026-021/Aditya_Rao_QuantDev_CV.pdf",
+  "contact": {
+   "name": "Aditya Rao",
+   "email": "aditya.rao.qd@gmail.com",
+   "phone": "+91 98807 25143",
+   "city": "Bengaluru"
+  },
+  "headline": "Quantitative Developer (C++)",
+  "summary": "Quantitative developer with 5 years building pricing and risk components in modern C++ at an options market maker on NSE.\nOwn the Greeks pipeline end-to-end: model code, pybind11 API, regression suite, and the latency budget. Strong fixed-income\nand vol-surface mathematics.",
+  "skills": [
+   {
+    "category": "C++",
+    "items": [
+     "C++20",
+     "templates",
+     "cache-aware design",
+     "SIMD (AVX2)",
+     "multithreading",
+     "perf/VTune profiling",
+     "CMake",
+     "Catch2"
+    ]
+   },
+   {
+    "category": "Python",
+    "items": [
+     "pybind11 APIs",
+     "NumPy interop",
+     "pytest",
+     "tooling"
+    ]
+   },
+   {
+    "category": "Quant",
+    "items": [
+     "G-Sec/OIS curve construction",
+     "vol surfaces (SVI)",
+     "Greeks via AAD (co-developed in-house tape)",
+     "Monte Carlo and PDE\npricers",
+     "QuantLib (contributor: 2 merged PRs)"
+    ]
+   },
+   {
+    "category": "Platform",
+    "items": [
+     "Linux",
+     "Git",
+     "Jenkins",
+     "Grafana"
+    ]
+   }
+  ],
+  "experience": [
+   {
+    "title": "Quantitative Developer",
+    "company": "Photon Trading Systems",
+    "location": "Bengaluru",
+    "start": "2021-06",
+    "end": null,
+    "bullets": [
+     "Own the intraday Greeks engine (C++20) for the NSE index-options desk: 1.4M instrument revals/second on a fixed 32-core\nbudget.",
+     "Co-developed the firm's AAD tape, replacing bump-and-revalue for vega/vanna; nightly risk run cut from 3.2h to 41min.",
+     "Maintain the pybind11 research API used daily by 12 quants; zero breaking releases in 3 years (semantic-versioned,\ngolden-number gated).",
+     "Reduced pricing-library build time 55% (modular headers, precompiled modules), directly speeding desk hotfix turnaround."
+    ]
+   },
+   {
+    "title": "Software Engineer (C++)",
+    "company": "Samsung R&D Institute",
+    "location": "Bengaluru",
+    "start": "2019-07",
+    "end": "2021-05",
+    "bullets": [
+     "On-device multimedia pipeline performance work (C++17): 30% latency reduction on the camera hot path.",
+     "Introduced sanitizer-clean CI (ASan/UBSan) for the module."
+    ]
+   }
+  ],
+  "education": [
+   {
+    "degree": "B.Tech Computer Science & Engineering",
+    "institution": "NITK Surathkal",
+    "years": "2015 – 2019",
+    "grade": null
+   }
+  ],
+  "certifications": [],
+  "publications": [],
+  "languages_known": [
+   "Kannada (native)",
+   "English (fluent)",
+   "Hindi (working)",
+   "Konkani (working)"
+  ],
+  "links": [
+   "linkedin.com/in/adityarao-quantdev"
+  ],
+  "notice_period": "30 days",
+  "expected_ctc": null,
+  "pii": {
+   "date_of_birth": null,
+   "gender": null,
+   "marital_status": null,
+   "photo_present": false,
+   "other": []
+  }
+ },
+ "resumes/HOY-2026-021/Farhan_Sheikh_CV.pdf": {
+  "source_file": "resumes/HOY-2026-021/Farhan_Sheikh_CV.pdf",
+  "contact": {
+   "name": "Farhan Sheikh",
+   "email": "farhan.sheikh.dev@gmail.com",
+   "phone": "+91 98921 40756",
+   "city": "Mumbai"
+  },
+  "headline": "Senior Software Engineer (Java) — transitioning to Quantitative Development",
+  "summary": "Senior backend engineer with 7 years in payments and post-trade systems on the JVM, deliberately retraining toward quantitative development: CQF (module 4 of 6), nightly C++ study with two merged QuantLib pull requests, and a personal options pricer in C++20. Looking for a team willing to bet on proven engineering rigor plus demonstrated quant commitment. Notice period: 60 days.",
+  "skills": [
+   {
+    "category": "Professional",
+    "items": [
+     "Java 21",
+     "Spring Boot",
+     "Kafka",
+     "PostgreSQL",
+     "Kubernetes",
+     "AWS",
+     "performance tuning (JMH, async-profiler)"
+    ]
+   },
+   {
+    "category": "Quant (in progress)",
+    "items": [
+     "C++20 (personal projects + QuantLib contributions)",
+     "CQF module 4/6",
+     "Black-Scholes/binomial pricers",
+     "yield-curve bootstrapping",
+     "Greeks"
+    ]
+   },
+   {
+    "category": "Testing",
+    "items": [
+     "Property-based testing",
+     "golden-file regression suites",
+     "Testcontainers"
+    ]
+   }
+  ],
+  "experience": [
+   {
+    "title": "Senior Software Engineer",
+    "company": "SettleChain Technologies (post-trade fintech)",
+    "location": "Mumbai",
+    "start": "2022-02",
+    "end": null,
+    "bullets": [
+     "Built the netting engine (Java) for a securities-settlement platform handling Rs. 18,000 crore/day notional; deterministic replay design eliminated a class of reconciliation breaks.",
+     "Latency work on the trade-capture path: p99 from 90ms to 11ms (lock-free queues, object pooling).",
+     "Wrote the team's golden-number regression harness comparing settlement outputs across releases."
+    ]
+   },
+   {
+    "title": "Backend Engineer",
+    "company": "Aurus Pay Technologies",
+    "location": "Bengaluru",
+    "start": "2019-07",
+    "end": "2022-01",
+    "bullets": [
+     "UPI payment-routing services (Java/Kafka); introduced idempotency-key handling adopted platform-wide."
+    ]
+   }
+  ],
+  "education": [
+   {
+    "degree": "Certificate in Quantitative Finance (CQF) — in progress, module 4/6",
+    "institution": "CQF Institute",
+    "years": "2026",
+    "grade": null
+   },
+   {
+    "degree": "B.E. Computer Engineering",
+    "institution": "University of Mumbai (K.J. Somaiya College)",
+    "years": "2015 – 2019",
+    "grade": null
+   }
+  ],
+  "certifications": [],
+  "publications": [],
+  "languages_known": [
+   "Urdu (native)",
+   "Hindi (fluent)",
+   "English (fluent)",
+   "Marathi (working)"
+  ],
+  "links": [
+   "linkedin.com/in/farhansheikh-swe",
+   "github.com/fsheikh-dev"
+  ],
+  "notice_period": "60 days",
+  "expected_ctc": null,
+  "pii": {
+   "date_of_birth": null,
+   "gender": null,
+   "marital_status": null,
+   "photo_present": false,
+   "other": []
+  }
+ },
+ "resumes/HOY-2026-021/Manoj_Pillai_CV.pdf": {
+  "source_file": "resumes/HOY-2026-021/Manoj_Pillai_CV.pdf",
+  "contact": {
+   "name": "Manoj Pillai",
+   "email": "manoj.pillai.data@gmail.com",
+   "phone": "+91 96455 82017",
+   "city": "Bengaluru"
+  },
+  "headline": "Data Analyst",
+  "summary": "Analytical and curious data analyst with 4 years turning business data into dashboards and insights. Strong\nPython (pandas) and SQL. Interested in financial markets and looking to move into a more technical quantitative\nrole. Notice period: 30 days.",
+  "skills": [
+   {
+    "category": "Analytics",
+    "items": [
+     "Python (pandas, matplotlib)",
+     "SQL",
+     "Tableau",
+     "Excel",
+     "dbt (basic)",
+     "Jupyter"
+    ]
+   },
+   {
+    "category": "Other",
+    "items": [
+     "C++ (one university course)",
+     "statistics (descriptive, regression)",
+     "Git (basic)"
+    ]
+   }
+  ],
+  "experience": [
+   {
+    "title": "Data Analyst",
+    "company": "FreshKart Retail",
+    "location": "Bengaluru",
+    "start": "2022-09",
+    "end": null,
+    "bullets": [
+     "Build sales and inventory dashboards in Tableau used by 40 dark-store managers weekly.",
+     "Automated weekly reporting with Python/pandas, saving approx. 6 hours per week.",
+     "Analyzed promotion effectiveness; findings changed the festive-season discount calendar for 2025."
+    ]
+   },
+   {
+    "title": "Junior Data Analyst",
+    "company": "MoveMetrics (mobility analytics)",
+    "location": "Kochi",
+    "start": "2021-07",
+    "end": "2022-08",
+    "bullets": [
+     "Cleaned and analyzed city bus-network usage data; ad-hoc SQL for client questions."
+    ]
+   }
+  ],
+  "education": [
+   {
+    "degree": "B.Tech Computer Science (CGPA 7.4/10)",
+    "institution": "CUSAT, Kochi",
+    "years": "2017 – 2021",
+    "grade": "CGPA 7.4/10"
+   }
+  ],
+  "certifications": [],
+  "publications": [],
+  "languages_known": [
+   "Malayalam (native)",
+   "English (fluent)",
+   "Hindi (working)",
+   "Tamil (working)"
+  ],
+  "links": [
+   "linkedin.com/in/manojpillai-data"
+  ],
+  "notice_period": "30 days",
+  "expected_ctc": null,
+  "pii": {
+   "date_of_birth": null,
+   "gender": null,
+   "marital_status": null,
+   "photo_present": false,
+   "other": []
+  }
+ },
+ "resumes/HOY-2026-021/Naukri_ShreyaGupta[2y_0m].pdf": {
+  "source_file": "resumes/HOY-2026-021/Naukri_ShreyaGupta[2y_0m].pdf",
+  "contact": {
+   "name": "Shreya Gupta",
+   "email": "shreya.gupta.webdev@gmail.com",
+   "phone": "+91 88600 91437",
+   "city": "Ghaziabad"
+  },
+  "headline": "Junior Web Developer",
+  "summary": "Junior web developer with 2 years of experience building responsive web applications with JavaScript and Node.js. Quick learner, looking for an exciting next step in a product company.",
+  "skills": [
+   {
+    "category": "Web",
+    "items": [
+     "JavaScript",
+     "TypeScript (learning)",
+     "Node.js",
+     "Express",
+     "React",
+     "HTML/CSS",
+     "MongoDB"
+    ]
+   },
+   {
+    "category": "Tools",
+    "items": [
+     "Git",
+     "Figma (handoff)",
+     "Postman",
+     "Vercel"
+    ]
+   }
+  ],
+  "experience": [
+   {
+    "title": "Junior Web Developer",
+    "company": "PixelWorks Web Studio",
+    "location": "Noida",
+    "start": "2024-08",
+    "end": null,
+    "bullets": [
+     "Develop and maintain websites and small web apps for agency clients (React/Node).",
+     "Built a booking widget used by 12 client websites.",
+     "Fixed accessibility issues on three client sites."
+    ]
+   },
+   {
+    "title": "Web Development Intern",
+    "company": "PixelWorks Web Studio",
+    "location": "Noida",
+    "start": "2023-03",
+    "end": "2024-07",
+    "bullets": [
+     "Supported the dev team with component implementation and testing."
+    ]
+   }
+  ],
+  "education": [
+   {
+    "degree": "B.Tech Information Technology (CGPA 7.6/10)",
+    "institution": "IMS Engineering College (AKTU), Ghaziabad",
+    "years": "2019 – 2023",
+    "grade": "CGPA 7.6/10"
+   },
+   {
+    "degree": "12th (CBSE)",
+    "institution": "DPS Ghaziabad",
+    "years": "2019",
+    "grade": "82%"
+   }
+  ],
+  "certifications": [],
+  "publications": [],
+  "languages_known": [
+   "Hindi (native)",
+   "English (fluent)"
+  ],
+  "links": [
+   "linkedin.com/in/shreyagupta-webdev"
+  ],
+  "notice_period": "15 days",
+  "expected_ctc": "9 LPA",
+  "pii": {
+   "date_of_birth": null,
+   "gender": null,
+   "marital_status": null,
+   "photo_present": false,
+   "other": []
+  }
+ },
+ "resumes/HOY-2026-021/Tanvi_Joshi_CV_gamedev.pdf": {
+  "source_file": "resumes/HOY-2026-021/Tanvi_Joshi_CV_gamedev.pdf",
+  "contact": {
+   "name": "Tanvi Joshi",
+   "email": "tanvi.joshi.dev@gmail.com",
+   "phone": "+91 98901 63258",
+   "city": "Bengaluru"
+  },
+  "headline": "Senior Game Engine Programmer (C++)",
+  "summary": "Senior engine programmer with 7 years of hard C++ behind shipped titles: physics simulation, SIMD math libraries, and making frame budgets on fixed hardware. Looking to apply low-level performance engineering to quantitative finance, where the same discipline — fast, correct numerical code under strict budgets — decides outcomes.",
+  "skills": [
+   {
+    "category": "C++",
+    "items": [
+     "C++17/20",
+     "SIMD (SSE/AVX intrinsics)",
+     "lock-free structures",
+     "custom allocators",
+     "profiling (VTune, Tracy)",
+     "CMake",
+     "cross-platform builds"
+    ]
+   },
+   {
+    "category": "Math",
+    "items": [
+     "Numerical integration",
+     "linear algebra",
+     "collision/constraint solvers",
+     "floating-point determinism across platforms"
+    ]
+   },
+   {
+    "category": "Other",
+    "items": [
+     "Python tooling",
+     "Perforce/Git",
+     "mentoring (4 juniors)"
+    ]
+   }
+  ],
+  "experience": [
+   {
+    "title": "Senior Engine Programmer",
+    "company": "Mysuru Interactive",
+    "location": "Bengaluru",
+    "start": "2021-10",
+    "end": null,
+    "bullets": [
+     "Own the physics and math libraries for a cross-platform engine used in two shipped titles (4M+ combined downloads).",
+     "Rewrote the constraint solver with AVX2 SIMD: 3.8x throughput, enabling 5x more dynamic objects per scene.",
+     "Achieved cross-platform floating-point determinism for networked physics — the hardest correctness bug hunt of my career.",
+     "Mentor four junior programmers; run the studio's C++ guild."
+    ]
+   },
+   {
+    "title": "Gameplay/Engine Programmer",
+    "company": "OrangeLoop Games",
+    "location": "Pune",
+    "start": "2019-09",
+    "end": "2021-09",
+    "bullets": [
+     "Gameplay systems and engine optimization for mobile titles; hit 60fps targets on constrained hardware."
+    ]
+   }
+  ],
+  "education": [
+   {
+    "degree": "B.Tech Computer Engineering",
+    "institution": "COEP Technological University, Pune",
+    "years": "2015 – 2019",
+    "grade": null
+   }
+  ],
+  "certifications": [],
+  "publications": [
+   "\"Deterministic floats or bust\" — India Game Developer Conference (IGDC), Hyderabad 2024"
+  ],
+  "languages_known": [
+   "Marathi (native)",
+   "Hindi (fluent)",
+   "English (fluent)",
+   "Kannada (basic)"
+  ],
+  "links": [
+   "linkedin.com/in/tanvijoshi-engine"
+  ],
+  "notice_period": "45 days",
+  "expected_ctc": null,
+  "pii": {
+   "date_of_birth": null,
+   "gender": null,
+   "marital_status": null,
+   "photo_present": false,
+   "other": []
+  }
+ },
+ "resumes/HOY-2026-023/Adithya_Narayan_CV_2026.pdf": {
+  "source_file": "resumes/HOY-2026-023/Adithya_Narayan_CV_2026.pdf",
+  "contact": {
+   "name": "Adithya Narayan",
+   "email": "adithya.narayan.psy@gmail.com",
+   "phone": "+91 97416 85230",
+   "city": "Bengaluru"
+  },
+  "headline": "M.Sc. Graduate — Psychology (HRDM)",
+  "summary": "Recent M.Sc. graduate in Psychology (Human Resource Development & Management, distinction) with a research focus on hybrid-team wellbeing. One HR internship at a bank. Looking to start a career in HR where evidence-based people practices matter. Available immediately.",
+  "skills": [
+   {
+    "category": "Academic",
+    "items": [
+     "Survey design",
+     "statistics (R, SPSS)",
+     "literature synthesis",
+     "interview techniques"
+    ]
+   },
+   {
+    "category": "HR exposure",
+    "items": [
+     "Internship: engagement analytics",
+     "exit-interview coding",
+     "onboarding support"
+    ]
+   }
+  ],
+  "experience": [
+   {
+    "title": "HR Intern, People Analytics",
+    "company": "Vindhya Bank",
+    "location": "Bengaluru",
+    "start": "2025-09",
+    "end": "2026-02",
+    "bullets": [
+     "Analyzed two years of exit-interview data; themes presented to the head of HR.",
+     "Supported the annual engagement survey (5,000 respondents) data cleaning and reporting."
+    ]
+   },
+   {
+    "title": "Teaching Assistant, Statistics",
+    "company": "Christ University",
+    "location": "Bengaluru",
+    "start": "2024-08",
+    "end": "2025-06",
+    "bullets": [
+     "Tutorials for second-year psychology students."
+    ]
+   }
+  ],
+  "education": [
+   {
+    "degree": "M.Sc. Psychology (HRDM), distinction",
+    "institution": "Christ University",
+    "years": "2024 – 2026",
+    "grade": "distinction"
+   },
+   {
+    "degree": "BA Psychology (CGPA 8.6/10)",
+    "institution": "Christ University",
+    "years": "2021 – 2024",
+    "grade": "CGPA 8.6/10"
+   }
+  ],
+  "certifications": [],
+  "publications": [],
+  "languages_known": [
+   "Kannada (native)",
+   "English (fluent)",
+   "Hindi (fluent)",
+   "Telugu (working)"
+  ],
+  "links": [
+   "linkedin.com/in/adithyanarayan-orgpsy"
+  ],
+  "notice_period": "immediate",
+  "expected_ctc": null,
+  "pii": {
+   "date_of_birth": null,
+   "gender": null,
+   "marital_status": null,
+   "photo_present": false,
+   "other": []
+  }
+ },
+ "resumes/HOY-2026-023/Deepika_Menon_HRBP_CV.pdf": {
+  "source_file": "resumes/HOY-2026-023/Deepika_Menon_HRBP_CV.pdf",
+  "contact": {
+   "name": "Deepika Menon",
+   "email": "deepika.menon.hr@gmail.com",
+   "phone": "+91 98459 30176",
+   "city": "Bengaluru"
+  },
+  "headline": "HR Business Partner — Technology",
+  "summary": "HR Business Partner with 9 years in HR, the last five partnering a 400-person engineering organisation through growth, one restructuring and sustained attrition pressure. Evidence-driven: I bring attrition and mobility data to the table before opinions. POSH ICC member for three years; Darwinbox and Workday power user.",
+  "skills": [
+   {
+    "category": "HRBP",
+    "items": [
+     "Org design & role architecture",
+     "strategic workforce planning",
+     "complex ER casework",
+     "performance & talent cycles",
+     "compensation benchmarking (Radford/Aon data)"
+    ]
+   },
+   {
+    "category": "India practice",
+    "items": [
+     "Karnataka Shops & Establishments Act in practice",
+     "POSH Act compliance (ICC member)",
+     "PF/gratuity/ESI administration oversight",
+     "contract-workforce compliance",
+     "disciplinary inquiry management"
+    ]
+   },
+   {
+    "category": "Tools",
+    "items": [
+     "Darwinbox",
+     "Workday (reporting + core HCM)",
+     "Excel",
+     "Power BI (HR analytics)"
+    ]
+   }
+  ],
+  "experience": [
+   {
+    "title": "HR Business Partner — Engineering",
+    "company": "Quotient Labs (SaaS)",
+    "location": "Bengaluru",
+    "start": "2021-05",
+    "end": null,
+    "bullets": [
+     "Partner two engineering directors (400 employees) on org design, succession and workforce planning.",
+     "Led the people track of a restructuring affecting 60 roles: consultation, severance frameworks, redeployment of 22 engineers, zero litigation.",
+     "Cut regretted attrition from 22% to 13% in two years using stay-interview and pay-equity analysis programs.",
+     "Serve on the POSH Internal Committee; closed all cases within statutory timelines with documented inquiries.",
+     "Coach 14 engineering managers, half of them first-time leads; built the internal \"new manager\" curriculum."
+    ]
+   },
+   {
+    "title": "HR Advisor",
+    "company": "Quotient Labs (SaaS)",
+    "location": "Bengaluru",
+    "start": "2019-03",
+    "end": "2021-04",
+    "bullets": [
+     "First-line HR advice for 250 employees; managed long-term illness and performance cases end-to-end."
+    ]
+   },
+   {
+    "title": "HR Officer",
+    "company": "Chola Logistics",
+    "location": "Chennai",
+    "start": "2017-06",
+    "end": "2019-02",
+    "bullets": [
+     "HR operations and statutory compliance for a 900-employee logistics company."
+    ]
+   }
+  ],
+  "education": [
+   {
+    "degree": "MA Human Resource Management",
+    "institution": "Tata Institute of Social Sciences (TISS), Mumbai",
+    "years": "2015 – 2017",
+    "grade": null
+   },
+   {
+    "degree": "BBA",
+    "institution": "St. Teresa's College, Kochi",
+    "years": "2012 – 2015",
+    "grade": null
+   }
+  ],
+  "certifications": [],
+  "publications": [],
+  "languages_known": [
+   "Malayalam (native)",
+   "English (fluent)",
+   "Hindi (fluent)",
+   "Kannada (working)",
+   "Tamil (working)"
+  ],
+  "links": [
+   "linkedin.com/in/deepikamenon-hr"
+  ],
+  "notice_period": "60 days",
+  "expected_ctc": null,
+  "pii": {
+   "date_of_birth": null,
+   "gender": null,
+   "marital_status": null,
+   "photo_present": false,
+   "other": []
+  }
+ },
+ "resumes/HOY-2026-023/Joseph_Thomas_CV.pdf": {
+  "source_file": "resumes/HOY-2026-023/Joseph_Thomas_CV.pdf",
+  "contact": {
+   "name": "Joseph Thomas",
+   "email": "joseph.thomas.talent@gmail.com",
+   "phone": "+91 99805 41627",
+   "city": "Bengaluru"
+  },
+  "headline": "Senior Technical Recruiter — moving into HRBP",
+  "summary": "Senior technical recruiter with 7 years in-house and agency, the last four embedded with engineering leadership on headcount planning, leveling and internal mobility. I know how tech organisations actually work and want to broaden into the full HRBP role; completing SHRM-CP to close the ER/labour-law gap. Notice period: 30 days.",
+  "skills": [
+   {
+    "category": "Talent",
+    "items": [
+     "Full-cycle tech hiring (150+ engineering hires)",
+     "headcount & capacity planning with directors",
+     "leveling frameworks",
+     "internal mobility programs",
+     "offer/comp negotiation"
+    ]
+   },
+   {
+    "category": "Developing",
+    "items": [
+     "SHRM-CP (exam window Dec 2026)",
+     "people-analytics (built hiring & attrition dashboards in Power BI)"
+    ]
+   },
+   {
+    "category": "Tools",
+    "items": [
+     "Greenhouse",
+     "Darwinbox Recruit",
+     "Naukri RMS",
+     "LinkedIn Talent Insights",
+     "Power BI"
+    ]
+   }
+  ],
+  "experience": [
+   {
+    "title": "Senior Technical Recruiter",
+    "company": "PlayVista Streaming",
+    "location": "Bengaluru",
+    "start": "2022-01",
+    "end": null,
+    "bullets": [
+     "Partner with 3 engineering directors on annual headcount planning and quarterly re-forecasts (org of 260).",
+     "Designed the engineering leveling matrix with the VP Engineering; now the basis for promotion and pay decisions.",
+     "Hired 85 engineers across Bengaluru and Chennai; offer-to-join rate 81% in a market where 60% is typical.",
+     "Built the internal-mobility process that filled 30% of senior openings from within."
+    ]
+   },
+   {
+    "title": "Technical Recruiter",
+    "company": "TalentBridge Consultants (agency)",
+    "location": "Bengaluru",
+    "start": "2019-05",
+    "end": "2021-12",
+    "bullets": [
+     "360 recruitment for software roles at product companies and GCCs."
+    ]
+   }
+  ],
+  "education": [
+   {
+    "degree": "SHRM-CP — in progress",
+    "institution": "distance learning",
+    "years": "2025 – 2026",
+    "grade": null
+   },
+   {
+    "degree": "BA Economics",
+    "institution": "St. Joseph's College, Bengaluru",
+    "years": "2012 – 2015",
+    "grade": null
+   }
+  ],
+  "certifications": [],
+  "publications": [],
+  "languages_known": [
+   "Malayalam (native)",
+   "English (fluent)",
+   "Kannada (fluent)",
+   "Tamil (working)",
+   "Hindi (working)"
+  ],
+  "links": [
+   "linkedin.com/in/josephthomas-talent"
+  ],
+  "notice_period": "30 days",
+  "expected_ctc": null,
+  "pii": {
+   "date_of_birth": null,
+   "gender": null,
+   "marital_status": null,
+   "photo_present": false,
+   "other": []
+  }
+ },
+ "resumes/HOY-2026-023/Ritu_Verma_CV_2026.pdf": {
+  "source_file": "resumes/HOY-2026-023/Ritu_Verma_CV_2026.pdf",
+  "contact": {
+   "name": "Ritu Verma",
+   "email": "ritu.verma.hr@outlook.com",
+   "phone": "+91 96323 74850",
+   "city": "Bengaluru"
+  },
+  "headline": "HR Generalist / Junior HRBP",
+  "summary": "HR professional with 6 years across HR operations and advisory in organised retail, the last year in a junior HRBP\nrole. Hands-on with employee relations at scale and hungry for a full business-partner role in a more complex\nenvironment.",
+  "skills": [
+   {
+    "category": "HR",
+    "items": [
+     "ER casework (high-volume retail)",
+     "onboarding/offboarding at scale",
+     "absence management",
+     "performance cycle\nsupport",
+     "HR reporting",
+     "statutory compliance (PF/ESI/S&E registers)"
+    ]
+   },
+   {
+    "category": "Exposure",
+    "items": [
+     "Supported closure consultations for 6 stores (compliance under Karnataka S&E Act and ID Act)",
+     "seasonal contract-workforce management"
+    ]
+   },
+   {
+    "category": "Tools",
+    "items": [
+     "greytHR",
+     "SuccessFactors",
+     "Excel"
+    ]
+   }
+  ],
+  "experience": [
+   {
+    "title": "Junior HR Business Partner",
+    "company": "Mandala Retail Group",
+    "location": "Bengaluru",
+    "start": "2025-06",
+    "end": null,
+    "bullets": [
+     "Support the HRBP for 1,100 store employees across 34 locations; own ER casework up to formal warnings.",
+     "Contributed the data pack (attrition, contract mix) for closure consultations covering 6 stores.",
+     "Rolled out a new absence-management process; unplanned absence days down 9% in six months."
+    ]
+   },
+   {
+    "title": "HR Advisor",
+    "company": "Mandala Retail Group",
+    "location": "Bengaluru",
+    "start": "2022-02",
+    "end": "2025-05",
+    "bullets": [
+     "First-line advice for store managers on contracts, scheduling rules and statutory questions (approx. 30\ncases/week).",
+     "Coordinated seasonal hiring of 300+ temporary staff per year."
+    ]
+   },
+   {
+    "title": "HR Executive",
+    "company": "The Chancery Pavilion Hotel",
+    "location": "Bengaluru",
+    "start": "2020-09",
+    "end": "2022-01",
+    "bullets": [
+     "Contract administration, payroll input and onboarding logistics."
+    ]
+   }
+  ],
+  "education": [
+   {
+    "degree": "MBA (HR)",
+    "institution": "Jain University, Bengaluru",
+    "years": "2018 – 2020",
+    "grade": null
+   },
+   {
+    "degree": "BBA",
+    "institution": "Mount Carmel College, Bengaluru",
+    "years": "2015 – 2018",
+    "grade": null
+   }
+  ],
+  "certifications": [],
+  "publications": [],
+  "languages_known": [
+   "Hindi (native)",
+   "English (fluent)",
+   "Kannada (working)"
+  ],
+  "links": [
+   "linkedin.com/in/rituverma-hr"
+  ],
+  "notice_period": "45 days",
+  "expected_ctc": null,
+  "pii": {
+   "date_of_birth": null,
+   "gender": null,
+   "marital_status": null,
+   "photo_present": false,
+   "other": []
+  }
+ },
+ "resumes/HOY-2026-023/Simran_Kaur_Resume.pdf": {
+  "source_file": "resumes/HOY-2026-023/Simran_Kaur_Resume.pdf",
+  "contact": {
+   "name": "Simran Kaur",
+   "email": "simran.kaur.people@gmail.com",
+   "phone": "+91 95915 20638",
+   "city": "Bengaluru"
+  },
+  "headline": "People & Culture Coordinator",
+  "summary": "Energetic People & Culture Coordinator with 4 years of experience creating great employee experiences: onboarding, events, office wellbeing and internal comms. Ready for the next step as an HR Business Partner.",
+  "skills": [
+   {
+    "category": "People Ops",
+    "items": [
+     "Onboarding programs",
+     "employee events",
+     "internal communications",
+     "office management",
+     "engagement survey coordination"
+    ]
+   },
+   {
+    "category": "Tools",
+    "items": [
+     "greytHR",
+     "Slack",
+     "Notion",
+     "Canva",
+     "Excel (basic)"
+    ]
+   }
+  ],
+  "experience": [
+   {
+    "title": "People & Culture Coordinator",
+    "company": "Habitloop (SaaS startup)",
+    "location": "Bengaluru",
+    "start": "2024-03",
+    "end": null,
+    "bullets": [
+     "Run onboarding for 8-12 new joiners/month; first-week satisfaction score 4.7/5.",
+     "Organize quarterly offsites and monthly socials for a 180-person company.",
+     "Coordinate the annual engagement survey and share results decks."
+    ]
+   },
+   {
+    "title": "Office Manager",
+    "company": "Habitloop (SaaS startup)",
+    "location": "Bengaluru",
+    "start": "2022-07",
+    "end": "2024-02",
+    "bullets": [
+     "Office operations, vendor management, travel booking, front-of-house."
+    ]
+   }
+  ],
+  "education": [
+   {
+    "degree": "BA (Programme)",
+    "institution": "Delhi University (SOL)",
+    "years": "2017 – 2021",
+    "grade": null
+   }
+  ],
+  "certifications": [],
+  "publications": [],
+  "languages_known": [
+   "Punjabi (native)",
+   "Hindi (native)",
+   "English (fluent)"
+  ],
+  "links": [
+   "linkedin.com/in/simrankaur-people"
+  ],
+  "notice_period": "15 days",
+  "expected_ctc": null,
+  "pii": {
+   "date_of_birth": null,
+   "gender": null,
+   "marital_status": null,
+   "photo_present": false,
+   "other": []
+  }
+ },
+ "resumes/HOY-2026-025/Anjali_Bhattacharya_CV.pdf": {
+  "source_file": "resumes/HOY-2026-025/Anjali_Bhattacharya_CV.pdf",
+  "contact": {
+   "name": "Anjali Bhattacharya",
+   "email": "anjali.bhattacharya.eng@gmail.com",
+   "phone": "+91 98863 47921",
+   "city": "Bengaluru"
+  },
+  "headline": "Staff Software Engineer / Technical Lead",
+  "summary": "Staff engineer with 11 years building and modernizing transaction-heavy platforms, the last four as technical lead of a 12-engineer migration program (no direct reports, full technical accountability). Ready to move into formal engineering management: I already do the roadmap, stakeholder and mentoring work — I want the people responsibility that goes with it. Notice period: 60 days.",
+  "skills": [
+   {
+    "category": "Technical leadership",
+    "items": [
+     "Migration architecture (strangler pattern, CDC)",
+     "technical roadmaps",
+     "design review chairing",
+     "incident command",
+     "mentoring (8 engineers coached, 3 promoted)"
+    ]
+   },
+   {
+    "category": "Engineering",
+    "items": [
+     "Java",
+     "Kotlin",
+     "Kafka",
+     "PostgreSQL",
+     "AWS",
+     "Terraform",
+     "observability (Grafana/Prometheus)"
+    ]
+   },
+   {
+    "category": "Delivery",
+    "items": [
+     "Quarterly planning with product/ops stakeholders",
+     "risk registers",
+     "vendor technical evaluations"
+    ]
+   }
+  ],
+  "experience": [
+   {
+    "title": "Staff Engineer, Platform Modernization",
+    "company": "SettleChain Technologies (post-trade fintech)",
+    "location": "Bengaluru",
+    "start": "2022-05",
+    "end": null,
+    "bullets": [
+     "Technical lead of the settlement-engine replacement (12 engineers across 3 teams): architecture, sequencing and the reconciliation-first migration approach.",
+     "Designed the parallel-run framework that compared legacy and new engines on 100% of production traffic for 6 months before cutover; final discrepancy rate 0.0004%.",
+     "Chair the org's design-review board; mentored 8 engineers of whom 3 promoted to senior.",
+     "De-facto stand-in for the EM during a 4-month absence: ran 1:1s, quarterly planning and two hiring loops."
+    ]
+   },
+   {
+    "title": "Senior Software Engineer",
+    "company": "Suvarna Bank",
+    "location": "Bengaluru",
+    "start": "2018-08",
+    "end": "2022-04",
+    "bullets": [
+     "Built instant-payments services (Java/Kafka); led the technical side of the bank's UPI switch migration for the payments team.",
+     "Ran the guild that standardized CI/CD across 14 backend teams."
+    ]
+   },
+   {
+    "title": "Systems Engineer fi IT Analyst",
+    "company": "TCS (BFSI unit)",
+    "location": "Kolkata",
+    "start": "2015-07",
+    "end": "2018-07",
+    "bullets": [
+     "Core-system integrations for banking clients; earned the unit's top delivery rating twice."
+    ]
+   }
+  ],
+  "education": [
+   {
+    "degree": "B.Tech + M.Tech (dual) Computer Science & Engineering",
+    "institution": "IIT Kharagpur",
+    "years": "2010 – 2015",
+    "grade": null
+   }
+  ],
+  "certifications": [],
+  "publications": [],
+  "languages_known": [
+   "Bengali (native)",
+   "English (fluent)",
+   "Hindi (fluent)",
+   "Kannada (basic)"
+  ],
+  "links": [
+   "linkedin.com/in/anjalibhattacharya-staffeng"
+  ],
+  "notice_period": "60 days",
+  "expected_ctc": null,
+  "pii": {
+   "date_of_birth": null,
+   "gender": null,
+   "marital_status": null,
+   "photo_present": false,
+   "other": []
+  }
+ },
+ "resumes/HOY-2026-025/Geetha_K_CV.pdf": {
+  "source_file": "resumes/HOY-2026-025/Geetha_K_CV.pdf",
+  "contact": {
+   "name": "Geetha Krishnamurthy",
+   "email": "geetha.krishnamurthy.pm@outlook.com",
+   "phone": "+91 98452 91760",
+   "city": "Bengaluru"
+  },
+  "headline": "Senior IT Project Manager",
+  "summary": "Senior IT project manager with 10 years delivering infrastructure and application projects in banking and e-governance. PMP and Prince2 certified. Strong in planning, budget control and steering-committee management. Seeking an engineering-manager role to be closer to the teams.",
+  "skills": [
+   {
+    "category": "Project management",
+    "items": [
+     "Project/program planning",
+     "budget control (up to Rs. 65 crore)",
+     "RAID management",
+     "steering committees",
+     "vendor management",
+     "MS Project",
+     "Jira"
+    ]
+   },
+   {
+    "category": "Methods",
+    "items": [
+     "Prince2 Practitioner",
+     "PMP",
+     "SAFe 6.0 Agilist",
+     "ITIL v4"
+    ]
+   }
+  ],
+  "experience": [
+   {
+    "title": "Senior IT Project Manager",
+    "company": "Suvarna Bank",
+    "location": "Bengaluru",
+    "start": "2021-01",
+    "end": null,
+    "bullets": [
+     "Managed the datacenter-exit project (400 applications rehosted, Rs. 65 crore budget, delivered 2 months late against original baseline with approved change requests).",
+     "Run steering committees with CXO attendance; monthly RAID and budget reporting.",
+     "Coordinate 5 supplier teams across two system integrators."
+    ]
+   },
+   {
+    "title": "IT Project Manager",
+    "company": "CyberTree Solutions (e-governance projects)",
+    "location": "Bengaluru",
+    "start": "2016-09",
+    "end": "2020-12",
+    "bullets": [
+     "Delivered case-management system rollouts for two Karnataka state departments."
+    ]
+   }
+  ],
+  "education": [
+   {
+    "degree": "MCA",
+    "institution": "Bangalore University",
+    "years": "2010 – 2013",
+    "grade": null
+   },
+   {
+    "degree": "B.Sc. Computer Science",
+    "institution": "Maharani's Science College, Bengaluru",
+    "years": "2007 – 2010",
+    "grade": null
+   }
+  ],
+  "certifications": [
+   "PMP (2019)",
+   "Prince2 Practitioner (2017)",
+   "SAFe 6.0 Agilist (2023)"
+  ],
+  "publications": [],
+  "languages_known": [
+   "Kannada (native)",
+   "English (fluent)",
+   "Tamil (fluent)",
+   "Hindi (working)"
+  ],
+  "links": [
+   "linkedin.com/in/geethakrishnamurthy-pm"
+  ],
+  "notice_period": "60 days",
+  "expected_ctc": null,
+  "pii": {
+   "date_of_birth": null,
+   "gender": null,
+   "marital_status": null,
+   "photo_present": false,
+   "other": []
+  }
+ },
+ "resumes/HOY-2026-025/Naveen_Chandra_Resume_EM.pdf": {
+  "source_file": "resumes/HOY-2026-025/Naveen_Chandra_Resume_EM.pdf",
+  "contact": {
+   "name": "Naveen Chandra",
+   "email": "naveen.chandra.em@gmail.com",
+   "phone": "+91 96206 53184",
+   "city": "Bengaluru"
+  },
+  "headline": "Engineering Manager",
+  "summary": "Engineering manager with 9 years in software (6 as engineer, 3 managing) currently leading a product team of 6 at a quick-commerce company. Strong on team health, hiring and iterative delivery; looking for a larger canvas and a mission with more weight than shopping carts. Notice period: 60 days.",
+  "skills": [
+   {
+    "category": "Management",
+    "items": [
+     "Team of 6 (hired 4)",
+     "1:1s/coaching",
+     "performance cycles",
+     "agile delivery",
+     "quarterly OKR planning",
+     "incident process ownership"
+    ]
+   },
+   {
+    "category": "Technical",
+    "items": [
+     "Node.js/TypeScript",
+     "React",
+     "PostgreSQL",
+     "AWS (ECS)",
+     "event queues (SQS)",
+     "Datadog"
+    ]
+   },
+   {
+    "category": "Product",
+    "items": [
+     "Close partnership with PM/design",
+     "experiment-driven delivery"
+    ]
+   }
+  ],
+  "experience": [
+   {
+    "title": "Engineering Manager, Checkout",
+    "company": "FreshKart Retail",
+    "location": "Bengaluru",
+    "start": "2023-06",
+    "end": null,
+    "bullets": [
+     "Lead the checkout team (6 engineers): hiring, coaching, delivery; team eNPS consistently top-quartile.",
+     "Checkout conversion up 1.9pp through an experimentation roadmap with product; zero Sev1s in 18 months.",
+     "Introduced structured incident reviews adopted by all 9 product teams.",
+     "Promoted two mid-level engineers to senior with documented growth plans."
+    ]
+   },
+   {
+    "title": "Senior Software Engineer",
+    "company": "FreshKart Retail",
+    "location": "Bengaluru",
+    "start": "2021-03",
+    "end": "2023-05",
+    "bullets": [
+     "Rebuilt the payment-integration layer (PG failover across two aggregators); checkout availability from 99.7% to 99.95%."
+    ]
+   },
+   {
+    "title": "Software Engineer",
+    "company": "Mindtree",
+    "location": "Bengaluru",
+    "start": "2017-02",
+    "end": "2021-02",
+    "bullets": [
+     "Full-stack delivery for US retail clients; led a 3-person feature pod."
+    ]
+   }
+  ],
+  "education": [
+   {
+    "degree": "B.E. Computer Science & Engineering",
+    "institution": "SJCE (now JSS STU), Mysuru",
+    "years": "2012 – 2016",
+    "grade": null
+   }
+  ],
+  "certifications": [],
+  "publications": [],
+  "languages_known": [
+   "Telugu (native)",
+   "Kannada (fluent)",
+   "English (fluent)",
+   "Hindi (working)"
+  ],
+  "links": [
+   "linkedin.com/in/naveenchandra-em"
+  ],
+  "notice_period": "60 days",
+  "expected_ctc": null,
+  "pii": {
+   "date_of_birth": null,
+   "gender": null,
+   "marital_status": null,
+   "photo_present": false,
+   "other": []
+  }
+ },
+ "resumes/HOY-2026-025/Venkatesh_Murthy_CV_2026.pdf": {
+  "source_file": "resumes/HOY-2026-025/Venkatesh_Murthy_CV_2026.pdf",
+  "contact": {
+   "name": "Venkatesh Murthy",
+   "email": "venkatesh.murthy.em@gmail.com",
+   "phone": "+91 98440 17359",
+   "city": "Bengaluru"
+  },
+  "headline": "Engineering Manager — Core Banking",
+  "summary": "Engineering manager with 16 years in banking technology: 8 as an engineer, 6 leading teams, currently responsible for three teams (24 engineers) modernizing a retail core-banking estate. I run migrations the boring way: coexistence layers, reconciliation first, no big-bang cutover, and legacy engineers retrained instead of written off.",
+  "skills": [
+   {
+    "category": "Leadership",
+    "items": [
+     "Managing 3 teams / 24 engineers across two cities",
+     "hiring (35+ hires)",
+     "coaching senior ICs into leads",
+     "performance management incl. difficult cases"
+    ]
+   },
+   {
+    "category": "Delivery",
+    "items": [
+     "Multi-year migration roadmaps",
+     "dependency management across 20+ consumer systems",
+     "quarterly business reviews",
+     "budget ownership (Rs. 48 crore/yr)"
+    ]
+   },
+   {
+    "category": "Technical",
+    "items": [
+     "Event-driven architecture (Kafka)",
+     "CDC-based coexistence (Debezium/GoldenGate)",
+     "Java/Spring estates",
+     "legacy CBS coexistence patterns (customised Finacle + PL/SQL batch)",
+     "AWS"
+    ]
+   },
+   {
+    "category": "Regulated",
+    "items": [
+     "RBI IT examination responses",
+     "change-risk governance",
+     "DR-drill accountability",
+     "SI/vendor management (AMC and change-request commercials)"
+    ]
+   }
+  ],
+  "experience": [
+   {
+    "title": "Engineering Manager, Ledger & Accounts",
+    "company": "Vindhya Bank",
+    "location": "Bengaluru",
+    "start": "2020-04",
+    "end": null,
+    "bullets": [
+     "Lead three teams (24 engineers, Bengaluru + Chennai) executing the ledger migration off a heavily customised Finacle 7 estate to Java services on AWS.",
+     "Delivered the CDC-based coexistence layer keeping legacy and cloud ledgers reconciled to the paisa daily across 21M accounts — 26 months in production, zero unexplained breaks.",
+     "Migrated 4 of 7 ledger domains to the target stack with zero customer-facing downtime; sequencing survived two RBI IT examinations.",
+     "Retrained 6 legacy CBS engineers into the Java teams (internal program designed with HR); retention of critical legacy knowledge at 100%.",
+     "Manage the system-integrator AMC (Rs. 22 crore/yr) including the capacity step-down schedule."
+    ]
+   },
+   {
+    "title": "Team Lead, Payments Backend",
+    "company": "Vindhya Bank",
+    "location": "Bengaluru",
+    "start": "2018-01",
+    "end": "2020-03",
+    "bullets": [
+     "Led 8 engineers on the UPI and IMPS processing services through the bank's UPI 2.0 go-live; release cycle from monthly to weekly."
+    ]
+   },
+   {
+    "title": "Software Engineer fi Senior Engineer",
+    "company": "Vindhya Bank",
+    "location": "Bengaluru",
+    "start": "2010-09",
+    "end": "2017-12",
+    "bullets": [
+     "Core banking batch and online services (Java, PL/SQL, some legacy CBS customisation); on-call for financial-year-end closing runs."
+    ]
+   }
+  ],
+  "education": [
+   {
+    "degree": "M.S. Software Systems (WILP)",
+    "institution": "BITS Pilani (work-integrated)",
+    "years": "2012 – 2014",
+    "grade": null
+   },
+   {
+    "degree": "B.E. Computer Science & Engineering",
+    "institution": "UVCE, Bengaluru",
+    "years": "2005 – 2009",
+    "grade": null
+   }
+  ],
+  "certifications": [],
+  "publications": [],
+  "languages_known": [
+   "Kannada (native)",
+   "English (fluent)",
+   "Hindi (working)",
+   "Tamil (working)"
+  ],
+  "links": [
+   "linkedin.com/in/venkateshmurthy-em"
+  ],
+  "notice_period": "Notice period: 90 days (negotiable)",
+  "expected_ctc": null,
+  "pii": {
+   "date_of_birth": null,
+   "gender": null,
+   "marital_status": null,
+   "photo_present": false,
+   "other": []
+  }
+ },
+ "resumes/HOY-2026-025/abhishek_tiwari_cv_scrum.pdf": {
+  "source_file": "resumes/HOY-2026-025/abhishek_tiwari_cv_scrum.pdf",
+  "contact": {
+   "name": "Abhishek Tiwari",
+   "email": "abhishek.tiwari.agile@gmail.com",
+   "phone": "+91 97318 40265",
+   "city": "Bengaluru"
+  },
+  "headline": "Senior Scrum Master / Agile Coach",
+  "summary": "Passionate servant-leader with 6 years as scrum master and agile coach for software teams. I unlock team potential through\nfacilitation, coaching and continuous improvement. Looking to take the next step as engineering manager.",
+  "skills": [
+   {
+    "category": "Agile",
+    "items": [
+     "Scrum",
+     "Kanban",
+     "SAFe",
+     "retrospective facilitation",
+     "impediment removal",
+     "agile metrics (velocity, cycle time)",
+     "Jira/Confluence administration"
+    ]
+   },
+   {
+    "category": "Coaching",
+    "items": [
+     "Team coaching",
+     "workshop design",
+     "Management 3.0 practices"
+    ]
+   }
+  ],
+  "experience": [
+   {
+    "title": "Senior Scrum Master",
+    "company": "Suvarna Bank",
+    "location": "Bengaluru",
+    "start": "2022-03",
+    "end": null,
+    "bullets": [
+     "Scrum master for three backend teams; facilitate all ceremonies and quarterly PI planning.",
+     "Reduced average cycle time 30% through WIP limits and flow metrics.",
+     "Organize the bank's agile community of practice (150 members)."
+    ]
+   },
+   {
+    "title": "Scrum Master",
+    "company": "Infosys (EU insurance client)",
+    "location": "Pune",
+    "start": "2020-01",
+    "end": "2022-02",
+    "bullets": [
+     "Scrum master for two claims-processing teams."
+    ]
+   }
+  ],
+  "education": [
+   {
+    "degree": "BA",
+    "institution": "University of Lucknow",
+    "years": "2012 – 2015",
+    "grade": null
+   }
+  ],
+  "certifications": [
+   "PSM III (2024)",
+   "SAFe SPC (2023)",
+   "Management 3.0 (2021)"
+  ],
+  "publications": [],
+  "languages_known": [
+   "Hindi (native)",
+   "English (fluent)"
+  ],
+  "links": [
+   "linkedin.com/in/abhishektiwari-agile"
+  ],
+  "notice_period": "30\ndays",
+  "expected_ctc": null,
+  "pii": {
+   "date_of_birth": null,
+   "gender": null,
+   "marital_status": null,
+   "photo_present": false,
+   "other": []
+  }
+ },
+ "resumes/HOY-2026-027/Nandini_Hegde_CV_Product.pdf": {
+  "source_file": "resumes/HOY-2026-027/Nandini_Hegde_CV_Product.pdf",
+  "contact": {
+   "name": "Nandini Hegde",
+   "email": "nandini.hegde.product@gmail.com",
+   "phone": "+91 98861 05392",
+   "city": "Bengaluru"
+  },
+  "headline": "Senior Product Manager — Payments & Daily Banking",
+  "summary": "Product manager with 8 years on consumer mobile products, the last four owning payments and daily-banking domains at a Bengaluru neobank (800k MAU). I run a real experimentation practice — several of my favorite roadmap ideas are dead because the A/B test said so. Deep UPI and Account Aggregator experience. Notice period: 60 days.",
+  "skills": [
+   {
+    "category": "Product",
+    "items": [
+     "Continuous discovery",
+     "JTBD interviews",
+     "A/B testing at scale",
+     "funnel analytics (Amplitude, CleverTap)",
+     "OKR-driven roadmaps",
+     "stakeholder management incl. compliance/fraud"
+    ]
+   },
+   {
+    "category": "Domain",
+    "items": [
+     "UPI (AutoPay, Lite, RuPay credit on UPI)",
+     "payment requests",
+     "Account Aggregator (AA) framework features",
+     "video-KYC flows",
+     "RBI digital-lending guidelines awareness"
+    ]
+   },
+   {
+    "category": "Working style",
+    "items": [
+     "Two-squad PM (iOS/Android/backend)",
+     "dual-track agile",
+     "writes the problem statement first"
+    ]
+   }
+  ],
+  "experience": [
+   {
+    "title": "Senior Product Manager, Payments & Everyday Banking",
+    "company": "Kosh Money (neobank)",
+    "location": "Bengaluru",
+    "start": "2022-09",
+    "end": null,
+    "bullets": [
+     "Own the payments domain of an app with 800k MAU across two squads (14 people).",
+     "Shipped payment requests: 34% of P2P volume within a year; the feature now drives 22% of new-user referrals.",
+     "Ran 40+ A/B experiments in 2024-2025; killed a top-3 roadmap feature after painted-door testing showed 0.4% real intent, saving an estimated 2 quarters of build.",
+     "Led the Account Aggregator insights launch: 180k linked external accounts, NPS +6 for users with linked accounts.",
+     "Rebuilt onboarding after funnel analysis: activation (first UPI payment within 7 days) from 46% to 61%."
+    ]
+   },
+   {
+    "title": "Product Manager, Growth",
+    "company": "Kosh Money (neobank)",
+    "location": "Bengaluru",
+    "start": "2021-05",
+    "end": "2022-08",
+    "bullets": [
+     "Owned acquisition and onboarding funnels; built the experimentation cadence the company still uses."
+    ]
+   },
+   {
+    "title": "Product Manager",
+    "company": "TripKites (travel app)",
+    "location": "Bengaluru",
+    "start": "2018-06",
+    "end": "2021-04",
+    "bullets": [
+     "PM for a trip-planning app (1.2M downloads); introduced analytics-driven prioritization (Amplitude)."
+    ]
+   }
+  ],
+  "education": [
+   {
+    "degree": "MBA",
+    "institution": "IIM Bangalore",
+    "years": "2016 – 2018",
+    "grade": null
+   },
+   {
+    "degree": "B.E. Electronics & Communication",
+    "institution": "BMS College of Engineering (VTU), Bengaluru",
+    "years": "2010 – 2014",
+    "grade": null
+   }
+  ],
+  "certifications": [],
+  "publications": [],
+  "languages_known": [
+   "Kannada (native)",
+   "English (fluent)",
+   "Hindi (fluent)",
+   "Konkani (working)"
+  ],
+  "links": [
+   "linkedin.com/in/nandinihegde-product"
+  ],
+  "notice_period": "60 days",
+  "expected_ctc": null,
+  "pii": {
+   "date_of_birth": null,
+   "gender": null,
+   "marital_status": null,
+   "photo_present": false,
+   "other": []
+  }
+ },
+ "resumes/HOY-2026-027/Ramesh_Subramaniam_CV_2026.pdf": {
+  "source_file": "resumes/HOY-2026-027/Ramesh_Subramaniam_CV_2026.pdf",
+  "contact": {
+   "name": "Ramesh Subramaniam",
+   "email": "ramesh.subramaniam.ba@outlook.com",
+   "phone": "+91 98863 72041",
+   "city": "Bengaluru"
+  },
+  "headline": "Lead Business Analyst — Digital Banking",
+  "summary": "Lead business analyst with 7 years in digital banking, specialized in payments and onboarding journeys. I know UPI, the AA framework and the compliance landscape inside out and have shipped features used by millions — as the analyst behind the product manager. Ready to own the product role myself. Notice period: 90 days.",
+  "skills": [
+   {
+    "category": "Domain",
+    "items": [
+     "UPI (AutoPay, Lite, mandates)",
+     "Account Aggregator ecosystem",
+     "video-KYC/CKYC journeys",
+     "fraud-rule impact analysis",
+     "NPCI circular impact assessment"
+    ]
+   },
+   {
+    "category": "Craft",
+    "items": [
+     "Requirements elicitation",
+     "user-story mapping",
+     "process modeling (BPMN)",
+     "UAT coordination",
+     "stakeholder management across compliance/fraud/ops"
+    ]
+   },
+   {
+    "category": "Tools",
+    "items": [
+     "Jira",
+     "Confluence",
+     "Figma (annotation)",
+     "SQL (self-service analytics)",
+     "Power BI"
+    ]
+   }
+  ],
+  "experience": [
+   {
+    "title": "Lead Business Analyst, Digital Channels",
+    "company": "Suvarna Bank",
+    "location": "Bengaluru",
+    "start": "2022-10",
+    "end": null,
+    "bullets": [
+     "Lead analyst for the mobile-app payments squad (3.1M customers); wrote the requirements for the UPI AutoPay and payment-request releases.",
+     "Coordinated the Account Aggregator (FIU) compliance releases across 4 squads and the fraud/compliance chain.",
+     "Built the squad's self-service SQL dashboards after tiring of waiting for the data team.",
+     "Deputized for the product owner for one quarter (backlog, stakeholder demos)."
+    ]
+   },
+   {
+    "title": "Business Analyst",
+    "company": "Suvarna Bank",
+    "location": "Bengaluru",
+    "start": "2019-06",
+    "end": "2022-09",
+    "bullets": [
+     "Analyst for online onboarding; redesigned the video-KYC document flow, drop-off down 12pp."
+    ]
+   }
+  ],
+  "education": [
+   {
+    "degree": "MBA (Finance)",
+    "institution": "Symbiosis Institute of Business Management, Pune",
+    "years": "2017 – 2019",
+    "grade": null
+   },
+   {
+    "degree": "B.Com",
+    "institution": "Loyola College, Chennai",
+    "years": "2013 – 2016",
+    "grade": null
+   }
+  ],
+  "certifications": [
+   "ISB Executive Education: Product Management (2026)"
+  ],
+  "publications": [],
+  "languages_known": [
+   "Tamil (native)",
+   "English (fluent)",
+   "Hindi (working)",
+   "Kannada (working)"
+  ],
+  "links": [
+   "linkedin.com/in/rameshsubramaniam-ba"
+  ],
+  "notice_period": "90 days",
+  "expected_ctc": null,
+  "pii": {
+   "date_of_birth": null,
+   "gender": null,
+   "marital_status": null,
+   "photo_present": false,
+   "other": []
+  }
+ },
+ "resumes/HOY-2026-027/Rohan_Bhatia_CV.pdf": {
+  "source_file": "resumes/HOY-2026-027/Rohan_Bhatia_CV.pdf",
+  "contact": {
+   "name": "Rohan Bhatia",
+   "email": "rohan.bhatia.dm@gmail.com",
+   "phone": "+91 98105 74926",
+   "city": "Bengaluru"
+  },
+  "headline": "Digital Marketing Manager",
+  "summary": "Digital marketing manager with 6 years running performance campaigns and websites for consumer brands.\nExperienced with A/B testing of ads and landing pages. Looking to transition into product management for a\ndigital-first company.",
+  "skills": [
+   {
+    "category": "Marketing",
+    "items": [
+     "Google Ads",
+     "Meta Ads",
+     "SEO/SEA",
+     "email automation (WebEngage)",
+     "landing-page optimization",
+     "campaign A/B testing",
+     "Google Analytics 4"
+    ]
+   },
+   {
+    "category": "Other",
+    "items": [
+     "Basic HTML/CSS",
+     "Canva",
+     "agency management"
+    ]
+   }
+  ],
+  "experience": [
+   {
+    "title": "Digital Marketing Manager",
+    "company": "UrbanNest Furniture (D2C)",
+    "location": "Bengaluru",
+    "start": "2023-02",
+    "end": null,
+    "bullets": [
+     "Manage Rs. 19 crore annual ad spend across search and social; blended ROAS improved from 3.1 to 4.2.",
+     "Run landing-page A/B tests with the web agency (avg. +11% conversion on winners).",
+     "Coordinate the e-commerce roadmap with the external development agency."
+    ]
+   },
+   {
+    "title": "Performance Marketeer",
+    "company": "SocialPulse Media",
+    "location": "Bengaluru",
+    "start": "2020-08",
+    "end": "2023-01",
+    "bullets": [
+     "Managed paid-social accounts for 12 D2C clients."
+    ]
+   }
+  ],
+  "education": [
+   {
+    "degree": "MBA (Marketing)",
+    "institution": "NMIMS, Mumbai",
+    "years": "2018 – 2020",
+    "grade": null
+   },
+   {
+    "degree": "BBA",
+    "institution": "Symbiosis Centre for Management Studies, Pune",
+    "years": "2015 – 2018",
+    "grade": null
+   }
+  ],
+  "certifications": [],
+  "publications": [],
+  "languages_known": [
+   "Hindi (native)",
+   "English (fluent)",
+   "Punjabi (working)"
+  ],
+  "links": [
+   "linkedin.com/in/rohanbhatia-digital"
+  ],
+  "notice_period": "30 days",
+  "expected_ctc": null,
+  "pii": {
+   "date_of_birth": null,
+   "gender": null,
+   "marital_status": null,
+   "photo_present": false,
+   "other": []
+  }
+ },
+ "resumes/HOY-2026-027/Zara_Ahmed_CV.pdf": {
+  "source_file": "resumes/HOY-2026-027/Zara_Ahmed_CV.pdf",
+  "contact": {
+   "name": "Zara Ahmed",
+   "email": "zara.ahmed.product@gmail.com",
+   "phone": "+91 99012 63847",
+   "city": "Bengaluru"
+  },
+  "headline": "Product Leader / Founder (fintech)",
+  "summary": "Founder and product lead of Paisly, an Account Aggregator-based budgeting app that grew to 60k users before shutting down in 2025 when our Series A fell through. Three years of zero-to-one product work on India's open-finance rails, on top of a UX research background. I have made every product mistake once and am looking to bring the scar tissue to a team with distribution.",
+  "skills": [
+   {
+    "category": "Product",
+    "items": [
+     "Zero-to-one discovery",
+     "rapid prototyping",
+     "growth loops",
+     "retention analysis (Amplitude)",
+     "pricing experiments",
+     "app-store optimization"
+    ]
+   },
+   {
+    "category": "Domain",
+    "items": [
+     "Account Aggregator integration (via an AA TSP)",
+     "transaction categorization for Indian bank feeds",
+     "budgeting UX",
+     "DPDP-compliant data handling"
+    ]
+   },
+   {
+    "category": "Research",
+    "items": [
+     "User interviews (400+ logged)",
+     "usability testing",
+     "survey design"
+    ]
+   }
+  ],
+  "experience": [
+   {
+    "title": "Co-founder & Head of Product",
+    "company": "Paisly (budgeting app)",
+    "location": "Bengaluru",
+    "start": "2022-03",
+    "end": "2025-11",
+    "bullets": [
+     "Built and launched an AA-based budgeting app; 60k registered users, 22k MAU at peak, 4.5 Play Store rating.",
+     "Ran the full product loop solo: discovery, specs, analytics (Amplitude), releases with a 5-person eng team.",
+     "Improved 90-day retention from 8% to 27% over six iterations of the categorization and insights features.",
+     "Raised Rs. 7.5 crore in seed funding; shut the company down responsibly (user data migration window, DPDP-clean deletion) when Series A failed."
+    ]
+   },
+   {
+    "title": "UX Researcher",
+    "company": "Quotient Labs (SaaS)",
+    "location": "Bengaluru",
+    "start": "2019-01",
+    "end": "2022-02",
+    "bullets": [
+     "Research for fintech and retail clients; built the company's usability-testing practice."
+    ]
+   }
+  ],
+  "education": [
+   {
+    "degree": "M.Des Interaction Design",
+    "institution": "IDC School of Design, IIT Bombay",
+    "years": "2016 – 2018",
+    "grade": null
+   },
+   {
+    "degree": "B.Tech Information Technology",
+    "institution": "Jamia Millia Islamia, New Delhi",
+    "years": "2012 – 2016",
+    "grade": null
+   }
+  ],
+  "certifications": [],
+  "publications": [],
+  "languages_known": [
+   "Urdu (native)",
+   "Hindi (fluent)",
+   "English (fluent)",
+   "Kannada (basic)"
+  ],
+  "links": [
+   "linkedin.com/in/zaraahmed-fintech"
+  ],
+  "notice_period": null,
+  "expected_ctc": null,
+  "pii": {
+   "date_of_birth": null,
+   "gender": null,
+   "marital_status": null,
+   "photo_present": false,
+   "other": []
+  }
+ },
+ "resumes/HOY-2026-027/ishita_banerjee_portfolio_cv.pdf": {
+  "source_file": "resumes/HOY-2026-027/ishita_banerjee_portfolio_cv.pdf",
+  "contact": {
+   "name": "Ishita Banerjee",
+   "email": "ishita.banerjee.ux@gmail.com",
+   "phone": "+91 90070 36152",
+   "city": "Bengaluru"
+  },
+  "headline": "UX/UI Designer",
+  "summary": "UX/UI designer with 2 years of experience designing mobile-first interfaces. Fascinated by the product side of the work — I keep asking 'why are we building this?' and would love to grow into product management.",
+  "skills": [
+   {
+    "category": "Design",
+    "items": [
+     "Figma",
+     "prototyping",
+     "design systems",
+     "usability testing",
+     "accessibility",
+     "user flows",
+     "handoff documentation"
+    ]
+   },
+   {
+    "category": "Extras",
+    "items": [
+     "Basic SQL (self-taught)",
+     "Notion",
+     "Maze (unmoderated testing)"
+    ]
+   }
+  ],
+  "experience": [
+   {
+    "title": "UX/UI Designer",
+    "company": "Studio Katha",
+    "location": "Bengaluru",
+    "start": "2024-09",
+    "end": null,
+    "bullets": [
+     "Design mobile interfaces for healthcare and fintech clients; ran 20+ usability sessions.",
+     "Built a reusable design system that cut design-to-dev handoff time by a third.",
+     "Redesigned a pharmacy app's refill flow; task completion from 71% to 93% in testing."
+    ]
+   },
+   {
+    "title": "UX Design Intern",
+    "company": "Studio Katha",
+    "location": "Bengaluru",
+    "start": "2024-02",
+    "end": "2024-08",
+    "bullets": [
+     "Wireframes, user flows and testing support for client projects."
+    ]
+   }
+  ],
+  "education": [
+   {
+    "degree": "B.Des Communication Design",
+    "institution": "MIT Institute of Design, Pune",
+    "years": "2020 – 2024",
+    "grade": null
+   }
+  ],
+  "certifications": [],
+  "publications": [],
+  "languages_known": [
+   "Bengali (native)",
+   "Hindi (fluent)",
+   "English (fluent)"
+  ],
+  "links": [
+   "linkedin.com/in/ishitabanerjee-ux"
+  ],
+  "notice_period": "30 days",
+  "expected_ctc": null,
+  "pii": {
+   "date_of_birth": null,
+   "gender": null,
+   "marital_status": null,
+   "photo_present": false,
+   "other": []
+  }
+ }
+}
