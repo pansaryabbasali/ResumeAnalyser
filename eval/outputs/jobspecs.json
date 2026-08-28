@@ -1,0 +1,479 @@
+{
+ "HOY-2026-011": {
+  "req_id": "HOY-2026-011",
+  "title": "Senior Backend Engineer — Payments Platform",
+  "division": "Technology — Payments & Cards",
+  "location": "Bengaluru (Hoysala Digital Centre, Bellandur) — hybrid, min. 3 days on-site",
+  "employment_type": "Full-time, permanent",
+  "ctc_range": "₹30 – 45 LPA (fixed + variable), commensurate with experience",
+  "min_years_experience": 5.0,
+  "must_haves": [
+   {
+    "text": "5+ years of professional backend engineering experience on the JVM (Java and/or Kotlin) in high-volume production environments.",
+    "kind": "experience"
+   },
+   {
+    "text": "Strong experience with Spring Boot, Kafka and PostgreSQL/Oracle.",
+    "kind": "experience"
+   },
+   {
+    "text": "Hands-on experience running containerized workloads on Kubernetes in a public cloud (we run on AWS).",
+    "kind": "experience"
+   },
+   {
+    "text": "A track record of designing distributed systems for correctness under failure (idempotency, retries, outbox patterns).",
+    "kind": "experience"
+   },
+   {
+    "text": "Fluent professional English.",
+    "kind": "language"
+   }
+  ],
+  "nice_to_haves": [
+   {
+    "text": "Payments domain experience: UPI switch or TPAP integrations, IMPS/NEFT/RTGS, ISO 8583, ISO 20022 (pacs/camt), or card processing.",
+    "kind": "experience"
+   },
+   {
+    "text": "Kotlin in production.",
+    "kind": "skill"
+   },
+   {
+    "text": "Experience in a bank, PSP or fintech operating under RBI/NPCI regulation.",
+    "kind": "experience"
+   },
+   {
+    "text": "Familiarity with RBI master directions on digital payment security controls.",
+    "kind": "domain"
+   }
+  ],
+  "responsibilities": [
+   "Design, build and operate JVM microservices for UPI, IMPS and NEFT/RTGS payment flows, from initiation through reconciliation.",
+   "Deliver NPCI compliance and feature mandates (UPI Lite, AutoPay, RuPay credit on UPI) on unforgiving external deadlines.",
+   "Drive the ISO 8583 and ISO 20022 message-transformation services to full production coverage.",
+   "Work with Kafka-based event streaming as the backbone of the platform.",
+   "Own non-functional requirements: idempotency, exactly-once semantics, back-pressure, four-nines availability, and RBI incident-reporting timelines.",
+   "Participate in the team's on-call rotation and continuously improve runbooks.",
+   "Coach mid-level engineers through design and code review."
+  ],
+  "source_file": "HOY-2026-011_senior-backend-engineer-payments.md"
+ },
+ "HOY-2026-014": {
+  "req_id": "HOY-2026-014",
+  "title": "Site Reliability Engineer — Platform Reliability",
+  "division": "Technology — Infrastructure & Platform Services",
+  "location": "Bengaluru or Chennai — hybrid, min. 3 days on-site",
+  "employment_type": "Full-time, permanent",
+  "ctc_range": "₹24 – 38 LPA (fixed + variable)",
+  "min_years_experience": 4.0,
+  "must_haves": [
+   {
+    "text": "4+ years in SRE, DevOps or platform engineering roles running production systems.",
+    "kind": "experience"
+   },
+   {
+    "text": "Deep working knowledge of Kubernetes and at least one major cloud (AWS preferred).",
+    "kind": "skill"
+   },
+   {
+    "text": "Solid Terraform experience and Linux fundamentals.",
+    "kind": "experience"
+   },
+   {
+    "text": "Proficiency scripting/programming in Go or Python.",
+    "kind": "skill"
+   },
+   {
+    "text": "Hands-on experience with Prometheus-style monitoring and incident management.",
+    "kind": "experience"
+   },
+   {
+    "text": "Fluent professional English.",
+    "kind": "language"
+   }
+  ],
+  "nice_to_haves": [
+   {
+    "text": "Experience in banking, NBFC or another regulated, high-availability environment; familiarity with RBI IT outsourcing and cyber-resilience directions.",
+    "kind": "experience"
+   },
+   {
+    "text": "Kafka, Vault, service-mesh (Istio/Linkerd) operations.",
+    "kind": "skill"
+   },
+   {
+    "text": "CKA/CKS certification.",
+    "kind": "certification"
+   },
+   {
+    "text": "Experience introducing SLOs to an organization for the first time.",
+    "kind": "experience"
+   }
+  ],
+  "responsibilities": [
+   "Define and operationalize SLOs/error budgets with product teams.",
+   "Build and maintain infrastructure-as-code (Terraform) for our AWS and on-prem Kubernetes estates, within RBI data-localisation requirements.",
+   "Extend our observability stack (Prometheus, Grafana, Loki, OpenTelemetry).",
+   "Automate away recurring operational work in Go or Python.",
+   "Join a 24/7 on-call rotation across Bengaluru and Chennai; lead blameless post-incident reviews with RBI-reportable incidents handled to the clock.",
+   "Run RBI-mandated DR drills and chaos/failover exercises for critical payment systems, with audit-ready evidence."
+  ],
+  "source_file": "HOY-2026-014_site-reliability-engineer.md"
+ },
+ "HOY-2026-017": {
+  "req_id": "HOY-2026-017",
+  "title": "AI Engineer — Generative AI Center of Excellence",
+  "division": "Technology — Data & AI (GenAI Center of Excellence)",
+  "location": "Bengaluru (Hoysala Digital Centre, Bellandur) — hybrid, min. 3 days on-site",
+  "employment_type": "Full-time, permanent",
+  "ctc_range": "₹28 – 42 LPA (fixed + variable)",
+  "min_years_experience": 3.0,
+  "must_haves": [
+   {
+    "text": "3+ years of professional software or ML engineering experience in Python.",
+    "kind": "experience"
+   },
+   {
+    "text": "Hands-on production experience with LLM applications — RAG, structured output/function calling, prompt and context design (not only notebooks or POCs).",
+    "kind": "experience"
+   },
+   {
+    "text": "Experience with vector stores (e.g. pgvector, OpenSearch, Chroma, Pinecone) and embedding models.",
+    "kind": "experience"
+   },
+   {
+    "text": "Demonstrated approach to evaluating LLM systems beyond \"it looks good\" — golden sets, metrics, regression testing.",
+    "kind": "skill"
+   },
+   {
+    "text": "Solid engineering fundamentals: testing, CI/CD, containers, code review.",
+    "kind": "skill"
+   },
+   {
+    "text": "Fluent professional English.",
+    "kind": "language"
+   }
+  ],
+  "nice_to_haves": [
+   {
+    "text": "Experience in BFSI or another regulated industry; familiarity with RBI's FREE-AI framework, DPDP Act obligations, or model risk management.",
+    "kind": "experience"
+   },
+   {
+    "text": "Indic-language NLP experience (transliteration handling, code-mixed queries, Indic embeddings).",
+    "kind": "language"
+   },
+   {
+    "text": "Agent/tool-use architectures in production; open-weight model serving (vLLM).",
+    "kind": "skill"
+   },
+   {
+    "text": "MLOps stack experience (MLflow, model registries, feature stores).",
+    "kind": "experience"
+   },
+   {
+    "text": "Contributions to open-source AI tooling.",
+    "kind": "skill"
+   }
+  ],
+  "responsibilities": [
+   "Build retrieval-augmented generation (RAG) pipelines over the bank's document estate: ingestion, chunking, embedding, retrieval tuning, grounded generation with citations.",
+   "Design and automate evaluation: golden sets, LLM-as-judge with human calibration, regression gates in CI before any prompt or model change ships — including vernacular (Hindi/Kannada/Tamil) query sets.",
+   "Implement guardrails (input/output filtering, PII redaction under the DPDP Act, groundedness checks) and the logging needed for model risk management.",
+   "Integrate models via our internal model gateway (hosted LLM APIs and open-weight models on our own GPUs); optimize for cost and latency.",
+   "Ship production Python services (FastAPI, Docker, Kubernetes, GitHub Actions).",
+   "Pair with use-case teams across the bank to take pilots to production."
+  ],
+  "source_file": "HOY-2026-017_ai-engineer-genai.md"
+ },
+ "HOY-2026-019": {
+  "req_id": "HOY-2026-019",
+  "title": "Quantitative Researcher — Market Risk Models",
+  "division": "Risk Management — Market & Counterparty Risk Models",
+  "location": "Bengaluru (with periodic travel to the Mumbai dealing room)",
+  "employment_type": "Full-time, permanent",
+  "ctc_range": "₹35 – 55 LPA (fixed + variable)",
+  "min_years_experience": null,
+  "must_haves": [
+   {
+    "text": "M.Sc./M.Tech or PhD in a quantitative discipline (mathematics, physics, statistics, econometrics, quantitative finance or similar).",
+    "kind": "education"
+   },
+   {
+    "text": "Strong grounding in probability theory, stochastic processes and statistics.",
+    "kind": "skill"
+   },
+   {
+    "text": "Working knowledge of derivatives pricing (discounting, curve construction, Black-Scholes-type models, Greeks).",
+    "kind": "domain"
+   },
+   {
+    "text": "Strong Python; ability to read and contribute to C++ is a plus we test for.",
+    "kind": "skill"
+   },
+   {
+    "text": "Ability to explain quantitative results to non-quant stakeholders in fluent professional English.",
+    "kind": "language"
+   }
+  ],
+  "nice_to_haves": [
+   {
+    "text": "Direct experience with the RBI market-risk framework, FRTB (IMA or SA), IRRBB, or counterparty credit risk (SA-CCR, internal EPE models).",
+    "kind": "experience"
+   },
+   {
+    "text": "Experience in a bank's treasury, risk or model-validation quant team, or a rates/FX quant role at a primary dealer.",
+    "kind": "experience"
+   },
+   {
+    "text": "Experience presenting models during RBI inspections or to ALCO.",
+    "kind": "experience"
+   },
+   {
+    "text": "FRM/CQF; publications or open-source work in quantitative finance.",
+    "kind": "certification"
+   }
+  ],
+  "responsibilities": [
+   "Develop and maintain VaR/ES models for the trading book (G-Sec, SDL, OIS, FX), including risk-factor modeling, P&L attribution tests and non-modellable risk factor treatment under the FRTB-aligned parallel run.",
+   "Design and run backtesting frameworks; investigate breaches and drive remediation.",
+   "Build and improve pricing and sensitivity models for linear rates, FX and vanilla-option products used in risk calculations, consistent with FIMMDA valuation norms.",
+   "Implement research code in Python (production handover in C++ together with the quant development team).",
+   "Document models to internal model-governance standards and present to Model Validation, ALCO and RBI inspection teams.",
+   "Partner with Treasury on IRRBB scenario design (EVE/NII sensitivity under the prescribed shocks)."
+  ],
+  "source_file": "HOY-2026-019_quantitative-researcher-market-risk.md"
+ },
+ "HOY-2026-021": {
+  "req_id": "HOY-2026-021",
+  "title": "Quantitative Developer — Treasury & Markets Technology",
+  "division": "Treasury & Markets — Markets Technology",
+  "location": "Bengaluru (Hoysala Digital Centre, Bellandur) — hybrid, min. 4 days on-site",
+  "employment_type": "Full-time, permanent",
+  "ctc_range": "₹40 – 65 LPA base; discretionary performance bonus",
+  "min_years_experience": 4.0,
+  "must_haves": [
+   {
+    "text": "4+ years of professional C++ development (C++17 or later) on Linux in performance-sensitive systems.",
+    "kind": "experience"
+   },
+   {
+    "text": "Strong Python and experience exposing C++ to Python (pybind11, Cython or similar).",
+    "kind": "experience"
+   },
+   {
+    "text": "Solid numerical programming fundamentals: floating-point behavior, stability, vectorization, profiling.",
+    "kind": "skill"
+   },
+   {
+    "text": "Rigorous testing habits for numerical code.",
+    "kind": "skill"
+   },
+   {
+    "text": "Fluent professional English and the communication skills to work directly with trading and risk stakeholders.",
+    "kind": "language"
+   }
+  ],
+  "nice_to_haves": [
+   {
+    "text": "Knowledge of fixed-income mathematics: discounting, yield curves, swaps, FX forwards, vanilla options and Greeks; familiarity with Indian market conventions (G-Sec day counts, FBIL benchmarks, CCIL settlement).",
+    "kind": "domain"
+   },
+   {
+    "text": "Experience with QuantLib or an in-house pricing library at a bank, primary dealer, prop-trading firm or exchange-adjacent shop.",
+    "kind": "experience"
+   },
+   {
+    "text": "Algorithmic differentiation (AAD) experience.",
+    "kind": "experience"
+   },
+   {
+    "text": "Low-latency or HPC background (SIMD, cache-aware data structures, multithreading).",
+    "kind": "skill"
+   }
+  ],
+  "responsibilities": [
+   "Extend Rampart's C++ core: G-Sec and OIS curve construction, instrument pricing, sensitivities (algorithmic differentiation), scenario engines.",
+   "Maintain and improve the pybind11-based Python API that quants and risk managers script against.",
+   "Profile and optimize hot paths — intraday risk runs must complete within strict time budgets on a fixed compute envelope.",
+   "Harden numerical code: unit and regression test suites, reproducible builds, golden-number testing against model specifications and FIMMDA valuation checks.",
+   "Work daily with dealers, market-risk quants and the ALM desk on priorities.",
+   "Improve the platform: CMake build, CI pipelines, Linux runtime environment."
+  ],
+  "source_file": "HOY-2026-021_quantitative-developer-treasury-markets.md"
+ },
+ "HOY-2026-023": {
+  "req_id": "HOY-2026-023",
+  "title": "HR Business Partner — Technology",
+  "division": "Human Resources",
+  "location": "Bengaluru (Hoysala Digital Centre, Bellandur) — hybrid, min. 3 days on-site",
+  "employment_type": "Full-time, permanent",
+  "ctc_range": "₹18 – 30 LPA (fixed + variable)",
+  "min_years_experience": 6.0,
+  "must_haves": [
+   {
+    "text": "6+ years of progressive HR experience of which 3+ as an HR Business Partner or HR Manager for a substantial client group.",
+    "kind": "experience"
+   },
+   {
+    "text": "Demonstrable working knowledge of Indian employment law in practice (Karnataka S&E Act, POSH Act, PF/ESI/gratuity, contract labour) and disciplinary-inquiry processes.",
+    "kind": "skill"
+   },
+   {
+    "text": "Experience supporting reorganisations, insourcing/rebadging or large change programs.",
+    "kind": "experience"
+   },
+   {
+    "text": "A data-driven working style — comfortable building an argument from HR analytics.",
+    "kind": "skill"
+   },
+   {
+    "text": "Professional fluency in English; Kannada and/or Hindi strongly preferred.",
+    "kind": "language"
+   }
+  ],
+  "nice_to_haves": [
+   {
+    "text": "Experience partnering with technology/engineering organisations or GCCs.",
+    "kind": "experience"
+   },
+   {
+    "text": "Darwinbox or Workday experience.",
+    "kind": "experience"
+   },
+   {
+    "text": "Experience in banking, NBFC or another regulated sector.",
+    "kind": "experience"
+   },
+   {
+    "text": "Certification in coaching or organisational development; SHRM/CIPD credentials.",
+    "kind": "certification"
+   }
+  ],
+  "responsibilities": [
+   "Partner with Technology directors on org design, role architecture and strategic workforce planning for the Garuda transition, including vendor-to-bank insourcing (rebadging) of engineering roles.",
+   "Guide managers through complex employee-relations cases (performance improvement plans, disciplinary inquiries, long-term illness) compliant with the Karnataka Shops & Establishments Act and the bank's HR policy framework.",
+   "Support statutory compliance in partnership with the compliance team: POSH Act processes (including ICC case support), PF/gratuity/ESI questions, contract- workforce governance.",
+   "Use people analytics (attrition, engagement, internal mobility, pay-equity data) to ground advice in evidence — attrition in our technology population is the single biggest people-risk to Garuda.",
+   "Run the annual talent, performance and reward cycles for your client groups, including campus (NIT/IIT/IIIT) and lateral onboarding cohorts.",
+   "Coach engineering managers, many of whom are first-time people leaders."
+  ],
+  "source_file": "HOY-2026-023_hr-business-partner-technology.md"
+ },
+ "HOY-2026-025": {
+  "req_id": "HOY-2026-025",
+  "title": "Engineering Manager — Core Banking Modernization",
+  "division": "Technology — Core Banking",
+  "location": "Bengaluru (Hoysala Digital Centre, Bellandur) — hybrid, min. 4 days on-site",
+  "employment_type": "Full-time, permanent",
+  "ctc_range": "₹55 – 80 LPA (fixed + variable)",
+  "min_years_experience": 8.0,
+  "must_haves": [
+   {
+    "text": "8+ years in software engineering, of which 3+ years managing engineering teams (including managing at least ~8 engineers and hiring experience).",
+    "kind": "experience"
+   },
+   {
+    "text": "Demonstrated delivery of a large migration or modernization program in a complex estate (core systems, high-integrity data, many consumers).",
+    "kind": "skill"
+   },
+   {
+    "text": "Enough technical depth to challenge designs: distributed systems, data consistency, API/event integration patterns.",
+    "kind": "skill"
+   },
+   {
+    "text": "Experience with senior stakeholder and vendor/SI management.",
+    "kind": "experience"
+   },
+   {
+    "text": "Fluent professional English.",
+    "kind": "language"
+   }
+  ],
+  "nice_to_haves": [
+   {
+    "text": "Banking or NBFC experience; familiarity with RBI IT examinations and change-risk governance.",
+    "kind": "experience"
+   },
+   {
+    "text": "Legacy CBS coexistence experience (Finacle/BaNCS/Flexcube customisation landscapes alongside cloud services, CDC-based sync).",
+    "kind": "experience"
+   },
+   {
+    "text": "Experience leading distributed teams across cities.",
+    "kind": "experience"
+   },
+   {
+    "text": "Experience with strangler-fig migrations and event-driven architectures.",
+    "kind": "experience"
+   }
+  ],
+  "responsibilities": [
+   "Lead, grow and coach three cross-functional teams (~22 engineers, mixed seniority, two cities); hire with intent in a brutal talent market and develop your engineers.",
+   "Own delivery of the account/ledger migration roadmap: sequencing, risk management, dependency management with 15+ consuming systems.",
+   "Drive engineering quality: you are accountable for the reliability of both the legacy and target stacks during coexistence.",
+   "Manage senior stakeholders: program leadership, Operations, Risk, and the system-integrator vendor relationship (AMC and change-request commercials).",
+   "Balance transformation work against run-the-bank demands within a fixed budget.",
+   "Shape the target operating model as legacy workloads wind down, including reskilling paths for CBS-customisation engineers."
+  ],
+  "source_file": "HOY-2026-025_engineering-manager-core-banking.md"
+ },
+ "HOY-2026-027": {
+  "req_id": "HOY-2026-027",
+  "title": "Product Manager — Mobile Banking",
+  "division": "Retail & Digital Banking — Digital Channels",
+  "location": "Bengaluru (Hoysala Digital Centre, Bellandur) — hybrid, min. 3 days on-site",
+  "employment_type": "Full-time, permanent",
+  "ctc_range": "₹32 – 48 LPA (fixed + variable)",
+  "min_years_experience": 5.0,
+  "must_haves": [
+   {
+    "text": "5+ years of product management on consumer digital products, of which 2+ on a high-traffic mobile app.",
+    "kind": "experience"
+   },
+   {
+    "text": "A demonstrated experimentation practice: you can point to decisions changed by A/B tests or research you ran.",
+    "kind": "skill"
+   },
+   {
+    "text": "Fluency with product analytics tools (Amplitude, CleverTap, Mixpanel or similar) and the statistics to interpret them honestly.",
+    "kind": "skill"
+   },
+   {
+    "text": "Experience shipping with in-house engineering squads in an agile setting.",
+    "kind": "experience"
+   },
+   {
+    "text": "Excellent stakeholder communication in fluent professional English.",
+    "kind": "language"
+   }
+  ],
+  "nice_to_haves": [
+   {
+    "text": "Payments, banking or fintech domain knowledge (UPI ecosystem, Account Aggregator, video-KYC, digital-lending guidelines).",
+    "kind": "domain"
+   },
+   {
+    "text": "Kannada, Hindi or Tamil language skills (customer research is largely vernacular).",
+    "kind": "language"
+   },
+   {
+    "text": "Experience designing for first-time internet users / vernacular-first users.",
+    "kind": "experience"
+   },
+   {
+    "text": "A technical or data background.",
+    "kind": "skill"
+   }
+  ],
+  "responsibilities": [
+   "Own the roadmap and OKRs for the Payments & Daily Banking domain in the app.",
+   "Run continuous discovery: customer interviews (largely in Kannada, Hindi and Tamil), funnel analysis, painted-door and A/B experiments (we use Amplitude, CleverTap and an in-house experimentation platform).",
+   "Ship iteratively with your squads: write crisp problem statements, slice scope, make evidence-based trade-offs.",
+   "Exploit the Account Aggregator framework to build money-management features that wallet competitors can't easily copy.",
+   "Balance innovation with the realities of a bank: NPCI circular timelines, RBI digital-lending and payment-security guidelines, fraud patterns (mule accounts, social-engineering scams) and vernacular usability.",
+   "Align stakeholders across Fraud, Compliance, Operations and Branch Banking."
+  ],
+  "source_file": "HOY-2026-027_product-manager-mobile-banking.md"
+ }
+}

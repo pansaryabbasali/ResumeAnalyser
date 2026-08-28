@@ -22,13 +22,14 @@ import json
 from dataclasses import dataclass, field
 from pathlib import Path
 
-from resume_analyzer.models import ResumeProfile
+from resume_analyzer.models import JobSpec, ResumeProfile
 
 EVAL_DIR = Path(__file__).resolve().parent
 REPO_ROOT = EVAL_DIR.parent
 DATASET_DIR = REPO_ROOT / "dataset"
 LABELS_CSV = DATASET_DIR / "applications_log.csv"
 FIXTURE_JSON = EVAL_DIR / "fixtures" / "extraction_fixture.json"
+JD_FIXTURE_JSON = EVAL_DIR / "fixtures" / "jd_fixture.json"
 REPORTS_DIR = EVAL_DIR / "reports"
 
 OUTCOMES = ("advanced", "hold_second_review", "rejected")
@@ -186,6 +187,81 @@ def grade_extraction(
             passed = any(fact.expected.lower() in v.lower() for v in values)
             detail = "found" if passed else f"{fact.expected!r} not in {values!r}"
         report.results.append(FactResult(fact, passed, detail))
+    return report
+
+
+# --------------------------------------------------------------------------- JD grading
+
+
+@dataclass(frozen=True)
+class JdFact:
+    req_id: str
+    list_name: str  # "must_haves" | "nice_to_haves"
+    expected: str
+
+
+@dataclass
+class JdFactResult:
+    fact: JdFact
+    passed: bool
+    detail: str
+
+
+@dataclass
+class JdReport:
+    results: list[JdFactResult] = field(default_factory=list)
+
+    @property
+    def total(self) -> int:
+        return len(self.results)
+
+    @property
+    def passed(self) -> int:
+        return sum(1 for r in self.results if r.passed)
+
+    @property
+    def rate(self) -> float:
+        return self.passed / self.total if self.total else 0.0
+
+
+def load_jd_fixture(path: Path = JD_FIXTURE_JSON) -> list[JdFact]:
+    data = json.loads(path.read_text(encoding="utf-8"))
+    return [
+        JdFact(req_id=f["req_id"], list_name=f["list"], expected=f["expected"])
+        for f in data["facts"]
+    ]
+
+
+def grade_jd_extraction(
+    specs: dict[str, JobSpec], facts: list[JdFact] | None = None
+) -> JdReport:
+    """Grade parsed JobSpecs (keyed by req_id) against the JD answer key.
+
+    A fact passes only if the phrase appears in the NAMED list and NOT in the
+    other one — must/nice separation is exact by definition of the gate.
+    """
+    facts = facts if facts is not None else load_jd_fixture()
+    report = JdReport()
+    for fact in facts:
+        spec = specs.get(fact.req_id)
+        if spec is None:
+            report.results.append(JdFactResult(fact, False, "no JobSpec for this req"))
+            continue
+        named, other = ("must_haves", "nice_to_haves")
+        if fact.list_name == "nice_to_haves":
+            named, other = other, named
+        in_named = any(fact.expected.lower() in r.text.lower() for r in getattr(spec, named))
+        in_other = any(fact.expected.lower() in r.text.lower() for r in getattr(spec, other))
+        if in_named and not in_other:
+            report.results.append(JdFactResult(fact, True, "found, cleanly separated"))
+        elif not in_named:
+            report.results.append(
+                JdFactResult(fact, False, f"{fact.expected!r} missing from {named}")
+            )
+        else:
+            report.results.append(
+                JdFactResult(fact, False, f"{fact.expected!r} leaked into {other}")
+            )
     return report
 
 

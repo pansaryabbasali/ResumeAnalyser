@@ -1,0 +1,21 @@
+{
+  "description": "JD extraction answer key (M4): 16 facts, two per requisition. Each fact names a requirement list (must_haves or nice_to_haves) and a phrase that must appear in that list AND NOT in the other one - so a pass proves both extraction and exact must/nice separation. Grading: case-insensitive substring over each list's requirement texts.",
+  "facts": [
+    {"req_id": "HOY-2026-011", "list": "must_haves", "expected": "Spring Boot"},
+    {"req_id": "HOY-2026-011", "list": "nice_to_haves", "expected": "ISO 20022"},
+    {"req_id": "HOY-2026-014", "list": "must_haves", "expected": "Terraform"},
+    {"req_id": "HOY-2026-014", "list": "nice_to_haves", "expected": "CKA/CKS"},
+    {"req_id": "HOY-2026-017", "list": "must_haves", "expected": "vector stores"},
+    {"req_id": "HOY-2026-017", "list": "nice_to_haves", "expected": "vLLM"},
+    {"req_id": "HOY-2026-019", "list": "must_haves", "expected": "stochastic processes"},
+    {"req_id": "HOY-2026-019", "list": "nice_to_haves", "expected": "FRTB"},
+    {"req_id": "HOY-2026-021", "list": "must_haves", "expected": "pybind11"},
+    {"req_id": "HOY-2026-021", "list": "nice_to_haves", "expected": "QuantLib"},
+    {"req_id": "HOY-2026-023", "list": "must_haves", "expected": "POSH Act"},
+    {"req_id": "HOY-2026-023", "list": "nice_to_haves", "expected": "Darwinbox"},
+    {"req_id": "HOY-2026-025", "list": "must_haves", "expected": "8+ years"},
+    {"req_id": "HOY-2026-025", "list": "nice_to_haves", "expected": "Finacle"},
+    {"req_id": "HOY-2026-027", "list": "must_haves", "expected": "Amplitude"},
+    {"req_id": "HOY-2026-027", "list": "nice_to_haves", "expected": "Account Aggregator"}
+  ]
+}
