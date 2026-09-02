@@ -1,0 +1,2558 @@
+{
+ "APP-26-00117": {
+  "application_id": "APP-26-00117",
+  "req_id": "HOY-2026-011",
+  "resume_file": "resumes/HOY-2026-011/Karthik_Raghavan_Resume_2026.pdf",
+  "dimension_scores": [
+   {
+    "name": "skills & tools",
+    "score": 75.1,
+    "weight": 0.111,
+    "evidence": [
+     {
+      "source": "resume",
+      "field": "skills[0]",
+      "quote": "Languages: Java 21, Kotlin, SQL, Bash"
+     }
+    ],
+    "commentary": "best evidence 0.75"
+   },
+   {
+    "name": "experience & seniority",
+    "score": 75.1,
+    "weight": 0.667,
+    "evidence": [
+     {
+      "source": "resume",
+      "field": "skills[2]",
+      "quote": "Platform: Kafka, PostgreSQL, Oracle, Kubernetes (EKS), AWS, Terraform, GitHub Actions"
+     },
+     {
+      "source": "resume",
+      "field": "skills[2]",
+      "quote": "Platform: Kafka, PostgreSQL, Oracle, Kubernetes (EKS), AWS, Terraform, GitHub Actions"
+     },
+     {
+      "source": "resume",
+      "field": "skills[3]",
+      "quote": "Domain: UPI (switch + TPAP integrations), IMPS/NEFT, ISO 8583, ISO 20022 (pacs/camt), NPCI certification cycles, idempotency & outbox patterns"
+     }
+    ],
+    "commentary": "8.9 yrs vs 5+ required; context match 0.85; best evidence 1.00; best evidence 1.00"
+   },
+   {
+    "name": "domain",
+    "score": 25.0,
+    "weight": 0.111,
+    "evidence": [],
+    "commentary": "best evidence 0.25"
+   },
+   {
+    "name": "education & language",
+    "score": 44.1,
+    "weight": 0.111,
+    "evidence": [
+     {
+      "source": "resume",
+      "field": "languages_known",
+      "quote": "Tamil (native), English (fluent), Hindi (working), Kannada (basic)"
+     }
+    ],
+    "commentary": "best evidence 0.44"
+   }
+  ],
+  "overall_score": 70.5,
+  "strengths": [],
+  "gaps": [],
+  "red_flags": [],
+  "follow_up_questions": []
+ },
+ "APP-26-00131": {
+  "application_id": "APP-26-00131",
+  "req_id": "HOY-2026-014",
+  "resume_file": "resumes/HOY-2026-014/Arjun_Shetty_SRE_CV.pdf",
+  "dimension_scores": [
+   {
+    "name": "skills & tools",
+    "score": 91.2,
+    "weight": 0.4,
+    "evidence": [
+     {
+      "source": "resume",
+      "field": "certifications[0]",
+      "quote": "CKA (2023)"
+     },
+     {
+      "source": "resume",
+      "field": "experience[1].bullets[0]",
+      "quote": "Built Terraform-based AWS landing zones for 8 clients; migrated 3 clients from VM fleets to Kubernetes."
+     },
+     {
+      "source": "resume",
+      "field": "skills[0]",
+      "quote": "Platform: Kubernetes (EKS + bare-metal), AWS, Terraform, Helm, ArgoCD, Vault"
+     }
+    ],
+    "commentary": "best evidence 0.98; best evidence 0.82; best evidence 0.85"
+   },
+   {
+    "name": "experience & seniority",
+    "score": 61.3,
+    "weight": 0.5,
+    "evidence": [
+     {
+      "source": "resume",
+      "field": "skills[1]",
+      "quote": "Observability: Prometheus, Grafana, Loki, OpenTelemetry, PagerDuty"
+     },
+     {
+      "source": "resume",
+      "field": "experience[1].bullets[0]",
+      "quote": "Built Terraform-based AWS landing zones for 8 clients; migrated 3 clients from VM fleets to Kubernetes."
+     },
+     {
+      "source": "resume",
+      "field": "summary",
+      "quote": "SRE with 6 years keeping large Kubernetes platforms healthy, currently at an OTT streaming platform with\ncricket-night traffic spikes. I run incident command, define SLOs people actually use, and automate toil away in Go.\nComfortable being paged and even more comfortable making sure we get paged les"
+     }
+    ],
+    "commentary": "7.8 yrs vs 4+ required; context match 0.56; best evidence 0.92; best evidence 1.00"
+   },
+   {
+    "name": "education & language",
+    "score": 26.1,
+    "weight": 0.1,
+    "evidence": [],
+    "commentary": "best evidence 0.26"
+   }
+  ],
+  "overall_score": 73.3,
+  "strengths": [],
+  "gaps": [],
+  "red_flags": [],
+  "follow_up_questions": []
+ },
+ "APP-26-00162": {
+  "application_id": "APP-26-00162",
+  "req_id": "HOY-2026-017",
+  "resume_file": "resumes/HOY-2026-017/Aishwarya_Iyer_AI_Engineer.pdf",
+  "dimension_scores": [
+   {
+    "name": "skills & tools",
+    "score": 69.0,
+    "weight": 0.364,
+    "evidence": [
+     {
+      "source": "resume",
+      "field": "skills[0]",
+      "quote": "GenAI: RAG design, structured output, prompt/context engineering, LLM-as-judge with human calibration, guardrails (PII redaction, groundedness checks), agent/tool-use patterns"
+     },
+     {
+      "source": "resume",
+      "field": "skills[0]",
+      "quote": "GenAI: RAG design, structured output, prompt/context engineering, LLM-as-judge with human calibration, guardrails (PII redaction, groundedness checks), agent/tool-use patterns"
+     },
+     {
+      "source": "resume",
+      "field": "summary",
+      "quote": "AI engineer with 6 years across ML and GenAI, the last two shipping retrieval-augmented LLM systems to production for an insurer and an NBFC. I care about the unglamorous parts: golden sets, regression gates, guardrails, and knowing why the answer changed before the user does."
+     }
+    ],
+    "commentary": "best evidence 0.42; best evidence 0.37; best evidence 1.00"
+   },
+   {
+    "name": "experience & seniority",
+    "score": 66.9,
+    "weight": 0.455,
+    "evidence": [
+     {
+      "source": "resume",
+      "field": "skills[0]",
+      "quote": "GenAI: RAG design, structured output, prompt/context engineering, LLM-as-judge with human calibration, guardrails (PII redaction, groundedness checks), agent/tool-use patterns"
+     },
+     {
+      "source": "resume",
+      "field": "skills[1]",
+      "quote": "Stack: Python, FastAPI, pgvector, OpenSearch, LangGraph, Azure OpenAI, vLLM (Llama/Mistral), MLflow"
+     },
+     {
+      "source": "resume",
+      "field": "skills[1]",
+      "quote": "Stack: Python, FastAPI, pgvector, OpenSearch, LangGraph, Azure OpenAI, vLLM (Llama/Mistral), MLflow"
+     }
+    ],
+    "commentary": "5.8 yrs vs 3+ required; context match 0.40; best evidence 0.80; best evidence 0.78"
+   },
+   {
+    "name": "education & language",
+    "score": 60.7,
+    "weight": 0.182,
+    "evidence": [
+     {
+      "source": "resume",
+      "field": "experience[0].bullets[4]",
+      "quote": "Delivered a Hindi/Kannada intent-routing layer for an NBFC collections assistant (vernacular query normalization)."
+     },
+     {
+      "source": "resume",
+      "field": "languages_known",
+      "quote": "Tamil (native), English (fluent), Hindi (fluent), Kannada (working)"
+     }
+    ],
+    "commentary": "best evidence 0.54; best evidence 0.68"
+   }
+  ],
+  "overall_score": 63.6,
+  "strengths": [],
+  "gaps": [],
+  "red_flags": [],
+  "follow_up_questions": []
+ },
+ "APP-26-00179": {
+  "application_id": "APP-26-00179",
+  "req_id": "HOY-2026-021",
+  "resume_file": "resumes/HOY-2026-021/Aditya_Rao_QuantDev_CV.pdf",
+  "dimension_scores": [
+   {
+    "name": "skills & tools",
+    "score": 77.8,
+    "weight": 0.333,
+    "evidence": [
+     {
+      "source": "resume",
+      "field": "skills[0]",
+      "quote": "C++: C++20, templates, cache-aware design, SIMD (AVX2), multithreading, perf/VTune profiling, CMake, Catch2"
+     },
+     {
+      "source": "resume",
+      "field": "headline",
+      "quote": "Quantitative Developer (C++)"
+     },
+     {
+      "source": "resume",
+      "field": "skills[0]",
+      "quote": "C++: C++20, templates, cache-aware design, SIMD (AVX2), multithreading, perf/VTune profiling, CMake, Catch2"
+     }
+    ],
+    "commentary": "best evidence 0.67; best evidence 0.67; best evidence 1.00"
+   },
+   {
+    "name": "experience & seniority",
+    "score": 67.6,
+    "weight": 0.444,
+    "evidence": [
+     {
+      "source": "resume",
+      "field": "skills[0]",
+      "quote": "C++: C++20, templates, cache-aware design, SIMD (AVX2), multithreading, perf/VTune profiling, CMake, Catch2"
+     },
+     {
+      "source": "resume",
+      "field": "skills[2]",
+      "quote": "Quant: G-Sec/OIS curve construction, vol surfaces (SVI), Greeks via AAD (co-developed in-house tape), Monte Carlo and PDE\npricers, QuantLib (contributor: 2 merged PRs)"
+     },
+     {
+      "source": "resume",
+      "field": "skills[0]",
+      "quote": "C++: C++20, templates, cache-aware design, SIMD (AVX2), multithreading, perf/VTune profiling, CMake, Catch2"
+     }
+    ],
+    "commentary": "7.0 yrs vs 4+ required; context match 0.98; best evidence 0.66; best evidence 0.36"
+   },
+   {
+    "name": "domain",
+    "score": 57.6,
+    "weight": 0.111,
+    "evidence": [
+     {
+      "source": "resume",
+      "field": "skills[2]",
+      "quote": "Quant: G-Sec/OIS curve construction, vol surfaces (SVI), Greeks via AAD (co-developed in-house tape), Monte Carlo and PDE\npricers, QuantLib (contributor: 2 merged PRs)"
+     }
+    ],
+    "commentary": "best evidence 0.58"
+   },
+   {
+    "name": "education & language",
+    "score": 62.5,
+    "weight": 0.111,
+    "evidence": [
+     {
+      "source": "resume",
+      "field": "summary",
+      "quote": "Quantitative developer with 5 years building pricing and risk components in modern C++ at an options market maker on NSE.\nOwn the Greeks pipeline end-to-end: model code, pybind11 API, regression suite, and the latency budget. Strong fixed-income\nand vol-surface mathematics."
+     }
+    ],
+    "commentary": "best evidence 0.62"
+   }
+  ],
+  "overall_score": 70.6,
+  "strengths": [],
+  "gaps": [],
+  "red_flags": [],
+  "follow_up_questions": []
+ },
+ "APP-26-00204": {
+  "application_id": "APP-26-00204",
+  "req_id": "HOY-2026-019",
+  "resume_file": "resumes/HOY-2026-019/Priyanka_Venkatesan_CV.pdf",
+  "dimension_scores": [
+   {
+    "name": "skills & tools",
+    "score": 62.9,
+    "weight": 0.333,
+    "evidence": [
+     {
+      "source": "resume",
+      "field": "education[0]",
+      "quote": "PhD Applied Mathematics (stochastic analysis), IIT Bombay"
+     },
+     {
+      "source": "resume",
+      "field": "skills[1]",
+      "quote": "Code: Python (NumPy/SciPy/pandas, production risk libraries), C++ (contributor level), SQL, Git"
+     },
+     {
+      "source": "resume",
+      "field": "certifications[0]",
+      "quote": "FRM (2023)"
+     }
+    ],
+    "commentary": "best evidence 0.74; best evidence 0.65; best evidence 0.50"
+   },
+   {
+    "name": "experience & seniority",
+    "score": 70.5,
+    "weight": 0.333,
+    "evidence": [
+     {
+      "source": "resume",
+      "field": "summary",
+      "quote": "Market-risk quant with a PhD in applied mathematics from IIT Bombay and 4 years developing and defending internal models at a private-sector bank's treasury. Owned ES/VaR methodology through the FRTB parallel-run under RBI's draft guidelines, including P&L attribution testing and NMRF treatment, plu"
+     },
+     {
+      "source": "resume",
+      "field": "skills[2]",
+      "quote": "Governance: Model documentation, validation responses, RBI inspection Q&A support, FIMMDA valuation norms"
+     },
+     {
+      "source": "resume",
+      "field": "summary",
+      "quote": "Market-risk quant with a PhD in applied mathematics from IIT Bombay and 4 years developing and defending internal models at a private-sector bank's treasury. Owned ES/VaR methodology through the FRTB parallel-run under RBI's draft guidelines, including P&L attribution testing and NMRF treatment, plu"
+     }
+    ],
+    "commentary": "best evidence 0.96; best evidence 0.42; best evidence 0.73"
+   },
+   {
+    "name": "domain",
+    "score": 91.7,
+    "weight": 0.111,
+    "evidence": [
+     {
+      "source": "resume",
+      "field": "skills[0]",
+      "quote": "Quant: Expected Shortfall/VaR, FRTB (PLA tests, NMRF), risk-factor modeling, backtesting, Monte Carlo methods, G-Sec/OIS curve construction, vanilla-option pricing and Greeks, IRRBB (EVE/NII per RBI circular)"
+     }
+    ],
+    "commentary": "best evidence 0.92"
+   },
+   {
+    "name": "education & language",
+    "score": 46.7,
+    "weight": 0.222,
+    "evidence": [
+     {
+      "source": "resume",
+      "field": "education[0]",
+      "quote": "PhD Applied Mathematics (stochastic analysis), IIT Bombay"
+     },
+     {
+      "source": "resume",
+      "field": "experience[1]",
+      "quote": "Quantitative Analyst (rotational) — Vindhya Bank"
+     }
+    ],
+    "commentary": "best evidence 0.53; best evidence 0.41"
+   }
+  ],
+  "overall_score": 64.9,
+  "strengths": [],
+  "gaps": [],
+  "red_flags": [],
+  "follow_up_questions": []
+ },
+ "APP-26-00243": {
+  "application_id": "APP-26-00243",
+  "req_id": "HOY-2026-011",
+  "resume_file": "resumes/HOY-2026-011/SnehaKulkarni_CV.pdf",
+  "dimension_scores": [
+   {
+    "name": "skills & tools",
+    "score": 26.6,
+    "weight": 0.111,
+    "evidence": [],
+    "commentary": "best evidence 0.27"
+   },
+   {
+    "name": "experience & seniority",
+    "score": 59.6,
+    "weight": 0.667,
+    "evidence": [
+     {
+      "source": "resume",
+      "field": "skills[1]",
+      "quote": "Platform: Kafka, gRPC, PostgreSQL, Redis, Kubernetes (GKE), GCP, Terraform"
+     },
+     {
+      "source": "resume",
+      "field": "skills[1]",
+      "quote": "Platform: Kafka, gRPC, PostgreSQL, Redis, Kubernetes (GKE), GCP, Terraform"
+     },
+     {
+      "source": "resume",
+      "field": "skills[2]",
+      "quote": "Practices: Event-driven design, SLOs, load testing, incident command"
+     }
+    ],
+    "commentary": "9.0 yrs vs 5+ required; context match 0.40; best evidence 1.00; best evidence 0.94"
+   },
+   {
+    "name": "domain",
+    "score": 36.3,
+    "weight": 0.111,
+    "evidence": [
+     {
+      "source": "resume",
+      "field": "experience[2].bullets[0]",
+      "quote": "Backend services for a retail-banking client (Python, Oracle)."
+     }
+    ],
+    "commentary": "best evidence 0.36"
+   },
+   {
+    "name": "education & language",
+    "score": 35.8,
+    "weight": 0.111,
+    "evidence": [
+     {
+      "source": "resume",
+      "field": "languages_known",
+      "quote": "Marathi (native), English (fluent), Hindi (fluent), Kannada (basic)"
+     }
+    ],
+    "commentary": "best evidence 0.36"
+   }
+  ],
+  "overall_score": 62.2,
+  "strengths": [],
+  "gaps": [],
+  "red_flags": [],
+  "follow_up_questions": []
+ },
+ "APP-26-00289": {
+  "application_id": "APP-26-00289",
+  "req_id": "HOY-2026-014",
+  "resume_file": "resumes/HOY-2026-014/ANANTH_P_Resume_2026.pdf",
+  "dimension_scores": [
+   {
+    "name": "skills & tools",
+    "score": 91.4,
+    "weight": 0.4,
+    "evidence": [
+     {
+      "source": "resume",
+      "field": "skills[0]",
+      "quote": "Platform: Kubernetes (EKS), AWS, Terraform, Vault, Istio, Karpenter"
+     },
+     {
+      "source": "resume",
+      "field": "skills[0]",
+      "quote": "Platform: Kubernetes (EKS), AWS, Terraform, Vault, Istio, Karpenter"
+     },
+     {
+      "source": "resume",
+      "field": "certifications[0]",
+      "quote": "CKA (2022)"
+     }
+    ],
+    "commentary": "best evidence 1.00; best evidence 0.65; best evidence 1.00"
+   },
+   {
+    "name": "experience & seniority",
+    "score": 68.2,
+    "weight": 0.5,
+    "evidence": [
+     {
+      "source": "resume",
+      "field": "headline",
+      "quote": "Platform Engineer / SRE"
+     },
+     {
+      "source": "resume",
+      "field": "skills[1]",
+      "quote": "Observability: Prometheus, Grafana, CloudWatch, OpenSearch"
+     },
+     {
+      "source": "resume",
+      "field": "skills[0]",
+      "quote": "Platform: Kubernetes (EKS), AWS, Terraform, Vault, Istio, Karpenter"
+     }
+    ],
+    "commentary": "6.9 yrs vs 4+ required; context match 1.00; best evidence 0.87; best evidence 1.00"
+   },
+   {
+    "name": "education & language",
+    "score": 60.1,
+    "weight": 0.1,
+    "evidence": [
+     {
+      "source": "resume",
+      "field": "languages_known",
+      "quote": "Tamil (native), English (fluent), Hindi (working)"
+     }
+    ],
+    "commentary": "best evidence 0.60"
+   }
+  ],
+  "overall_score": 79.9,
+  "strengths": [],
+  "gaps": [],
+  "red_flags": [],
+  "follow_up_questions": []
+ },
+ "APP-26-00297": {
+  "application_id": "APP-26-00297",
+  "req_id": "HOY-2026-017",
+  "resume_file": "resumes/HOY-2026-017/CV_Rohit_Deshpande_DataScience.pdf",
+  "dimension_scores": [
+   {
+    "name": "skills & tools",
+    "score": 59.7,
+    "weight": 0.364,
+    "evidence": [
+     {
+      "source": "resume",
+      "field": "skills[1]",
+      "quote": "GenAI: OpenAI API, LangChain (POC level), embeddings, prompt design (internal pilot)"
+     },
+     {
+      "source": "resume",
+      "field": "skills[1]",
+      "quote": "GenAI: OpenAI API, LangChain (POC level), embeddings, prompt design (internal pilot)"
+     },
+     {
+      "source": "resume",
+      "field": "certifications[0]",
+      "quote": "DeepLearning.AI \"LLMs as Operating Systems\" (2026)"
+     }
+    ],
+    "commentary": "best evidence 0.41; best evidence 0.39; best evidence 0.59"
+   },
+   {
+    "name": "experience & seniority",
+    "score": 62.4,
+    "weight": 0.455,
+    "evidence": [
+     {
+      "source": "resume",
+      "field": "skills[2]",
+      "quote": "Stack: Python, SQL, Airflow, dbt, Azure ML, Power BI, Git"
+     },
+     {
+      "source": "resume",
+      "field": "skills[1]",
+      "quote": "GenAI: OpenAI API, LangChain (POC level), embeddings, prompt design (internal pilot)"
+     },
+     {
+      "source": "resume",
+      "field": "skills[0]",
+      "quote": "ML: scikit-learn, XGBoost, feature engineering, model monitoring, A/B testing, SHAP"
+     }
+    ],
+    "commentary": "6.8 yrs vs 3+ required; context match 0.40; best evidence 0.53; best evidence 0.86"
+   },
+   {
+    "name": "education & language",
+    "score": 75.3,
+    "weight": 0.182,
+    "evidence": [
+     {
+      "source": "resume",
+      "field": "skills[1]",
+      "quote": "GenAI: OpenAI API, LangChain (POC level), embeddings, prompt design (internal pilot)"
+     },
+     {
+      "source": "resume",
+      "field": "languages_known",
+      "quote": "Marathi (native), English (fluent), Hindi (fluent)"
+     }
+    ],
+    "commentary": "best evidence 0.55; best evidence 0.95"
+   }
+  ],
+  "overall_score": 60.9,
+  "strengths": [],
+  "gaps": [],
+  "red_flags": [],
+  "follow_up_questions": []
+ },
+ "APP-26-00331": {
+  "application_id": "APP-26-00331",
+  "req_id": "HOY-2026-019",
+  "resume_file": "resumes/HOY-2026-019/Sandeep_Krishnan_CV.pdf",
+  "dimension_scores": [
+   {
+    "name": "skills & tools",
+    "score": 59.9,
+    "weight": 0.333,
+    "evidence": [
+     {
+      "source": "resume",
+      "field": "skills[0]",
+      "quote": "Mathematics: Stochastic processes, SDEs, measure-theoretic probability, statistical inference, numerical PDEs, Markov Chain Monte Carlo"
+     },
+     {
+      "source": "resume",
+      "field": "summary",
+      "quote": "Theoretical physicist (PhD, TIFR Mumbai 2025; postdoc at ICTS Bengaluru) specializing in numerical methods for quantum field theory: large-scale Monte Carlo simulation, stochastic differential equations, high-performance C++/Python. Seeking to apply these methods in quantitative finance."
+     }
+    ],
+    "commentary": "best evidence 1.00; best evidence 0.30; best evidence 0.50"
+   },
+   {
+    "name": "experience & seniority",
+    "score": 4.9,
+    "weight": 0.333,
+    "evidence": [],
+    "commentary": "best evidence 0.15; best evidence 0.00; best evidence 0.00"
+   },
+   {
+    "name": "domain",
+    "score": 86.8,
+    "weight": 0.111,
+    "evidence": [
+     {
+      "source": "resume",
+      "field": "skills[2]",
+      "quote": "Finance: Self-study: Hull, Shreve (Stochastic Calculus for Finance I–II), QuantLib exercises"
+     }
+    ],
+    "commentary": "best evidence 0.87"
+   },
+   {
+    "name": "education & language",
+    "score": 54.0,
+    "weight": 0.222,
+    "evidence": [
+     {
+      "source": "resume",
+      "field": "summary",
+      "quote": "Theoretical physicist (PhD, TIFR Mumbai 2025; postdoc at ICTS Bengaluru) specializing in numerical methods for quantum field theory: large-scale Monte Carlo simulation, stochastic differential equations, high-performance C++/Python. Seeking to apply these methods in quantitative finance."
+     },
+     {
+      "source": "resume",
+      "field": "experience[1].bullets[1]",
+      "quote": "Supervised visiting students on stochastic simulation methods."
+     }
+    ],
+    "commentary": "best evidence 0.60; best evidence 0.48"
+   }
+  ],
+  "overall_score": 52.7,
+  "strengths": [],
+  "gaps": [],
+  "red_flags": [],
+  "follow_up_questions": []
+ },
+ "APP-26-00358": {
+  "application_id": "APP-26-00358",
+  "req_id": "HOY-2026-011",
+  "resume_file": "resumes/HOY-2026-011/Mohammed_Irfan_Java_Backend.pdf",
+  "dimension_scores": [
+   {
+    "name": "skills & tools",
+    "score": 27.3,
+    "weight": 0.111,
+    "evidence": [],
+    "commentary": "best evidence 0.27"
+   },
+   {
+    "name": "experience & seniority",
+    "score": 49.0,
+    "weight": 0.667,
+    "evidence": [
+     {
+      "source": "resume",
+      "field": "skills[2]",
+      "quote": "Platform: Kafka, PostgreSQL, Oracle, OpenShift, Jenkins, Grafana"
+     },
+     {
+      "source": "resume",
+      "field": "headline",
+      "quote": "Backend Engineer (Java)"
+     },
+     {
+      "source": "resume",
+      "field": "skills[2]",
+      "quote": "Platform: Kafka, PostgreSQL, Oracle, OpenShift, Jenkins, Grafana"
+     }
+    ],
+    "commentary": "4.0 yrs vs 5+ required; context match 0.93; best evidence 1.00; best evidence 0.52"
+   },
+   {
+    "name": "domain",
+    "score": 9.4,
+    "weight": 0.111,
+    "evidence": [],
+    "commentary": "best evidence 0.09"
+   },
+   {
+    "name": "education & language",
+    "score": 47.0,
+    "weight": 0.111,
+    "evidence": [
+     {
+      "source": "resume",
+      "field": "languages_known",
+      "quote": "Urdu (native), English (fluent), Hindi (fluent), Kannada (fluent)"
+     }
+    ],
+    "commentary": "best evidence 0.47"
+   }
+  ],
+  "overall_score": 50.2,
+  "strengths": [],
+  "gaps": [],
+  "red_flags": [],
+  "follow_up_questions": []
+ },
+ "APP-26-00374": {
+  "application_id": "APP-26-00374",
+  "req_id": "HOY-2026-021",
+  "resume_file": "resumes/HOY-2026-021/Farhan_Sheikh_CV.pdf",
+  "dimension_scores": [
+   {
+    "name": "skills & tools",
+    "score": 81.7,
+    "weight": 0.333,
+    "evidence": [
+     {
+      "source": "resume",
+      "field": "experience[0].bullets[1]",
+      "quote": "Latency work on the trade-capture path: p99 from 90ms to 11ms (lock-free queues, object pooling)."
+     },
+     {
+      "source": "resume",
+      "field": "skills[2]",
+      "quote": "Testing: Property-based testing, golden-file regression suites, Testcontainers"
+     },
+     {
+      "source": "resume",
+      "field": "skills[1]",
+      "quote": "Quant (in progress): C++20 (personal projects + QuantLib contributions), CQF module 4/6, Black-Scholes/binomial pricers, yield-curve bootstrapping, Greeks"
+     }
+    ],
+    "commentary": "best evidence 0.65; best evidence 0.80; best evidence 1.00"
+   },
+   {
+    "name": "experience & seniority",
+    "score": 46.2,
+    "weight": 0.444,
+    "evidence": [
+     {
+      "source": "resume",
+      "field": "summary",
+      "quote": "Senior backend engineer with 7 years in payments and post-trade systems on the JVM, deliberately retraining toward quantitative development: CQF (module 4 of 6), nightly C++ study with two merged QuantLib pull requests, and a personal options pricer in C++20. Looking for a team willing to bet on pro"
+     },
+     {
+      "source": "resume",
+      "field": "headline",
+      "quote": "Senior Software Engineer (Java) — transitioning to Quantitative Development"
+     }
+    ],
+    "commentary": "7.0 yrs vs 4+ required; context match 0.47; best evidence 0.20; best evidence 0.24"
+   },
+   {
+    "name": "domain",
+    "score": 76.4,
+    "weight": 0.111,
+    "evidence": [
+     {
+      "source": "resume",
+      "field": "skills[1]",
+      "quote": "Quant (in progress): C++20 (personal projects + QuantLib contributions), CQF module 4/6, Black-Scholes/binomial pricers, yield-curve bootstrapping, Greeks"
+     }
+    ],
+    "commentary": "best evidence 0.76"
+   },
+   {
+    "name": "education & language",
+    "score": 28.7,
+    "weight": 0.111,
+    "evidence": [],
+    "commentary": "best evidence 0.29"
+   }
+  ],
+  "overall_score": 56.8,
+  "strengths": [],
+  "gaps": [],
+  "red_flags": [],
+  "follow_up_questions": []
+ },
+ "APP-26-00385": {
+  "application_id": "APP-26-00385",
+  "req_id": "HOY-2026-023",
+  "resume_file": "resumes/HOY-2026-023/Deepika_Menon_HRBP_CV.pdf",
+  "dimension_scores": [
+   {
+    "name": "skills & tools",
+    "score": 69.4,
+    "weight": 0.333,
+    "evidence": [
+     {
+      "source": "resume",
+      "field": "skills[1]",
+      "quote": "India practice: Karnataka Shops & Establishments Act in practice, POSH Act compliance (ICC member), PF/gratuity/ESI administration oversight, contract-workforce compliance, disciplinary inquiry management"
+     },
+     {
+      "source": "resume",
+      "field": "skills[0]",
+      "quote": "HRBP: Org design & role architecture, strategic workforce planning, complex ER casework, performance & talent cycles, compensation benchmarking (Radford/Aon data)"
+     }
+    ],
+    "commentary": "best evidence 0.98; best evidence 0.78; best evidence 0.32"
+   },
+   {
+    "name": "experience & seniority",
+    "score": 49.1,
+    "weight": 0.556,
+    "evidence": [
+     {
+      "source": "resume",
+      "field": "summary",
+      "quote": "HR Business Partner with 9 years in HR, the last five partnering a 400-person engineering organisation through growth, one restructuring and sustained attrition pressure. Evidence-driven: I bring attrition and mobility data to the table before opinions. POSH ICC member for three years; Darwinbox and"
+     },
+     {
+      "source": "resume",
+      "field": "skills[2]",
+      "quote": "Tools: Darwinbox, Workday (reporting + core HCM), Excel, Power BI (HR analytics)"
+     },
+     {
+      "source": "resume",
+      "field": "headline",
+      "quote": "HR Business Partner — Technology"
+     }
+    ],
+    "commentary": "9.0 yrs vs 6+ required; context match 0.75; best evidence 0.17; best evidence 0.55"
+   },
+   {
+    "name": "education & language",
+    "score": 92.6,
+    "weight": 0.111,
+    "evidence": [
+     {
+      "source": "resume",
+      "field": "languages_known",
+      "quote": "Malayalam (native), English (fluent), Hindi (fluent), Kannada (working), Tamil (working)"
+     }
+    ],
+    "commentary": "best evidence 0.93"
+   }
+  ],
+  "overall_score": 66.8,
+  "strengths": [],
+  "gaps": [],
+  "red_flags": [],
+  "follow_up_questions": []
+ },
+ "APP-26-00402": {
+  "application_id": "APP-26-00402",
+  "req_id": "HOY-2026-025",
+  "resume_file": "resumes/HOY-2026-025/Venkatesh_Murthy_CV_2026.pdf",
+  "dimension_scores": [
+   {
+    "name": "skills & tools",
+    "score": 63.7,
+    "weight": 0.222,
+    "evidence": [
+     {
+      "source": "resume",
+      "field": "skills[2]",
+      "quote": "Technical: Event-driven architecture (Kafka), CDC-based coexistence (Debezium/GoldenGate), Java/Spring estates, legacy CBS coexistence patterns (customised Finacle + PL/SQL batch), AWS"
+     },
+     {
+      "source": "resume",
+      "field": "skills[1]",
+      "quote": "Delivery: Multi-year migration roadmaps, dependency management across 20+ consumer systems, quarterly business reviews, budget ownership (Rs. 48 crore/yr)"
+     }
+    ],
+    "commentary": "best evidence 0.46; best evidence 0.81"
+   },
+   {
+    "name": "experience & seniority",
+    "score": 75.4,
+    "weight": 0.667,
+    "evidence": [
+     {
+      "source": "resume",
+      "field": "skills[2]",
+      "quote": "Technical: Event-driven architecture (Kafka), CDC-based coexistence (Debezium/GoldenGate), Java/Spring estates, legacy CBS coexistence patterns (customised Finacle + PL/SQL batch), AWS"
+     },
+     {
+      "source": "resume",
+      "field": "skills[0]",
+      "quote": "Leadership: Managing 3 teams / 24 engineers across two cities, hiring (35+ hires), coaching senior ICs into leads, performance management incl. difficult cases"
+     },
+     {
+      "source": "resume",
+      "field": "skills[0]",
+      "quote": "Leadership: Managing 3 teams / 24 engineers across two cities, hiring (35+ hires), coaching senior ICs into leads, performance management incl. difficult cases"
+     }
+    ],
+    "commentary": "15.8 yrs vs 8+ required; context match 0.70; best evidence 0.48; best evidence 0.70"
+   },
+   {
+    "name": "education & language",
+    "score": 45.9,
+    "weight": 0.111,
+    "evidence": [
+     {
+      "source": "resume",
+      "field": "languages_known",
+      "quote": "Kannada (native), English (fluent), Hindi (working), Tamil (working)"
+     }
+    ],
+    "commentary": "best evidence 0.46"
+   }
+  ],
+  "overall_score": 65.9,
+  "strengths": [],
+  "gaps": [],
+  "red_flags": [],
+  "follow_up_questions": []
+ },
+ "APP-26-00420": {
+  "application_id": "APP-26-00420",
+  "req_id": "HOY-2026-017",
+  "resume_file": "resumes/HOY-2026-017/KavyaNambiar_CV_academic.pdf",
+  "dimension_scores": [
+   {
+    "name": "skills & tools",
+    "score": 53.2,
+    "weight": 0.364,
+    "evidence": [
+     {
+      "source": "resume",
+      "field": "experience[1].bullets[0]",
+      "quote": "Worked on inference-efficiency benchmarks for production serving stacks."
+     },
+     {
+      "source": "resume",
+      "field": "experience[1].bullets[0]",
+      "quote": "Worked on inference-efficiency benchmarks for production serving stacks."
+     },
+     {
+      "source": "resume",
+      "field": "experience[1].bullets[0]",
+      "quote": "Worked on inference-efficiency benchmarks for production serving stacks."
+     }
+    ],
+    "commentary": "best evidence 0.46; best evidence 0.37; best evidence 0.69"
+   },
+   {
+    "name": "experience & seniority",
+    "score": 48.5,
+    "weight": 0.455,
+    "evidence": [
+     {
+      "source": "resume",
+      "field": "experience[0].bullets[2]",
+      "quote": "Teaching assistant for the M.Tech \"Natural Language Understanding\" course (3 years)."
+     },
+     {
+      "source": "resume",
+      "field": "experience[0].bullets[0]",
+      "quote": "Thesis: \"Memory-Efficient Inference for Autoregressive Language Models\" — three first-author papers (ACL 2025, EMNLP 2024, ACL 2024 Findings)."
+     },
+     {
+      "source": "resume",
+      "field": "skills[1]",
+      "quote": "Stack: Python, PyTorch, Hugging Face, CUDA (basic), vLLM (research use), LaTeX, Git"
+     }
+    ],
+    "commentary": "3.8 yrs vs 3+ required; context match 0.71; best evidence 0.25; best evidence 0.83"
+   },
+   {
+    "name": "education & language",
+    "score": 72.1,
+    "weight": 0.182,
+    "evidence": [
+     {
+      "source": "resume",
+      "field": "skills[0]",
+      "quote": "Research: Transformer architectures, efficient inference (quantization, KV-cache compression, speculative decoding), retrieval-augmented generation, Indic-language evaluation methodology"
+     },
+     {
+      "source": "resume",
+      "field": "experience[0].bullets[2]",
+      "quote": "Teaching assistant for the M.Tech \"Natural Language Understanding\" course (3 years)."
+     }
+    ],
+    "commentary": "best evidence 0.52; best evidence 0.92"
+   }
+  ],
+  "overall_score": 54.7,
+  "strengths": [],
+  "gaps": [],
+  "red_flags": [],
+  "follow_up_questions": []
+ },
+ "APP-26-00435": {
+  "application_id": "APP-26-00435",
+  "req_id": "HOY-2026-027",
+  "resume_file": "resumes/HOY-2026-027/Nandini_Hegde_CV_Product.pdf",
+  "dimension_scores": [
+   {
+    "name": "skills & tools",
+    "score": 34.4,
+    "weight": 0.333,
+    "evidence": [
+     {
+      "source": "resume",
+      "field": "skills[0]",
+      "quote": "Product: Continuous discovery, JTBD interviews, A/B testing at scale, funnel analytics (Amplitude, CleverTap), OKR-driven roadmaps, stakeholder management incl. compliance/fraud"
+     }
+    ],
+    "commentary": "best evidence 0.30; best evidence 0.61; best evidence 0.13"
+   },
+   {
+    "name": "experience & seniority",
+    "score": 46.5,
+    "weight": 0.333,
+    "evidence": [
+     {
+      "source": "resume",
+      "field": "summary",
+      "quote": "Product manager with 8 years on consumer mobile products, the last four owning payments and daily-banking domains at a Bengaluru neobank (800k MAU). I run a real experimentation practice — several of my favorite roadmap ideas are dead because the A/B test said so. Deep UPI and Account Aggregator exp"
+     },
+     {
+      "source": "resume",
+      "field": "skills[2]",
+      "quote": "Working style: Two-squad PM (iOS/Android/backend), dual-track agile, writes the problem statement first"
+     }
+    ],
+    "commentary": "8.0 yrs vs 5+ required; context match 0.45; best evidence 0.50; best evidence 0.17"
+   },
+   {
+    "name": "domain",
+    "score": 100.0,
+    "weight": 0.111,
+    "evidence": [
+     {
+      "source": "resume",
+      "field": "skills[1]",
+      "quote": "Domain: UPI (AutoPay, Lite, RuPay credit on UPI), payment requests, Account Aggregator (AA) framework features, video-KYC flows, RBI digital-lending guidelines awareness"
+     }
+    ],
+    "commentary": "best evidence 1.00"
+   },
+   {
+    "name": "education & language",
+    "score": 69.9,
+    "weight": 0.222,
+    "evidence": [
+     {
+      "source": "resume",
+      "field": "languages_known",
+      "quote": "Kannada (native), English (fluent), Hindi (fluent), Konkani (working)"
+     },
+     {
+      "source": "resume",
+      "field": "skills[0]",
+      "quote": "Product: Continuous discovery, JTBD interviews, A/B testing at scale, funnel analytics (Amplitude, CleverTap), OKR-driven roadmaps, stakeholder management incl. compliance/fraud"
+     }
+    ],
+    "commentary": "best evidence 0.50; best evidence 0.90"
+   }
+  ],
+  "overall_score": 53.2,
+  "strengths": [],
+  "gaps": [],
+  "red_flags": [],
+  "follow_up_questions": []
+ },
+ "APP-26-00446": {
+  "application_id": "APP-26-00446",
+  "req_id": "HOY-2026-014",
+  "resume_file": "resumes/HOY-2026-014/Suresh_Gowda_CV_2026.pdf",
+  "dimension_scores": [
+   {
+    "name": "skills & tools",
+    "score": 71.3,
+    "weight": 0.4,
+    "evidence": [
+     {
+      "source": "resume",
+      "field": "skills[2]",
+      "quote": "Learning: Kubernetes (CKA 2026, homelab k3s cluster), Terraform (personal projects), Prometheus (homelab)"
+     },
+     {
+      "source": "resume",
+      "field": "certifications[0]",
+      "quote": "CKA — Certified Kubernetes Administrator (2026)"
+     },
+     {
+      "source": "resume",
+      "field": "skills[0]",
+      "quote": "Systems: RHEL/CentOS, VMware vSphere, iSCSI/NFS storage, HAProxy, DNS/DHCP, PostgreSQL admin"
+     }
+    ],
+    "commentary": "best evidence 1.00; best evidence 0.44; best evidence 0.46"
+   },
+   {
+    "name": "experience & seniority",
+    "score": 52.4,
+    "weight": 0.5,
+    "evidence": [
+     {
+      "source": "resume",
+      "field": "experience[0].bullets[3]",
+      "quote": "Migrated monitoring from Nagios to Prometheus/Grafana (self-initiated)."
+     },
+     {
+      "source": "resume",
+      "field": "skills[2]",
+      "quote": "Learning: Kubernetes (CKA 2026, homelab k3s cluster), Terraform (personal projects), Prometheus (homelab)"
+     },
+     {
+      "source": "resume",
+      "field": "summary",
+      "quote": "Senior systems administrator with 11 years running mission-critical on-prem infrastructure (Linux, VMware, storage, networking),\nincluding four years in a bank data centre with RBI-mandated DR drills. Certified Kubernetes Administrator (2026); actively\nre-skilling toward cloud-native platform work w"
+     }
+    ],
+    "commentary": "11.1 yrs vs 4+ required; context match 0.37; best evidence 0.89; best evidence 0.96"
+   },
+   {
+    "name": "education & language",
+    "score": 35.1,
+    "weight": 0.1,
+    "evidence": [
+     {
+      "source": "resume",
+      "field": "languages_known",
+      "quote": "Kannada (native), English (fluent), Hindi (working), Telugu (working)"
+     }
+    ],
+    "commentary": "best evidence 0.35"
+   }
+  ],
+  "overall_score": 63.4,
+  "strengths": [],
+  "gaps": [],
+  "red_flags": [],
+  "follow_up_questions": []
+ },
+ "APP-26-00468": {
+  "application_id": "APP-26-00468",
+  "req_id": "HOY-2026-019",
+  "resume_file": "resumes/HOY-2026-019/Neha_Agarwal_Actuary_CV.pdf",
+  "dimension_scores": [
+   {
+    "name": "skills & tools",
+    "score": 23.4,
+    "weight": 0.333,
+    "evidence": [
+     {
+      "source": "resume",
+      "field": "experience[1].bullets[0]",
+      "quote": "Built stochastic mortality and lapse models; automated the quarterly solvency calculation in R."
+     }
+    ],
+    "commentary": "best evidence 0.42; best evidence 0.20; best evidence 0.08"
+   },
+   {
+    "name": "experience & seniority",
+    "score": 25.6,
+    "weight": 0.333,
+    "evidence": [
+     {
+      "source": "resume",
+      "field": "experience[0].bullets[0]",
+      "quote": "Own the market-risk module of the internal economic-capital model (interest-rate, equity, spread risk) covering a Rs. 1.9 lakh crore balance sheet."
+     }
+    ],
+    "commentary": "best evidence 0.50; best evidence 0.10; best evidence 0.17"
+   },
+   {
+    "name": "domain",
+    "score": 69.2,
+    "weight": 0.111,
+    "evidence": [
+     {
+      "source": "resume",
+      "field": "skills[0]",
+      "quote": "Modeling: Economic capital and risk-based capital modeling, economic scenario generators, stochastic simulation, calibration, model backtesting, stress testing"
+     }
+    ],
+    "commentary": "best evidence 0.69"
+   },
+   {
+    "name": "education & language",
+    "score": 36.4,
+    "weight": 0.222,
+    "evidence": [
+     {
+      "source": "resume",
+      "field": "education[1]",
+      "quote": "B.Sc. (Hons.) Statistics, Sri Venkateswara College, University of Delhi"
+     }
+    ],
+    "commentary": "best evidence 0.46; best evidence 0.27"
+   }
+  ],
+  "overall_score": 35.9,
+  "strengths": [],
+  "gaps": [],
+  "red_flags": [],
+  "follow_up_questions": []
+ },
+ "APP-26-00489": {
+  "application_id": "APP-26-00489",
+  "req_id": "HOY-2026-023",
+  "resume_file": "resumes/HOY-2026-023/Ritu_Verma_CV_2026.pdf",
+  "dimension_scores": [
+   {
+    "name": "skills & tools",
+    "score": 32.2,
+    "weight": 0.333,
+    "evidence": [
+     {
+      "source": "resume",
+      "field": "skills[1]",
+      "quote": "Exposure: Supported closure consultations for 6 stores (compliance under Karnataka S&E Act and ID Act), seasonal contract-workforce management"
+     },
+     {
+      "source": "resume",
+      "field": "experience[2].bullets[0]",
+      "quote": "Contract administration, payroll input and onboarding logistics."
+     }
+    ],
+    "commentary": "best evidence 0.49; best evidence 0.43; best evidence 0.04"
+   },
+   {
+    "name": "experience & seniority",
+    "score": 23.1,
+    "weight": 0.556,
+    "evidence": [
+     {
+      "source": "resume",
+      "field": "summary",
+      "quote": "HR professional with 6 years across HR operations and advisory in organised retail, the last year in a junior HRBP\nrole. Hands-on with employee relations at scale and hungry for a full business-partner role in a more complex\nenvironment."
+     }
+    ],
+    "commentary": "5.8 yrs vs 6+ required; context match 0.70; best evidence 0.11; best evidence 0.14"
+   },
+   {
+    "name": "education & language",
+    "score": 100.0,
+    "weight": 0.111,
+    "evidence": [
+     {
+      "source": "resume",
+      "field": "languages_known",
+      "quote": "Hindi (native), English (fluent), Kannada (working)"
+     }
+    ],
+    "commentary": "best evidence 1.00"
+   }
+  ],
+  "overall_score": 44.4,
+  "strengths": [],
+  "gaps": [],
+  "red_flags": [],
+  "follow_up_questions": []
+ },
+ "APP-26-00495": {
+  "application_id": "APP-26-00495",
+  "req_id": "HOY-2026-021",
+  "resume_file": "resumes/HOY-2026-021/Tanvi_Joshi_CV_gamedev.pdf",
+  "dimension_scores": [
+   {
+    "name": "skills & tools",
+    "score": 87.5,
+    "weight": 0.333,
+    "evidence": [
+     {
+      "source": "resume",
+      "field": "skills[1]",
+      "quote": "Math: Numerical integration, linear algebra, collision/constraint solvers, floating-point determinism across platforms"
+     },
+     {
+      "source": "resume",
+      "field": "skills[1]",
+      "quote": "Math: Numerical integration, linear algebra, collision/constraint solvers, floating-point determinism across platforms"
+     },
+     {
+      "source": "resume",
+      "field": "skills[0]",
+      "quote": "C++: C++17/20, SIMD (SSE/AVX intrinsics), lock-free structures, custom allocators, profiling (VTune, Tracy), CMake, cross-platform builds"
+     }
+    ],
+    "commentary": "best evidence 1.00; best evidence 0.83; best evidence 0.79"
+   },
+   {
+    "name": "experience & seniority",
+    "score": 58.8,
+    "weight": 0.444,
+    "evidence": [
+     {
+      "source": "resume",
+      "field": "skills[0]",
+      "quote": "C++: C++17/20, SIMD (SSE/AVX intrinsics), lock-free structures, custom allocators, profiling (VTune, Tracy), CMake, cross-platform builds"
+     },
+     {
+      "source": "resume",
+      "field": "skills[1]",
+      "quote": "Math: Numerical integration, linear algebra, collision/constraint solvers, floating-point determinism across platforms"
+     },
+     {
+      "source": "resume",
+      "field": "skills[0]",
+      "quote": "C++: C++17/20, SIMD (SSE/AVX intrinsics), lock-free structures, custom allocators, profiling (VTune, Tracy), CMake, cross-platform builds"
+     }
+    ],
+    "commentary": "6.8 yrs vs 4+ required; context match 0.95; best evidence 0.68; best evidence 0.00"
+   },
+   {
+    "name": "domain",
+    "score": 24.8,
+    "weight": 0.111,
+    "evidence": [],
+    "commentary": "best evidence 0.25"
+   },
+   {
+    "name": "education & language",
+    "score": 12.5,
+    "weight": 0.111,
+    "evidence": [],
+    "commentary": "best evidence 0.12"
+   }
+  ],
+  "overall_score": 65.0,
+  "strengths": [],
+  "gaps": [],
+  "red_flags": [],
+  "follow_up_questions": []
+ },
+ "APP-26-00512": {
+  "application_id": "APP-26-00512",
+  "req_id": "HOY-2026-011",
+  "resume_file": "resumes/HOY-2026-011/Naukri_RahulYadav[1y_6m].pdf",
+  "dimension_scores": [
+   {
+    "name": "skills & tools",
+    "score": 28.5,
+    "weight": 0.111,
+    "evidence": [],
+    "commentary": "best evidence 0.28"
+   },
+   {
+    "name": "experience & seniority",
+    "score": 10.2,
+    "weight": 0.667,
+    "evidence": [
+     {
+      "source": "resume",
+      "field": "summary",
+      "quote": "Self-taught web developer passionate about building websites and learning new technologies. Experienced with WordPress, PHP and Javascript. Looking for my next oportunity in a big company where I can grow."
+     }
+    ],
+    "commentary": "4.5 yrs vs 5+ required; context match 0.29; best evidence 0.03; best evidence 0.00"
+   },
+   {
+    "name": "domain",
+    "score": 0.0,
+    "weight": 0.111,
+    "evidence": [],
+    "commentary": "best evidence 0.00"
+   },
+   {
+    "name": "education & language",
+    "score": 55.4,
+    "weight": 0.111,
+    "evidence": [
+     {
+      "source": "resume",
+      "field": "languages_known",
+      "quote": "Hindi (native), English (good)"
+     }
+    ],
+    "commentary": "best evidence 0.55"
+   }
+  ],
+  "overall_score": 19.2,
+  "strengths": [],
+  "gaps": [],
+  "red_flags": [],
+  "follow_up_questions": []
+ },
+ "APP-26-00517": {
+  "application_id": "APP-26-00517",
+  "req_id": "HOY-2026-025",
+  "resume_file": "resumes/HOY-2026-025/Anjali_Bhattacharya_CV.pdf",
+  "dimension_scores": [
+   {
+    "name": "skills & tools",
+    "score": 55.5,
+    "weight": 0.222,
+    "evidence": [
+     {
+      "source": "resume",
+      "field": "skills[1]",
+      "quote": "Engineering: Java, Kotlin, Kafka, PostgreSQL, AWS, Terraform, observability (Grafana/Prometheus)"
+     },
+     {
+      "source": "resume",
+      "field": "summary",
+      "quote": "Staff engineer with 11 years building and modernizing transaction-heavy platforms, the last four as technical lead of a 12-engineer migration program (no direct reports, full technical accountability). Ready to move into formal engineering management: I already do the roadmap, stakeholder and mentor"
+     }
+    ],
+    "commentary": "best evidence 0.38; best evidence 0.72"
+   },
+   {
+    "name": "experience & seniority",
+    "score": 47.4,
+    "weight": 0.667,
+    "evidence": [
+     {
+      "source": "resume",
+      "field": "experience[0].bullets[0]",
+      "quote": "Technical lead of the settlement-engine replacement (12 engineers across 3 teams): architecture, sequencing and the reconciliation-first migration approach."
+     },
+     {
+      "source": "resume",
+      "field": "skills[2]",
+      "quote": "Delivery: Quarterly planning with product/ops stakeholders, risk registers, vendor technical evaluations"
+     },
+     {
+      "source": "resume",
+      "field": "skills[0]",
+      "quote": "Technical leadership: Migration architecture (strangler pattern, CDC), technical roadmaps, design review chairing, incident command, mentoring (8 engineers coached, 3 promoted)"
+     }
+    ],
+    "commentary": "10.9 yrs vs 8+ required; context match 0.50; best evidence 0.71; best evidence 0.19"
+   },
+   {
+    "name": "education & language",
+    "score": 42.1,
+    "weight": 0.111,
+    "evidence": [
+     {
+      "source": "resume",
+      "field": "languages_known",
+      "quote": "Bengali (native), English (fluent), Hindi (fluent), Kannada (basic)"
+     }
+    ],
+    "commentary": "best evidence 0.42"
+   }
+  ],
+  "overall_score": 53.5,
+  "strengths": [],
+  "gaps": [],
+  "red_flags": [],
+  "follow_up_questions": []
+ },
+ "APP-26-00538": {
+  "application_id": "APP-26-00538",
+  "req_id": "HOY-2026-027",
+  "resume_file": "resumes/HOY-2026-027/Ramesh_Subramaniam_CV_2026.pdf",
+  "dimension_scores": [
+   {
+    "name": "skills & tools",
+    "score": 31.8,
+    "weight": 0.333,
+    "evidence": [
+     {
+      "source": "resume",
+      "field": "skills[2]",
+      "quote": "Tools: Jira, Confluence, Figma (annotation), SQL (self-service analytics), Power BI"
+     }
+    ],
+    "commentary": "best evidence 0.00; best evidence 0.62; best evidence 0.33"
+   },
+   {
+    "name": "experience & seniority",
+    "score": 39.7,
+    "weight": 0.333,
+    "evidence": [
+     {
+      "source": "resume",
+      "field": "summary",
+      "quote": "Lead business analyst with 7 years in digital banking, specialized in payments and onboarding journeys. I know UPI, the AA framework and the compliance landscape inside out and have shipped features used by millions — as the analyst behind the product manager. Ready to own the product role myself. N"
+     },
+     {
+      "source": "resume",
+      "field": "skills[1]",
+      "quote": "Craft: Requirements elicitation, user-story mapping, process modeling (BPMN), UAT coordination, stakeholder management across compliance/fraud/ops"
+     }
+    ],
+    "commentary": "7.1 yrs vs 5+ required; context match 0.27; best evidence 0.17; best evidence 0.39"
+   },
+   {
+    "name": "domain",
+    "score": 100.0,
+    "weight": 0.111,
+    "evidence": [
+     {
+      "source": "resume",
+      "field": "skills[0]",
+      "quote": "Domain: UPI (AutoPay, Lite, mandates), Account Aggregator ecosystem, video-KYC/CKYC journeys, fraud-rule impact analysis, NPCI circular impact assessment"
+     }
+    ],
+    "commentary": "best evidence 1.00"
+   },
+   {
+    "name": "education & language",
+    "score": 64.8,
+    "weight": 0.222,
+    "evidence": [
+     {
+      "source": "resume",
+      "field": "languages_known",
+      "quote": "Tamil (native), English (fluent), Hindi (working), Kannada (working)"
+     }
+    ],
+    "commentary": "best evidence 0.30; best evidence 1.00"
+   }
+  ],
+  "overall_score": 42.8,
+  "strengths": [],
+  "gaps": [],
+  "red_flags": [],
+  "follow_up_questions": []
+ },
+ "APP-26-00553": {
+  "application_id": "APP-26-00553",
+  "req_id": "HOY-2026-019",
+  "resume_file": "resumes/HOY-2026-019/Vikram_Malhotra_Resume.pdf",
+  "dimension_scores": [
+   {
+    "name": "skills & tools",
+    "score": 8.6,
+    "weight": 0.333,
+    "evidence": [],
+    "commentary": "best evidence 0.06; best evidence 0.00; best evidence 0.20"
+   },
+   {
+    "name": "experience & seniority",
+    "score": 26.1,
+    "weight": 0.333,
+    "evidence": [
+     {
+      "source": "resume",
+      "field": "skills[2]",
+      "quote": "Risk: Built a VaR dashboard in Excel for the treasury team (historical simulation)"
+     },
+     {
+      "source": "resume",
+      "field": "skills[2]",
+      "quote": "Risk: Built a VaR dashboard in Excel for the treasury team (historical simulation)"
+     }
+    ],
+    "commentary": "best evidence 0.35; best evidence 0.40; best evidence 0.03"
+   },
+   {
+    "name": "domain",
+    "score": 43.6,
+    "weight": 0.111,
+    "evidence": [
+     {
+      "source": "resume",
+      "field": "skills[2]",
+      "quote": "Risk: Built a VaR dashboard in Excel for the treasury team (historical simulation)"
+     }
+    ],
+    "commentary": "best evidence 0.44"
+   },
+   {
+    "name": "education & language",
+    "score": 27.3,
+    "weight": 0.222,
+    "evidence": [],
+    "commentary": "best evidence 0.22; best evidence 0.32"
+   }
+  ],
+  "overall_score": 21.7,
+  "strengths": [],
+  "gaps": [],
+  "red_flags": [],
+  "follow_up_questions": []
+ },
+ "APP-26-00570": {
+  "application_id": "APP-26-00570",
+  "req_id": "HOY-2026-023",
+  "resume_file": "resumes/HOY-2026-023/Joseph_Thomas_CV.pdf",
+  "dimension_scores": [
+   {
+    "name": "skills & tools",
+    "score": 29.4,
+    "weight": 0.333,
+    "evidence": [
+     {
+      "source": "resume",
+      "field": "skills[1]",
+      "quote": "Developing: SHRM-CP (exam window Dec 2026), people-analytics (built hiring & attrition dashboards in Power BI)"
+     }
+    ],
+    "commentary": "best evidence 0.00; best evidence 0.32; best evidence 0.56"
+   },
+   {
+    "name": "experience & seniority",
+    "score": 36.6,
+    "weight": 0.556,
+    "evidence": [
+     {
+      "source": "resume",
+      "field": "experience[1].bullets[0]",
+      "quote": "360 recruitment for software roles at product companies and GCCs."
+     },
+     {
+      "source": "resume",
+      "field": "summary",
+      "quote": "Senior technical recruiter with 7 years in-house and agency, the last four embedded with engineering leadership on headcount planning, leveling and internal mobility. I know how tech organisations actually work and want to broaden into the full HRBP role; completing SHRM-CP to close the ER/labour-la"
+     },
+     {
+      "source": "resume",
+      "field": "skills[2]",
+      "quote": "Tools: Greenhouse, Darwinbox Recruit, Naukri RMS, LinkedIn Talent Insights, Power BI"
+     }
+    ],
+    "commentary": "7.2 yrs vs 6+ required; context match 0.09; best evidence 0.18; best evidence 0.74"
+   },
+   {
+    "name": "education & language",
+    "score": 92.6,
+    "weight": 0.111,
+    "evidence": [
+     {
+      "source": "resume",
+      "field": "languages_known",
+      "quote": "Malayalam (native), English (fluent), Kannada (fluent), Tamil (working), Hindi (working)"
+     }
+    ],
+    "commentary": "best evidence 0.93"
+   }
+  ],
+  "overall_score": 40.1,
+  "strengths": [],
+  "gaps": [],
+  "red_flags": [],
+  "follow_up_questions": []
+ },
+ "APP-26-00587": {
+  "application_id": "APP-26-00587",
+  "req_id": "HOY-2026-017",
+  "resume_file": "resumes/HOY-2026-017/ARYAN_KAPOOR_AI_EXPERT_RESUME.pdf",
+  "dimension_scores": [
+   {
+    "name": "skills & tools",
+    "score": 39.5,
+    "weight": 0.364,
+    "evidence": [
+     {
+      "source": "resume",
+      "field": "headline",
+      "quote": "AI Expert | Prompt Engineer | LLM Consultant"
+     },
+     {
+      "source": "resume",
+      "field": "headline",
+      "quote": "AI Expert | Prompt Engineer | LLM Consultant"
+     }
+    ],
+    "commentary": "best evidence 0.13; best evidence 0.14; best evidence 0.51"
+   },
+   {
+    "name": "experience & seniority",
+    "score": 26.8,
+    "weight": 0.455,
+    "evidence": [
+     {
+      "source": "resume",
+      "field": "certifications[1]",
+      "quote": "\"Become an AI Expert in 30 Days\" — online (2025)"
+     }
+    ],
+    "commentary": "5.2 yrs vs 3+ required; context match 0.23; best evidence 0.31; best evidence 0.33"
+   },
+   {
+    "name": "education & language",
+    "score": 68.6,
+    "weight": 0.182,
+    "evidence": [
+     {
+      "source": "resume",
+      "field": "languages_known",
+      "quote": "Hindi (native), English (fluent)"
+     },
+     {
+      "source": "resume",
+      "field": "languages_known",
+      "quote": "Hindi (native), English (fluent)"
+     }
+    ],
+    "commentary": "best evidence 0.81; best evidence 0.56"
+   }
+  ],
+  "overall_score": 39.1,
+  "strengths": [],
+  "gaps": [],
+  "red_flags": [],
+  "follow_up_questions": []
+ },
+ "APP-26-00601": {
+  "application_id": "APP-26-00601",
+  "req_id": "HOY-2026-014",
+  "resume_file": "resumes/HOY-2026-014/Pooja_Sharma_Resume.pdf",
+  "dimension_scores": [
+   {
+    "name": "skills & tools",
+    "score": 26.9,
+    "weight": 0.4,
+    "evidence": [
+     {
+      "source": "resume",
+      "field": "skills[1]",
+      "quote": "Basics: Networking fundamentals (CompTIA), some PowerShell, Linux (personal laptop)"
+     }
+    ],
+    "commentary": "best evidence 0.38; best evidence 0.17; best evidence 0.31"
+   },
+   {
+    "name": "experience & seniority",
+    "score": 30.8,
+    "weight": 0.5,
+    "evidence": [
+     {
+      "source": "resume",
+      "field": "skills[1]",
+      "quote": "Basics: Networking fundamentals (CompTIA), some PowerShell, Linux (personal laptop)"
+     },
+     {
+      "source": "resume",
+      "field": "summary",
+      "quote": "IT support specialist with 3 years of experience helping users and keeping office IT running. Hardworking and eager to move into more technical infrastructure work."
+     }
+    ],
+    "commentary": "4.5 yrs vs 4+ required; context match 0.19; best evidence 0.61; best evidence 0.09"
+   },
+   {
+    "name": "education & language",
+    "score": 81.4,
+    "weight": 0.1,
+    "evidence": [
+     {
+      "source": "resume",
+      "field": "languages_known",
+      "quote": "Hindi (native), English (fluent)"
+     }
+    ],
+    "commentary": "best evidence 0.81"
+   }
+  ],
+  "overall_score": 38.0,
+  "strengths": [],
+  "gaps": [],
+  "red_flags": [],
+  "follow_up_questions": []
+ },
+ "APP-26-00611": {
+  "application_id": "APP-26-00611",
+  "req_id": "HOY-2026-027",
+  "resume_file": "resumes/HOY-2026-027/Zara_Ahmed_CV.pdf",
+  "dimension_scores": [
+   {
+    "name": "skills & tools",
+    "score": 43.4,
+    "weight": 0.333,
+    "evidence": [
+     {
+      "source": "resume",
+      "field": "summary",
+      "quote": "Founder and product lead of Paisly, an Account Aggregator-based budgeting app that grew to 60k users before shutting down in 2025 when our Series A fell through. Three years of zero-to-one product work on India's open-finance rails, on top of a UX research background. I have made every product mista"
+     },
+     {
+      "source": "resume",
+      "field": "skills[0]",
+      "quote": "Product: Zero-to-one discovery, rapid prototyping, growth loops, retention analysis (Amplitude), pricing experiments, app-store optimization"
+     }
+    ],
+    "commentary": "best evidence 0.10; best evidence 0.53; best evidence 0.67"
+   },
+   {
+    "name": "experience & seniority",
+    "score": 50.3,
+    "weight": 0.333,
+    "evidence": [
+     {
+      "source": "resume",
+      "field": "skills[2]",
+      "quote": "Research: User interviews (400+ logged), usability testing, survey design"
+     },
+     {
+      "source": "resume",
+      "field": "skills[0]",
+      "quote": "Product: Zero-to-one discovery, rapid prototyping, growth loops, retention analysis (Amplitude), pricing experiments, app-store optimization"
+     }
+    ],
+    "commentary": "6.8 yrs vs 5+ required; context match 0.23; best evidence 0.06; best evidence 0.84"
+   },
+   {
+    "name": "domain",
+    "score": 55.2,
+    "weight": 0.111,
+    "evidence": [
+     {
+      "source": "resume",
+      "field": "skills[1]",
+      "quote": "Domain: Account Aggregator integration (via an AA TSP), transaction categorization for Indian bank feeds, budgeting UX, DPDP-compliant data handling"
+     }
+    ],
+    "commentary": "best evidence 0.55"
+   },
+   {
+    "name": "education & language",
+    "score": 40.6,
+    "weight": 0.222,
+    "evidence": [
+     {
+      "source": "resume",
+      "field": "languages_known",
+      "quote": "Urdu (native), Hindi (fluent), English (fluent), Kannada (basic)"
+     }
+    ],
+    "commentary": "best evidence 0.21; best evidence 0.60"
+   }
+  ],
+  "overall_score": 39.3,
+  "strengths": [],
+  "gaps": [],
+  "red_flags": [],
+  "follow_up_questions": []
+ },
+ "APP-26-00629": {
+  "application_id": "APP-26-00629",
+  "req_id": "HOY-2026-021",
+  "resume_file": "resumes/HOY-2026-021/Manoj_Pillai_CV.pdf",
+  "dimension_scores": [
+   {
+    "name": "skills & tools",
+    "score": 6.5,
+    "weight": 0.333,
+    "evidence": [],
+    "commentary": "best evidence 0.00; best evidence 0.00; best evidence 0.20"
+   },
+   {
+    "name": "experience & seniority",
+    "score": 37.9,
+    "weight": 0.444,
+    "evidence": [
+     {
+      "source": "resume",
+      "field": "skills[1]",
+      "quote": "Other: C++ (one university course), statistics (descriptive, regression), Git (basic)"
+     },
+     {
+      "source": "resume",
+      "field": "summary",
+      "quote": "Analytical and curious data analyst with 4 years turning business data into dashboards and insights. Strong\nPython (pandas) and SQL. Interested in financial markets and looking to move into a more technical quantitative\nrole. Notice period: 30 days."
+     }
+    ],
+    "commentary": "5.0 yrs vs 4+ required; context match 0.64; best evidence 0.40; best evidence 0.00"
+   },
+   {
+    "name": "domain",
+    "score": 12.1,
+    "weight": 0.111,
+    "evidence": [],
+    "commentary": "best evidence 0.12"
+   },
+   {
+    "name": "education & language",
+    "score": 12.5,
+    "weight": 0.111,
+    "evidence": [],
+    "commentary": "best evidence 0.12"
+   }
+  ],
+  "overall_score": 24.0,
+  "strengths": [],
+  "gaps": [],
+  "red_flags": [],
+  "follow_up_questions": []
+ },
+ "APP-26-00648": {
+  "application_id": "APP-26-00648",
+  "req_id": "HOY-2026-025",
+  "resume_file": "resumes/HOY-2026-025/Naveen_Chandra_Resume_EM.pdf",
+  "dimension_scores": [
+   {
+    "name": "skills & tools",
+    "score": 29.4,
+    "weight": 0.222,
+    "evidence": [
+     {
+      "source": "resume",
+      "field": "skills[1]",
+      "quote": "Technical: Node.js/TypeScript, React, PostgreSQL, AWS (ECS), event queues (SQS), Datadog"
+     }
+    ],
+    "commentary": "best evidence 0.08; best evidence 0.51"
+   },
+   {
+    "name": "experience & seniority",
+    "score": 33.8,
+    "weight": 0.667,
+    "evidence": [
+     {
+      "source": "resume",
+      "field": "summary",
+      "quote": "Engineering manager with 9 years in software (6 as engineer, 3 managing) currently leading a product team of 6 at a quick-commerce company. Strong on team health, hiring and iterative delivery; looking for a larger canvas and a mission with more weight than shopping carts. Notice period: 60 days."
+     },
+     {
+      "source": "resume",
+      "field": "experience[1]",
+      "quote": "Senior Software Engineer — FreshKart Retail"
+     },
+     {
+      "source": "resume",
+      "field": "summary",
+      "quote": "Engineering manager with 9 years in software (6 as engineer, 3 managing) currently leading a product team of 6 at a quick-commerce company. Strong on team health, hiring and iterative delivery; looking for a larger canvas and a mission with more weight than shopping carts. Notice period: 60 days."
+     }
+    ],
+    "commentary": "9.3 yrs vs 8+ required; context match 0.75; best evidence 0.48; best evidence 0.00"
+   },
+   {
+    "name": "education & language",
+    "score": 33.8,
+    "weight": 0.111,
+    "evidence": [],
+    "commentary": "best evidence 0.34"
+   }
+  ],
+  "overall_score": 38.4,
+  "strengths": [],
+  "gaps": [],
+  "red_flags": [],
+  "follow_up_questions": []
+ },
+ "APP-26-00655": {
+  "application_id": "APP-26-00655",
+  "req_id": "HOY-2026-023",
+  "resume_file": "resumes/HOY-2026-023/Simran_Kaur_Resume.pdf",
+  "dimension_scores": [
+   {
+    "name": "skills & tools",
+    "score": 16.4,
+    "weight": 0.333,
+    "evidence": [
+     {
+      "source": "resume",
+      "field": "skills[0]",
+      "quote": "People Ops: Onboarding programs, employee events, internal communications, office management, engagement survey coordination"
+     }
+    ],
+    "commentary": "best evidence 0.00; best evidence 0.48; best evidence 0.01"
+   },
+   {
+    "name": "experience & seniority",
+    "score": 21.7,
+    "weight": 0.556,
+    "evidence": [
+     {
+      "source": "resume",
+      "field": "summary",
+      "quote": "Energetic People & Culture Coordinator with 4 years of experience creating great employee experiences: onboarding, events, office wellbeing and internal comms. Ready for the next step as an HR Business Partner."
+     }
+    ],
+    "commentary": "4.0 yrs vs 6+ required; context match 0.86; best evidence 0.15; best evidence 0.17"
+   },
+   {
+    "name": "education & language",
+    "score": 91.4,
+    "weight": 0.111,
+    "evidence": [
+     {
+      "source": "resume",
+      "field": "languages_known",
+      "quote": "Punjabi (native), Hindi (native), English (fluent)"
+     }
+    ],
+    "commentary": "best evidence 0.91"
+   }
+  ],
+  "overall_score": 34.5,
+  "strengths": [],
+  "gaps": [],
+  "red_flags": [],
+  "follow_up_questions": []
+ },
+ "APP-26-00688": {
+  "application_id": "APP-26-00688",
+  "req_id": "HOY-2026-019",
+  "resume_file": "resumes/HOY-2026-019/lakshmi-srinivasan-cv.pdf",
+  "dimension_scores": [
+   {
+    "name": "skills & tools",
+    "score": 40.2,
+    "weight": 0.333,
+    "evidence": [
+     {
+      "source": "resume",
+      "field": "experience[0].bullets[2]",
+      "quote": "Developed a statistics module with Python notebooks for the school's computer-science stream."
+     }
+    ],
+    "commentary": "best evidence 0.33; best evidence 0.54; best evidence 0.33"
+   },
+   {
+    "name": "experience & seniority",
+    "score": 15.6,
+    "weight": 0.333,
+    "evidence": [],
+    "commentary": "best evidence 0.31; best evidence 0.16; best evidence 0.00"
+   },
+   {
+    "name": "domain",
+    "score": 44.8,
+    "weight": 0.111,
+    "evidence": [
+     {
+      "source": "resume",
+      "field": "skills[1]",
+      "quote": "Self-study: Python (NPTEL), Machine Learning Specialization (Andrew Ng), \"Financial Engineering and Risk Management\" (Columbia, Coursera)"
+     }
+    ],
+    "commentary": "best evidence 0.45"
+   },
+   {
+    "name": "education & language",
+    "score": 54.2,
+    "weight": 0.222,
+    "evidence": [
+     {
+      "source": "resume",
+      "field": "summary",
+      "quote": "Post-graduate mathematics teacher with 9 years of experience making difficult concepts clear. Completed several online courses in machine learning and financial mathematics (NPTEL, Coursera) and would love to start a second career in quantitative finance."
+     },
+     {
+      "source": "resume",
+      "field": "summary",
+      "quote": "Post-graduate mathematics teacher with 9 years of experience making difficult concepts clear. Completed several online courses in machine learning and financial mathematics (NPTEL, Coursera) and would love to start a second career in quantitative finance."
+     }
+    ],
+    "commentary": "best evidence 0.49; best evidence 0.59"
+   }
+  ],
+  "overall_score": 41.0,
+  "strengths": [],
+  "gaps": [],
+  "red_flags": [],
+  "follow_up_questions": []
+ },
+ "APP-26-00694": {
+  "application_id": "APP-26-00694",
+  "req_id": "HOY-2026-011",
+  "resume_file": "resumes/HOY-2026-011/sravani_reddy_resume_final2.pdf",
+  "dimension_scores": [
+   {
+    "name": "skills & tools",
+    "score": 0.0,
+    "weight": 0.111,
+    "evidence": [],
+    "commentary": "best evidence 0.00"
+   },
+   {
+    "name": "experience & seniority",
+    "score": 17.6,
+    "weight": 0.667,
+    "evidence": [
+     {
+      "source": "resume",
+      "field": "summary",
+      "quote": "Detail-oriented QA engineer with 2 years of experience testing web applications. Growing automation skills with Selenium and Postman. Interested in moving toward development. Notice period: 45 days."
+     },
+     {
+      "source": "resume",
+      "field": "skills[1]",
+      "quote": "Tech: SQL (queries), HTML/CSS, Java (coursework level)"
+     }
+    ],
+    "commentary": "2.8 yrs vs 5+ required; context match 0.56; best evidence 0.39; best evidence 0.01"
+   },
+   {
+    "name": "domain",
+    "score": 0.0,
+    "weight": 0.111,
+    "evidence": [],
+    "commentary": "best evidence 0.00"
+   },
+   {
+    "name": "education & language",
+    "score": 45.2,
+    "weight": 0.111,
+    "evidence": [
+     {
+      "source": "resume",
+      "field": "languages_known",
+      "quote": "Telugu (native), English (fluent), Hindi (working)"
+     }
+    ],
+    "commentary": "best evidence 0.45"
+   }
+  ],
+  "overall_score": 22.6,
+  "strengths": [],
+  "gaps": [],
+  "red_flags": [],
+  "follow_up_questions": []
+ },
+ "APP-26-00701": {
+  "application_id": "APP-26-00701",
+  "req_id": "HOY-2026-027",
+  "resume_file": "resumes/HOY-2026-027/Rohan_Bhatia_CV.pdf",
+  "dimension_scores": [
+   {
+    "name": "skills & tools",
+    "score": 17.2,
+    "weight": 0.333,
+    "evidence": [],
+    "commentary": "best evidence 0.20; best evidence 0.18; best evidence 0.13"
+   },
+   {
+    "name": "experience & seniority",
+    "score": 33.7,
+    "weight": 0.333,
+    "evidence": [
+     {
+      "source": "resume",
+      "field": "summary",
+      "quote": "Digital marketing manager with 6 years running performance campaigns and websites for consumer brands.\nExperienced with A/B testing of ads and landing pages. Looking to transition into product management for a\ndigital-first company."
+     }
+    ],
+    "commentary": "5.9 yrs vs 5+ required; context match 0.36; best evidence 0.00; best evidence 0.33"
+   },
+   {
+    "name": "domain",
+    "score": 25.3,
+    "weight": 0.111,
+    "evidence": [],
+    "commentary": "best evidence 0.25"
+   },
+   {
+    "name": "education & language",
+    "score": 44.1,
+    "weight": 0.222,
+    "evidence": [
+     {
+      "source": "resume",
+      "field": "languages_known",
+      "quote": "Hindi (native), English (fluent), Punjabi (working)"
+     }
+    ],
+    "commentary": "best evidence 0.30; best evidence 0.59"
+   }
+  ],
+  "overall_score": 28.5,
+  "strengths": [],
+  "gaps": [],
+  "red_flags": [],
+  "follow_up_questions": []
+ },
+ "APP-26-00707": {
+  "application_id": "APP-26-00707",
+  "req_id": "HOY-2026-025",
+  "resume_file": "resumes/HOY-2026-025/Geetha_K_CV.pdf",
+  "dimension_scores": [
+   {
+    "name": "skills & tools",
+    "score": 8.5,
+    "weight": 0.222,
+    "evidence": [],
+    "commentary": "best evidence 0.00; best evidence 0.17"
+   },
+   {
+    "name": "experience & seniority",
+    "score": 32.3,
+    "weight": 0.667,
+    "evidence": [
+     {
+      "source": "resume",
+      "field": "headline",
+      "quote": "Senior IT Project Manager"
+     },
+     {
+      "source": "resume",
+      "field": "experience[0].bullets[2]",
+      "quote": "Coordinate 5 supplier teams across two system integrators."
+     },
+     {
+      "source": "resume",
+      "field": "experience[0].bullets[2]",
+      "quote": "Coordinate 5 supplier teams across two system integrators."
+     }
+    ],
+    "commentary": "9.8 yrs vs 8+ required; context match 0.10; best evidence 0.61; best evidence 0.22"
+   },
+   {
+    "name": "education & language",
+    "score": 46.4,
+    "weight": 0.111,
+    "evidence": [
+     {
+      "source": "resume",
+      "field": "languages_known",
+      "quote": "Kannada (native), English (fluent), Tamil (fluent), Hindi (working)"
+     }
+    ],
+    "commentary": "best evidence 0.46"
+   }
+  ],
+  "overall_score": 31.8,
+  "strengths": [],
+  "gaps": [],
+  "red_flags": [],
+  "follow_up_questions": []
+ },
+ "APP-26-00719": {
+  "application_id": "APP-26-00719",
+  "req_id": "HOY-2026-017",
+  "resume_file": "resumes/HOY-2026-017/Meghana_Rao_CV_2026.pdf",
+  "dimension_scores": [
+   {
+    "name": "skills & tools",
+    "score": 38.7,
+    "weight": 0.364,
+    "evidence": [
+     {
+      "source": "resume",
+      "field": "skills[1]",
+      "quote": "AI (new): Python (beginner), OpenAI API (bootcamp projects), prompt writing, ChatGPT power user"
+     },
+     {
+      "source": "resume",
+      "field": "skills[1]",
+      "quote": "AI (new): Python (beginner), OpenAI API (bootcamp projects), prompt writing, ChatGPT power user"
+     }
+    ],
+    "commentary": "best evidence 0.11; best evidence 0.14; best evidence 0.39"
+   },
+   {
+    "name": "experience & seniority",
+    "score": 29.3,
+    "weight": 0.455,
+    "evidence": [
+     {
+      "source": "resume",
+      "field": "skills[1]",
+      "quote": "AI (new): Python (beginner), OpenAI API (bootcamp projects), prompt writing, ChatGPT power user"
+     },
+     {
+      "source": "resume",
+      "field": "skills[1]",
+      "quote": "AI (new): Python (beginner), OpenAI API (bootcamp projects), prompt writing, ChatGPT power user"
+     }
+    ],
+    "commentary": "6.0 yrs vs 3+ required; context match 0.30; best evidence 0.07; best evidence 0.46"
+   },
+   {
+    "name": "education & language",
+    "score": 52.3,
+    "weight": 0.182,
+    "evidence": [
+     {
+      "source": "resume",
+      "field": "skills[1]",
+      "quote": "AI (new): Python (beginner), OpenAI API (bootcamp projects), prompt writing, ChatGPT power user"
+     },
+     {
+      "source": "resume",
+      "field": "languages_known",
+      "quote": "Kannada (native), English (fluent), Hindi (fluent), Tulu (working)"
+     }
+    ],
+    "commentary": "best evidence 0.49; best evidence 0.56"
+   }
+  ],
+  "overall_score": 34.7,
+  "strengths": [],
+  "gaps": [],
+  "red_flags": [],
+  "follow_up_questions": []
+ },
+ "APP-26-00733": {
+  "application_id": "APP-26-00733",
+  "req_id": "HOY-2026-014",
+  "resume_file": "resumes/HOY-2026-014/Karan_Nayak_Frontend_CV.pdf",
+  "dimension_scores": [
+   {
+    "name": "skills & tools",
+    "score": 20.4,
+    "weight": 0.4,
+    "evidence": [
+     {
+      "source": "resume",
+      "field": "skills[1]",
+      "quote": "Other: Node.js (BFF layer), REST/GraphQL, Docker (used in dev setup), Git"
+     },
+     {
+      "source": "resume",
+      "field": "skills[1]",
+      "quote": "Other: Node.js (BFF layer), REST/GraphQL, Docker (used in dev setup), Git"
+     }
+    ],
+    "commentary": "best evidence 0.40; best evidence 0.00; best evidence 0.41"
+   },
+   {
+    "name": "experience & seniority",
+    "score": 28.2,
+    "weight": 0.5,
+    "evidence": [
+     {
+      "source": "resume",
+      "field": "summary",
+      "quote": "Frontend developer with 4 years building React applications. Interested in broadening into infrastructure and reliability engineering."
+     },
+     {
+      "source": "resume",
+      "field": "skills[1]",
+      "quote": "Other: Node.js (BFF layer), REST/GraphQL, Docker (used in dev setup), Git"
+     }
+    ],
+    "commentary": "5.1 yrs vs 4+ required; context match 0.74; best evidence 0.51; best evidence 0.03"
+   },
+   {
+    "name": "education & language",
+    "score": 37.6,
+    "weight": 0.1,
+    "evidence": [
+     {
+      "source": "resume",
+      "field": "languages_known",
+      "quote": "Konkani (native), Kannada (fluent), English (fluent), Hindi (working)"
+     }
+    ],
+    "commentary": "best evidence 0.38"
+   }
+  ],
+  "overall_score": 29.9,
+  "strengths": [],
+  "gaps": [],
+  "red_flags": [],
+  "follow_up_questions": []
+ },
+ "APP-26-00751": {
+  "application_id": "APP-26-00751",
+  "req_id": "HOY-2026-023",
+  "resume_file": "resumes/HOY-2026-023/Adithya_Narayan_CV_2026.pdf",
+  "dimension_scores": [
+   {
+    "name": "skills & tools",
+    "score": 33.9,
+    "weight": 0.333,
+    "evidence": [
+     {
+      "source": "resume",
+      "field": "skills[1]",
+      "quote": "HR exposure: Internship: engagement analytics, exit-interview coding, onboarding support"
+     }
+    ],
+    "commentary": "best evidence 0.01; best evidence 0.84; best evidence 0.17"
+   },
+   {
+    "name": "experience & seniority",
+    "score": 6.8,
+    "weight": 0.556,
+    "evidence": [],
+    "commentary": "1.2 yrs vs 6+ required; context match 0.09; best evidence 0.03; best evidence 0.01"
+   },
+   {
+    "name": "education & language",
+    "score": 100.0,
+    "weight": 0.111,
+    "evidence": [
+     {
+      "source": "resume",
+      "field": "languages_known",
+      "quote": "Kannada (native), English (fluent), Hindi (fluent), Telugu (working)"
+     }
+    ],
+    "commentary": "best evidence 1.00"
+   }
+  ],
+  "overall_score": 32.2,
+  "strengths": [],
+  "gaps": [],
+  "red_flags": [],
+  "follow_up_questions": []
+ },
+ "APP-26-00754": {
+  "application_id": "APP-26-00754",
+  "req_id": "HOY-2026-021",
+  "resume_file": "resumes/HOY-2026-021/Naukri_ShreyaGupta[2y_0m].pdf",
+  "dimension_scores": [
+   {
+    "name": "skills & tools",
+    "score": 0.0,
+    "weight": 0.333,
+    "evidence": [],
+    "commentary": "best evidence 0.00; best evidence 0.00; best evidence 0.00"
+   },
+   {
+    "name": "experience & seniority",
+    "score": 16.6,
+    "weight": 0.444,
+    "evidence": [
+     {
+      "source": "resume",
+      "field": "experience[1].bullets[0]",
+      "quote": "Supported the dev team with component implementation and testing."
+     }
+    ],
+    "commentary": "3.3 yrs vs 4+ required; context match 0.39; best evidence 0.00; best evidence 0.00"
+   },
+   {
+    "name": "domain",
+    "score": 0.0,
+    "weight": 0.111,
+    "evidence": [],
+    "commentary": "best evidence 0.00"
+   },
+   {
+    "name": "education & language",
+    "score": 30.5,
+    "weight": 0.111,
+    "evidence": [],
+    "commentary": "best evidence 0.31"
+   }
+  ],
+  "overall_score": 13.8,
+  "strengths": [],
+  "gaps": [],
+  "red_flags": [],
+  "follow_up_questions": []
+ },
+ "APP-26-00762": {
+  "application_id": "APP-26-00762",
+  "req_id": "HOY-2026-027",
+  "resume_file": "resumes/HOY-2026-027/ishita_banerjee_portfolio_cv.pdf",
+  "dimension_scores": [
+   {
+    "name": "skills & tools",
+    "score": 17.9,
+    "weight": 0.333,
+    "evidence": [],
+    "commentary": "best evidence 0.00; best evidence 0.23; best evidence 0.30"
+   },
+   {
+    "name": "experience & seniority",
+    "score": 41.4,
+    "weight": 0.333,
+    "evidence": [
+     {
+      "source": "resume",
+      "field": "experience[0].bullets[0]",
+      "quote": "Design mobile interfaces for healthcare and fintech clients; ran 20+ usability sessions."
+     }
+    ],
+    "commentary": "2.4 yrs vs 5+ required; context match 0.29; best evidence 0.19; best evidence 0.74"
+   },
+   {
+    "name": "domain",
+    "score": 9.1,
+    "weight": 0.111,
+    "evidence": [],
+    "commentary": "best evidence 0.09"
+   },
+   {
+    "name": "education & language",
+    "score": 37.8,
+    "weight": 0.222,
+    "evidence": [
+     {
+      "source": "resume",
+      "field": "languages_known",
+      "quote": "Bengali (native), Hindi (fluent), English (fluent)"
+     }
+    ],
+    "commentary": "best evidence 0.34; best evidence 0.42"
+   }
+  ],
+  "overall_score": 25.8,
+  "strengths": [],
+  "gaps": [],
+  "red_flags": [],
+  "follow_up_questions": []
+ },
+ "APP-26-00779": {
+  "application_id": "APP-26-00779",
+  "req_id": "HOY-2026-025",
+  "resume_file": "resumes/HOY-2026-025/abhishek_tiwari_cv_scrum.pdf",
+  "dimension_scores": [
+   {
+    "name": "skills & tools",
+    "score": 22.2,
+    "weight": 0.222,
+    "evidence": [
+     {
+      "source": "resume",
+      "field": "skills[0]",
+      "quote": "Agile: Scrum, Kanban, SAFe, retrospective facilitation, impediment removal, agile metrics (velocity, cycle time), Jira/Confluence administration"
+     }
+    ],
+    "commentary": "best evidence 0.00; best evidence 0.44"
+   },
+   {
+    "name": "experience & seniority",
+    "score": 31.4,
+    "weight": 0.667,
+    "evidence": [
+     {
+      "source": "resume",
+      "field": "skills[1]",
+      "quote": "Coaching: Team coaching, workshop design, Management 3.0 practices"
+     },
+     {
+      "source": "resume",
+      "field": "summary",
+      "quote": "Passionate servant-leader with 6 years as scrum master and agile coach for software teams. I unlock team potential through\nfacilitation, coaching and continuous improvement. Looking to take the next step as engineering manager."
+     },
+     {
+      "source": "resume",
+      "field": "experience[0]",
+      "quote": "Senior Scrum Master — Suvarna Bank"
+     }
+    ],
+    "commentary": "6.5 yrs vs 8+ required; context match 0.30; best evidence 0.40; best evidence 0.05"
+   },
+   {
+    "name": "education & language",
+    "score": 81.4,
+    "weight": 0.111,
+    "evidence": [
+     {
+      "source": "resume",
+      "field": "languages_known",
+      "quote": "Hindi (native), English (fluent)"
+     }
+    ],
+    "commentary": "best evidence 0.81"
+   }
+  ],
+  "overall_score": 38.8,
+  "strengths": [],
+  "gaps": [],
+  "red_flags": [],
+  "follow_up_questions": []
+ }
+}
