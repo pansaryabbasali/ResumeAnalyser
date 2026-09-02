@@ -22,6 +22,8 @@ dependencies = [
     "tzdata; platform_system == 'Windows'",
     # M3: resume PDF text extraction
     "pdfplumber>=0.11",
+    # M5: local embedding models for semantic skill matching
+    "sentence-transformers>=3.0",
 ]
 
 [project.optional-dependencies]
